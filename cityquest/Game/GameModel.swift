@@ -20,10 +20,25 @@ struct Question {
     }
 }
 // A Remplacer par Place
-struct Place {
-    let name: String
-    let coordinate: CLLocationCoordinate2D
+struct Place: Identifiable, Equatable {
+    var id = UUID()
+    var name: String
+    var description: String
+    var coordinate: Coordinate
     var questions: [Question]
+    
+    var location: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
+    }
+    
+    static func == (lhs: Place, rhs: Place) -> Bool {
+        lhs.id == rhs.id
+    }
+}
+
+struct Coordinate {
+    var latitude: Double
+    var longitude: Double
 }
 
 struct Etape {
