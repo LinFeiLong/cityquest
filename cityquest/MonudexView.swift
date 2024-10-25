@@ -27,6 +27,6 @@ struct MonudexView: View {
     }
 }
 #Preview {
-    MonudexView(monuments: Monument.seed)
+    MonudexView(monuments: monuments)
 }
 

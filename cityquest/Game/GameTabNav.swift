@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameTabNav: View {
-    @Binding var selectedMonument: Place
+    @Binding var selectedMonument: Monument
     
 //    var btnOffset: Double = 0
     

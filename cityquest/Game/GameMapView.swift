@@ -22,7 +22,7 @@ struct GameMapView: View {
     // Position de l'utilisateur régler sur Marseille
     @State private var userLocation = CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698)
     // Essai avec des Monuments
-    @Binding var selectedMonument: Place
+    @Binding var selectedMonument: Monument
     
     // Fonction pour avoir l'itineraire
     func getDirections(userLocation: CLLocationCoordinate2D, destination: CLLocationCoordinate2D) {

@@ -8,41 +8,8 @@
 import Foundation
 import CoreLocation
 
-struct Question {
-    var question: String
-    var isCorrect: Bool
-    var isAnswered: Bool
-    var response: [Response]
-    
-    struct Response {
-        var response: String
-        var isCorrect: Bool
-    }
-}
-// A Remplacer par Place
-struct Place: Identifiable, Equatable {
-    var id = UUID()
-    var name: String
-    var description: String
-    var coordinate: Coordinate
-    var questions: [Question]
-    
-    var location: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
-    }
-    
-    static func == (lhs: Place, rhs: Place) -> Bool {
-        lhs.id == rhs.id
-    }
-}
-
-struct Coordinate {
-    var latitude: Double
-    var longitude: Double
-}
-
 struct Etape {
-    var place: Place // Place
+    var place: Monument // Place
     var questions: [Question] // Place -> Question selected in Place at start
     var indexOfQuestion: Int
     var isResolved: Bool
