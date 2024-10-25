@@ -82,9 +82,7 @@ struct GameFormView: View {
                     .frame(maxWidth: .infinity)
 
                     Button(action: {}) {
-                        ButtonView(label: "Jouer", icon: "play.fill", fontColor: Color("MainColor"), color: Color("AccentColor")) {
-                            print("Button tapped!")
-                        }
+                        ButtonView(label: "Jouer", icon: "play.fill", fontColor: Color("MainColor"), color: Color("AccentColor"))
                     }
                 }
                 .padding()

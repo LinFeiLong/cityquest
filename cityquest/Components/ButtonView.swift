@@ -13,7 +13,6 @@ struct ButtonView: View {
     var icon: String
     var fontColor: Color
     var color: Color
-    var action: () -> Void
 
     var body: some View {
         HStack {
@@ -36,9 +35,7 @@ struct ButtonView: View {
 
 #Preview {
     VStack {
-        ButtonView(label: "Jouer", icon: "play.fill", fontColor: Color("MainColor"), color: Color("AccentColor")) {
-            print("Button tapped!")
-        }
+        ButtonView(label: "Jouer", icon: "play.fill", fontColor: Color("MainColor"), color: Color("AccentColor"))
     }
     .padding() // Optional: Add some padding around the VStack
 }

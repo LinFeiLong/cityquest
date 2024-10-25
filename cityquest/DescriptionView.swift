@@ -25,15 +25,10 @@ struct DescriptionView: View {
                             GridCardPlacesComponent(places: (detailThing as! City).monuments )
                             Text("Les bonnes adresse :").font(.title2)
                             GridCardPlacesComponent(places: (detailThing as! City).places)
-
-
-
                         }
                     }.padding()
                     ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent) {}.padding(.vertical)
                 }
-
-
             }.navigationTitle(detailThing.name).navigationBarTitleDisplayMode(.automatic)
         }
 
