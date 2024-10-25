@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct DescriptionView: View {
-    let monuments = Monument.seed
-
     var body: some View {
         ZStack {
             Color.main.ignoresSafeArea()
