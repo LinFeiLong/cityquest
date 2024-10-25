@@ -36,10 +36,10 @@ struct CardPlaceComponent: View {
 }
 
 #Preview {
-    CardPlaceComponent(place: Monument.seed[0], isHighlighted: false)
+    CardPlaceComponent(place: monuments[0], isHighlighted: false)
     }
 
 
 #Preview {
-    CardPlaceComponent(place: Monument.seed[0], isHighlighted: true)
+    CardPlaceComponent(place: monuments[0], isHighlighted: true)
 }

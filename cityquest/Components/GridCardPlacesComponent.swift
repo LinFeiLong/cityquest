@@ -33,5 +33,5 @@ struct GridCardPlacesComponent: View {
 
 
 #Preview {
-    GridCardPlacesComponent(places: Monument.seed)
+    GridCardPlacesComponent(places: monuments)
 }

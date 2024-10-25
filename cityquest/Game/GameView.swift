@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameView: View {
-    @State var selectedMonument: Place = monuments.first! //Pas bien
+    @State var selectedMonument: Monument = monuments.first! //Pas bien
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
