@@ -6,23 +6,31 @@
 //
 
 import Foundation
+import CoreLocation
+import DeveloperToolsSupport
 
 
-class City: Identifiable {
+class City: Identifiable, DetailProtocol {
+
+    
     let id = UUID()
     let name: String
     var description: String
-    var latitude: Double
-    var longitude: Double
-    var image: String
-    var places: [Place]  // Class existante.
+    var coordinate: Coordinate
+    var image: ImageResource
+    var places: [Place]
+    var monuments: [Monument]
 
-    init(name: String, description: String, latitude: Double, longitude: Double, image: String, places: [Place]) {
+    var location: CLLocationCoordinate2D {
+        coordinate.toCLLocationCoordinate2D()
+    }
+
+    init(name: String, description: String, coordinate: Coordinate, image: ImageResource, places: [Place], Monuments: [Monument]) {
         self.name = name
         self.description = description
-        self.latitude = latitude
-        self.longitude = longitude
+        self.coordinate = coordinate
         self.image = image
         self.places = places
+        self.monuments = Monuments
     }
 }

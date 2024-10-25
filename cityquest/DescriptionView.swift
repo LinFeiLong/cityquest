@@ -8,24 +8,33 @@
 import SwiftUI
 
 struct DescriptionView: View {
+    let detailThing : DetailProtocol
+
     var body: some View {
         ZStack {
             Color.main.ignoresSafeArea()
             ScrollView{
+                Image(detailThing.image).resizable().scaledToFit().frame(width: .infinity).padding(.vertical)
+                Text(detailThing.description).padding()
 
-                VStack {
-                    VStack(alignment: .leading) {
-                        Text("Les monuments phares :").font(.title2)
-                        GridCardPlacesComponent(places: monuments)
-                        Text("Les monuments phares :").font(.title2)
-                        GridCardPlacesComponent(places: monuments)
-                    }
+                if detailThing is City {
+                    VStack {
 
+                        VStack(alignment: .leading) {
+                            Text("Les monuments phares :").font(.title2)
+                            GridCardPlacesComponent(places: (detailThing as! City).monuments )
+                            Text("Les bonnes adresse :").font(.title2)
+                            GridCardPlacesComponent(places: (detailThing as! City).places)
+
+
+
+                        }
+                    }.padding()
                     ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent) {}.padding(.vertical)
-                }.padding()
+                }
 
 
-            }.navigationTitle("Titre de la ville").navigationBarTitleDisplayMode(.automatic)
+            }.navigationTitle(detailThing.name).navigationBarTitleDisplayMode(.automatic)
         }
 
     }
@@ -33,6 +42,6 @@ struct DescriptionView: View {
 
 #Preview {
     NavigationStack {
-        DescriptionView()
+        DescriptionView(detailThing: cityTest)
     }
 }

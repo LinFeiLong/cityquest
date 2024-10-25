@@ -9,7 +9,9 @@ import Foundation
 import DeveloperToolsSupport
 import CoreLocation
 
-class Place : Identifiable {
+class Place : Identifiable, DetailProtocol {
+
+
     let id = UUID()
     let name: String
     var description: String
@@ -17,7 +19,7 @@ class Place : Identifiable {
     var coordinate: Coordinate
     
     var location: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
+        coordinate.toCLLocationCoordinate2D()
     }
 
     init(name: String, description: String, image: ImageResource, latitude: Double, longitude: Double) {
@@ -34,8 +36,5 @@ extension Place: Equatable {
     }
 }
 
-struct Coordinate {
-    var latitude: Double
-    var longitude: Double
-}
+
 
