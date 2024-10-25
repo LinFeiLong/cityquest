@@ -21,7 +21,8 @@ struct DescriptionView: View {
                         GridCardPlacesComponent(places: monuments)
                     }
 
-                    ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent) {}.padding(.vertical)
+                    ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent)
+                        .padding(.vertical)
                 }.padding()
 
 
