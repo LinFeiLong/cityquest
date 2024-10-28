@@ -27,7 +27,7 @@ struct DescriptionView: View {
                             GridCardPlacesComponent(places: (detailThing as! City).places)
                         }
                     }.padding()
-                    ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent) {}.padding(.vertical)
+                    ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent) .padding(.vertical)
                 }
             }.navigationTitle(detailThing.name).navigationBarTitleDisplayMode(.automatic)
         }
