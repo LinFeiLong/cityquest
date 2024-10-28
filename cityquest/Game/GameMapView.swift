@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct GameMapView: View {
+    
     //Position de la camera
     @State var cameraPosition: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(
         // Position : Marseille
@@ -23,6 +24,12 @@ struct GameMapView: View {
     @State private var userLocation = CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698)
     // Essai avec des Monuments
     @Binding var selectedMonument: Monument
+    
+//    init (selectedMonument: Monument){
+//        self.selectedMonument = selectedMonument
+//        let configuration = MKStandardMapConfiguration()
+//        configuration.pointOfInterestFilter = MKPointOfInterestFilter(including: [])
+//    }
     
     // Fonction pour avoir l'itineraire
     func getDirections(userLocation: CLLocationCoordinate2D, destination: CLLocationCoordinate2D) {
@@ -68,39 +75,124 @@ struct GameMapView: View {
     }
     
     var body: some View {
-        Map(position: $cameraPosition) {
-            // Position de l'utlisateur (a garder ou nom lors de la vrai localisation)
-            Annotation("Votre position", coordinate: userLocation) {
-                Circle()
-                    .fill(.blue)
-                    .stroke(.white, style: StrokeStyle(lineWidth: 2))
-                    .frame(width: 18)
-            }
-            // Position de tous les monuments de la liste
-            ForEach(monuments) { monument in
-                Annotation(monument.name, coordinate: monument.location) {
+        ZStack(alignment: .top) {
+            Map(position: $cameraPosition) {
+                // Position de l'utlisateur (a garder ou nom lors de la vrai localisation)
+                Annotation("Votre position", coordinate: userLocation) {
                     Circle()
-                        .fill(.red)
-                        .frame(width: 25)
-                        .onTapGesture {
+                        .fill(.main)
+                        .stroke(.white, style: StrokeStyle(lineWidth: 2))
+                        .frame(width: 18)
+                }
+                // Position de tous les monuments de la liste
+                ForEach(Array(monuments.enumerated()), id: \.1.id) { (index, monument) in
+                    Annotation(monument.name, coordinate: monument.location) {
+                        AnnotationAnimationView(selectedMonument: selectedMonument, monument: monument, index: index) {
                             selectedMonument = monument
                         }
+                    }
+                }
+                // Si il y a un itinéraire
+                if let route {
+                    MapPolyline(route)
+                        .stroke(.mainDark, lineWidth: 5)
                 }
             }
-            // Si il y a un itinéraire
+            // Enleve tous les points d'interets
+            .mapStyle(.standard(pointsOfInterest: .excludingAll))
+            // Quand la map apparait charger le monument selectionné
+            .onAppear {
+                getDirections(userLocation: userLocation, destination: selectedMonument.location)
+                
+            }
+            // Quand on change de monument on va chercher getDirection
+            .onChange(of: selectedMonument) { oldValue, newValue in
+                getDirections(userLocation: userLocation, destination: selectedMonument.location)
+            }
             if let route {
-                MapPolyline(route)
-                    .stroke(.green, lineWidth: 5)
+                GameMapInfoView(distance: route.distance, duration: route.expectedTravelTime)
+            } else {
+                RoundedRectangle(cornerRadius: 30.0)
+                    .fill(.mainDark)
+                    .frame(width: 200, height: 60)
+                    .overlay {
+                        VStack {
+                            Text("Pas d'itinéraire")
+                                .font(.headline)
+                                .foregroundStyle(.accent)
+                        }
+                    }
             }
         }
-        // Quand la map apparait charger le monument selectionné
-        .onAppear {
-            getDirections(userLocation: userLocation, destination: selectedMonument.location)
-            
+    }
+}
+
+struct AnnotationAnimationView: View {
+    let selectedMonument: Monument
+    let monument: Monument
+    let index: Int
+    
+    var isSelected: Bool {
+        selectedMonument == monument
+    }
+    
+    var action: () -> ()
+    
+    @State var anim1: Bool = false
+    @State var anim2: Bool = false
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            ZStack {
+                if isSelected {
+                    Circle()
+                        .fill(.accent.opacity(0.2))
+                        .frame(width: 60)
+                        .scaleEffect(anim1 ? 0.5 : 1)
+                    Circle()
+                        .fill(.accent.opacity(0.4))
+                        .frame(width: 45)
+                        .scaleEffect(anim1 ? 0.4 : 1)
+                }
+                ZStack {
+                    Circle()
+                        .fill(.accent)
+                        .frame(width: 25)
+                    Text(String(index + 1))
+                        .font(.headline)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(.main)
+                    
+                }
+                
+            }
+            .onTapGesture {
+                action()
+            }
+            .onAppear {
+                if isSelected {
+                    animate()
+                }
+            }
+            .onChange(of: isSelected) { oldValue, newValue in
+                animate()
+            }
+            Text(monument.name)
+                .foregroundStyle(.accent)
+                .font(.headline)
         }
-        // Quand on change de monument on va chercher getDirection
-        .onChange(of: selectedMonument) { oldValue, newValue in
-            getDirections(userLocation: userLocation, destination: selectedMonument.location)
+    }
+    func animate() {
+        withAnimation(.easeIn(duration: 0.6)) {
+            anim1.toggle()
+            anim2.toggle()
+        } completion: {
+            if isSelected {
+                Task {
+                    try await Task.sleep(for: .seconds(0.001))
+                    self.animate()
+                }
+            }
         }
     }
 }
