@@ -9,13 +9,18 @@ import SwiftUI
 
 struct GameView: View {
     @State var selectedMonument: Monument = monuments.first! //Pas bien
+    @State var isOnDestination: Bool = true
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             GameMapView(selectedMonument: $selectedMonument)
-            GameTabNav(selectedMonument: $selectedMonument)
-                .padding(.trailing, 25)
-                .padding(.bottom, 50)
+            if isOnDestination {
+                GameQuestionsView(monument: selectedMonument)
+            } else {
+                GameTabNav(selectedMonument: $selectedMonument)
+                    .padding(.trailing, 25)
+                    .padding(.bottom, 50)
+            }
         }
     }
 }

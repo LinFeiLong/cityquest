@@ -20,7 +20,7 @@ struct GameTabNav: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 30)
-                .fill(.ultraThinMaterial)
+                .fill(.mainDark)
             
 //            Circle()
 //                .fill(.red)
@@ -29,19 +29,27 @@ struct GameTabNav: View {
 //                .animation(.spring(duration: 0.7, bounce: 0.5), value: btnOffset)
             
             VStack(spacing: 20) {
-                ForEach(monuments) { monument in
+                ForEach(Array(monuments.enumerated()), id: \.1.id) { (index, monument) in
                     let isSelected = monument.id == selectedMonument.id
                     Button {
                         selectedMonument = monument
                     } label: {
-                        Circle()
-                            .frame(width: 39)
-                            .foregroundColor(isSelected ? .green : .blue)
+                        ZStack {
+                            Circle()
+                                .frame(width: 39)
+                                .foregroundColor(isSelected ? .accent : .mainLight)
+                            Text(String(index + 1))
+                                .font(.headline)
+                                .fontWeight(.heavy)
+                                .foregroundColor(isSelected ? .main : .mainDark)
+                            
+                        }
                     }
                 }
             }
         }
         .frame(width: width, height: heigth)
+        .shadow(radius: 2)
     }
 }
 
