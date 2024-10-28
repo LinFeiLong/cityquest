@@ -7,15 +7,27 @@
 
 import SwiftUI
 
-struct QuestionBG: View {
+struct QuestionBG<Content: View>: View {
+    var content: Content?
+
+    init(@ViewBuilder content: () -> Content) {
+        self.content = content()
+    }
+
     var body: some View {
         Rectangle()
             .fill(Color("MainColor"))
             .cornerRadius(25)
             .padding()
+            .overlay(
+                content
+                    .padding()
+            )
     }
 }
 
 #Preview {
-    QuestionBG()
+    QuestionBG() {
+        
+    }
 }

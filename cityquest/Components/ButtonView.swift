@@ -16,9 +16,11 @@ struct ButtonView: View {
 
     var body: some View {
         HStack {
-            Image(systemName: icon)
-                .resizable()
-                .frame(width: 20, height: 20)
+            if icon.isEmpty == false {
+                Image(systemName: icon)
+                    .resizable()
+                    .frame(width: 20, height: 20)
+            }
             Text(label)
                 .fontWeight(.bold)
         }
