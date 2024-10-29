@@ -26,5 +26,5 @@ struct GameView: View {
 }
 
 #Preview {
-    GameView()
+    GameView(isOnDestination: false)
 }
