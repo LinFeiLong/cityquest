@@ -15,7 +15,7 @@ struct GridCardPlacesComponent: View {
             LazyVGrid(columns: [GridItem(.flexible()) ,GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
                 ForEach(places) { monument in
                     NavigationLink {
-                        Text(monument.name)
+                        DescriptionView(detailThing: monument)
                     } label: {
                         CardPlaceComponent(place: monument, isHighlighted: true)
                     }
@@ -33,5 +33,7 @@ struct GridCardPlacesComponent: View {
 
 
 #Preview {
-    GridCardPlacesComponent(places: monuments)
+    NavigationStack {
+        GridCardPlacesComponent(places: monuments)
+    }
 }

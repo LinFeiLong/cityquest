@@ -16,6 +16,7 @@ struct DescriptionView: View {
             ScrollView{
                 Image(detailThing.image).resizable().scaledToFit().frame(width: .infinity).padding(.vertical)
                 Text(detailThing.description).padding()
+                    .foregroundStyle(Color.white)
 
                 if detailThing is City {
                     VStack {
