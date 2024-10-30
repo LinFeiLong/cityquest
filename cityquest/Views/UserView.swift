@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import SwiftData
+import Combine
 
 struct UserView: View {
 
@@ -16,6 +17,8 @@ struct UserView: View {
     @State var imageData = Data()
     @Query var  user : [User]
     @State var fields : [String]  = ["","",""]
+    @State private var debouncedFields: [String] = ["", "", ""]
+    @State private var debounceTimers: [AnyCancellable?] = [nil, nil, nil]
     var body: some View {
         NavigationStack{
             ZStack{
@@ -35,9 +38,20 @@ struct UserView: View {
                             EditablePhotoComponent(userImageData: $imageData)
                             
                             if editingName || user.isEmpty {
-                                TextField("Prénom", text: $fields[0]).padding().background(.white.opacity(0.3)).clipShape(RoundedRectangle(cornerRadius: 15))
-                                TextField("Nom", text: $fields[1]).padding().background(.white.opacity(0.3)).clipShape(RoundedRectangle(cornerRadius: 15))
-                                
+                                ForEach(0..<2, id: \.self) { index in
+                                    TextField(index == 0 ? "Prénom" : "Nom", text: $fields[index])
+                                        .padding()
+                                        .background(.white.opacity(0.3))
+                                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                                        .onChange(of: fields[index]) { newValue in
+                                            debounceTimers[index]?.cancel()
+                                            debounceTimers[index] = Just(newValue)
+                                                .delay(for: .milliseconds(300), scheduler: RunLoop.main)
+                                                .sink { debouncedValue in
+                                                    debouncedFields[index] = debouncedValue
+                                                }
+                                        }
+                                }
                             }
                             else {
                                 VStack {
@@ -58,7 +72,12 @@ struct UserView: View {
                         HStack {
                             Text("Email:").foregroundColor(.white)
                             if editingName || user.isEmpty {
-                                TextField("Entrez votre email" , text: $fields[2]).keyboardType(.emailAddress).textInputAutocapitalization(.never).padding().background(.white.opacity(0.3)).clipShape(RoundedRectangle(cornerRadius: 15))
+                                TextField("Entrez votre email" , text: $fields[2])
+                                    .keyboardType(.emailAddress)
+                                    .textInputAutocapitalization(.never)
+                                    .padding()
+                                    .background(.white.opacity(0.3))
+                                    .clipShape(RoundedRectangle(cornerRadius: 15))
                             } else{
                                 Text(user[0].email).foregroundColor(.white).padding()
                             }
@@ -109,15 +128,15 @@ struct UserView: View {
 extension UserView {
     func saveModification()  {
         if user.isEmpty {
-            let newuser = User(firstname: fields[0], lastname: fields[1], username: "", email: fields[2])
+            let newuser = User(firstname: debouncedFields[0], lastname: debouncedFields[1], username: "", email: debouncedFields[2])
             newuser.avatarData = imageData
             context.insert(newuser)
             try? context.save()
         }
         else {
-            user[0].firstname = fields[0]
-            user[0].lastname = fields[1]
-            user[0].email = fields[2]
+            user[0].firstname = debouncedFields[0]
+            user[0].lastname = debouncedFields[1]
+            user[0].email = debouncedFields[2]
             user[0].avatarData = imageData
             try? context.save()}
 
