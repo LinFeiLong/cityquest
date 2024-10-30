@@ -1,21 +1,15 @@
-//
-//  CityCard.swift
-//  cityquest
-//
-//  Created by Ezequiel Gomes on 28/10/2024.
-//
-
-import Foundation
 import SwiftUI
 
+    // Composant card
 struct CityCard: View {
-    var city: City
+    var cityName: String = "Paris"
     var onDiscover: () -> Void
     var onPlay: () -> Void
+    var image: ImageResource
 
     var body: some View {
         ZStack {
-            Image(city.image)
+            Image(image)
                 .resizable()
                 .scaledToFill()
                 .frame(height: 200)
@@ -26,9 +20,9 @@ struct CityCard: View {
                 Spacer()
 
                 HStack {
-                    Text(city.name)
+                    Text(cityName)
                         .font(.title.bold())
-                        .foregroundColor(Color(hex: "DFF585"))
+                        .foregroundColor(Color("AccentColor"))
                     Spacer()
 
                     Button(action: onDiscover) {
@@ -38,8 +32,8 @@ struct CityCard: View {
                                 .font(.subheadline)
                         }
                         .padding(4)
-                        .background(Color(hex: "DFF585"))
-                        .foregroundColor(Color.purple)
+                        .background(Color("AccentColor"))
+                        .foregroundColor(Color("MainColor"))
                         .cornerRadius(8)
                     }
 
@@ -50,47 +44,25 @@ struct CityCard: View {
                                 .font(.subheadline)
                         }
                         .padding(4)
-                        .background(Color(hex: "DFF585"))
-                        .foregroundColor(Color.purple)
+                        .background(Color("AccentColor"))
+                        .foregroundColor(Color("MainColor"))
                         .cornerRadius(8)
                     }
                 }
                 .padding()
-                .background(Color.purple.opacity(0.6))
+                .background(Color("MainColor").opacity(0.6))
             }
         }
-        .frame(width: 350, height: 230)
+        .frame(width: 360, height: 230)
         .cornerRadius(15)
         .shadow(radius: 5)
     }
 }
 
-// Extension pour utiliser des couleurs hexadécimales
-extension Color {
-    init(hex: String) {
-        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
-        var int: UInt64 = 0
-        Scanner(string: hex).scanHexInt64(&int)
-        let r, g, b: UInt64
-        switch hex.count {
-        case 6: // RGB (24-bit)
-            (r, g, b) = (int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
-        default:
-            (r, g, b) = (1, 1, 0)
-        }
-        self.init(
-            .sRGB,
-            red: Double(r) / 255,
-            green: Double(g) / 255,
-            blue:  Double(b) / 255,
-            opacity: 1
-        )
-    }
-}
-
 #Preview {
     CityCard(
-        city: cityTest, onDiscover: { print("Découvrir action") },
-        onPlay: { print("Jouer action") }
+        onDiscover: { print("Découvrir action") },
+        onPlay: { print("Jouer action") },
+        image: .marseilleVueDepuisLaBasiliqueNotreDameDeLa1
     )
 }

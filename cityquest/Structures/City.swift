@@ -25,12 +25,12 @@ class City: Identifiable, DetailProtocol {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    init(name: String, description: String, coordinate: Coordinate, image: ImageResource, places: [Place], Monuments: [Monument]) {
+    init(name: String, description: String, coordinate: Coordinate, image: ImageResource, places: [Place] = [], monuments: [Monument] = []) {
         self.name = name
         self.description = description
         self.coordinate = coordinate
         self.image = image
         self.places = places
-        self.monuments = Monuments
+        self.monuments = monuments
     }
 }
