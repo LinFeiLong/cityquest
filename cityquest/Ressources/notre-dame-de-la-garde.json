@@ -1,0 +1,67 @@
+{
+    "monument": {
+        "name": "Notre-Dame de la Garde",
+        "description": "Une basilique emblématique située sur une colline à Marseille, offrant une vue panoramique sur la ville.",
+        "image": "notre_dame_de_la_garde.jpg",
+        "latitude": 43.2851,
+        "longitude": 5.3698,
+        "questions": [
+            {
+                "question": "Quelle est la hauteur de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "41 mètres", "isCorrect": true },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "33 mètres", "isCorrect": false },
+                    { "response": "60 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année a été inaugurée Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1864", "isCorrect": true },
+                    { "response": "1854", "isCorrect": false },
+                    { "response": "1870", "isCorrect": false },
+                    { "response": "1882", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel surnom porte la basilique?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Bonne Mère", "isCorrect": true },
+                    { "response": "La Sainte", "isCorrect": false },
+                    { "response": "La Gardienne", "isCorrect": false },
+                    { "response": "Notre-Dame de Marseille", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel type de matériaux est principalement utilisé dans la basilique?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marbre", "isCorrect": false },
+                    { "response": "Pierre calcaire", "isCorrect": false },
+                    { "response": "Pierre verte et blanche", "isCorrect": true },
+                    { "response": "Granit", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel célèbre peintre a immortalisé la basilique dans ses œuvres?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Paul Cézanne", "isCorrect": true },
+                    { "response": "Vincent Van Gogh", "isCorrect": false },
+                    { "response": "Henri Matisse", "isCorrect": false },
+                    { "response": "Claude Monet", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+}
+
