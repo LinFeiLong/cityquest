@@ -30,7 +30,7 @@ struct DescriptionView: View {
                     }.padding()
                     ButtonView(label: "Jouer", icon: "play.fill", fontColor: .main, color: .accent) .padding(.vertical)
                 }
-            }.navigationTitle(detailThing.name).navigationBarTitleDisplayMode(.automatic)
+            }.navigationTitle(detailThing.name).navigationBarTitleDisplayMode(.automatic).navigationBarTitleTextColor(.accentColor)
         }
 
     }
