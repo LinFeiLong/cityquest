@@ -20,7 +20,7 @@ struct MonudexView: View {
                     GridCardPlacesComponent(places: monuments)
 
                     Spacer()
-                }.navigationTitle("Mon Monudex")
+                }.navigationTitle("Mon Monudex").navigationBarTitleTextColor(.accentColor)
             }
         }
 

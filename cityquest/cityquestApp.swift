@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-
+import SwiftData
 @main
 struct cityquestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstView().modelContainer(for : User.self)
         }
     }
 }

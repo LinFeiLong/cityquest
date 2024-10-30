@@ -17,7 +17,7 @@ struct GridCardPlacesComponent: View {
                     NavigationLink {
                         DescriptionView(detailThing: monument)
                     } label: {
-                        CardPlaceComponent(place: monument, isHighlighted: true)
+                        CardPlaceComponent(place: monument, isHighlighted: true).shadow(radius: 5)
                     }
 
 

@@ -7,42 +7,129 @@
 
 import Foundation
 import SwiftUI
+import SwiftData
 
 struct UserView: View {
-    @Binding var  user: User
-    let link = URL(string: "https://www.admin.ch")!
+
+    @Environment(\.modelContext) var context
+    @State var editingName: Bool = false
+    @State var imageData = Data()
+    @Query var  user : [User]
+    @State var fields : [String]  = ["","",""]
     var body: some View {
         NavigationStack{
             ZStack{
                 Color.main.ignoresSafeArea()
 
-                VStack{
-                    EditablePhotoAndNameComponent(user: $user)
+                VStack (alignment: .trailing) {
+                    Button(action: {
+                        editingName.toggle()
+                        if !editingName {
+                            saveModification()
+                        }
+                    }) {
+                        Image(systemName: "pencil.circle").font(.system(size: 25)).padding(.trailing)
+                    }
+                    VStack (alignment: .leading ){
+                        HStack  {
+                            EditablePhotoComponent(userImageData: $imageData)
+                            
+                            if editingName || user.isEmpty {
+                                TextField("Prénom", text: $fields[0]).padding().background(.white.opacity(0.3)).clipShape(RoundedRectangle(cornerRadius: 15))
+                                TextField("Nom", text: $fields[1]).padding().background(.white.opacity(0.3)).clipShape(RoundedRectangle(cornerRadius: 15))
+                                
+                            }
+                            else {
+                                VStack {
+                                    Text(user[0].firstname + " " + user[0].lastname).font(.title2).fontWeight(.bold)
+                                        .foregroundColor(.white).padding(.leading)
+                                    ShareLink(
+                                        item: user[0].username,
+                                        preview: SharePreview(
+                                            "Coucou c'est \(user[0].firstname) rejoint moi sur cityQuest",
+                                            image: Image(systemName: "person" )
+                                        )
+                                    )
+                                }
+                            }
+                            Spacer()
 
-                    HStack {
-                        Text("Email:").foregroundColor(.white)
-                        TextField(user.email, text: $user.email).foregroundColor(.gray)
-                    }.padding(.horizontal)
-                    Spacer()
+                        }
+                        HStack {
+                            Text("Email:").foregroundColor(.white)
+                            if editingName || user.isEmpty {
+                                TextField("Entrez votre email" , text: $fields[2]).keyboardType(.emailAddress).textInputAutocapitalization(.never).padding().background(.white.opacity(0.3)).clipShape(RoundedRectangle(cornerRadius: 15))
+                            } else{
+                                Text(user[0].email).foregroundColor(.white).padding()
+                            }
 
-//                        ButtonView(label: "Partager Mon Profil", icon: "square.and.arrow.up", fontColor: .main, color: .accent).padding(.horizontal)
-
-                        ButtonView(label: "Réinitialiser mon compte ", icon: "", fontColor: .main, color: .gray).padding(.horizontal)
-
-
-                       // TextField("", text: $user.last)
-
-
-
+                        }.padding(.horizontal)
+                        Spacer()
+                        
+                        VStack {
+                            Button {
+                                saveModification()
+                            }
+                            label: {
+                                ButtonView(label: "Enregistrer les modifications ", icon: "", fontColor: .main, color: .accent).padding(.horizontal)
+                            }
+                            if !user.isEmpty {
+                                Button {
+                                    imageData = Data()
+                                    for index in fields.indices {
+                                        fields[index] = ""
+                                    }
+                                    context.delete(user[0])
+                                    try? context.save()
+                                } label: {
+                                    ButtonView(label: "Réinitialiser mon compte ", icon: "", fontColor: .main, color: .white).padding(.horizontal)
+                                    
+                                }
+                            }
+                        }.padding(.vertical)
+                        
+                    }.onAppear {
+                        
+                        if !user.isEmpty {
+                            imageData = user[0].avatarData ?? Data()
+                            fields[0] =  user[0].firstname
+                            fields[1] = user[0].lastname
+                            fields[2] = user[0].email
+                        }
+                    }
                 }
-            }.navigationTitle("Votre profil")
+            }.navigationTitle("Votre profil").navigationBarTitleTextColor(.accentColor)
 
         }
+    }
+
+
+}
+
+extension UserView {
+    func saveModification()  {
+        if user.isEmpty {
+            let newuser = User(firstname: fields[0], lastname: fields[1], username: "", email: fields[2])
+            newuser.avatarData = imageData
+            context.insert(newuser)
+            try? context.save()
+        }
+        else {
+            user[0].firstname = fields[0]
+            user[0].lastname = fields[1]
+            user[0].email = fields[2]
+            user[0].avatarData = imageData
+            try? context.save()}
+
+        if editingName {
+            editingName = false
+        }
+
     }
 }
 
 #Preview {
-    @Previewable @State var user = User(id: 22, firstname: "Geraldine", lastname: "Petit", username: "gegePetit", email: "geraldine.petit@example.com", avatar: nil)
-    UserView(user: $user)
+
+    UserView()
 
 }
