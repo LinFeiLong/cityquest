@@ -1,0 +1,1192 @@
+[
+    {
+        "name": "Basilique Notre-Dame de la Garde",
+        "description": "La “Bonne Mère” est l’un des symboles les plus connus de Marseille, située au sommet d’une colline offrant une vue panoramique sur la ville et la Méditerranée.",
+        "image": "notre_dame_de_la_garde.jpg",
+        "latitude": 43.28419512064788,
+        "longitude": 5.371275992866273,
+        "questions": [
+            {
+                "question": "Quelle est la hauteur de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "41 mètres", "isCorrect": true },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "33 mètres", "isCorrect": false },
+                    { "response": "60 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année a été inaugurée Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1864", "isCorrect": true },
+                    { "response": "1854", "isCorrect": false },
+                    { "response": "1870", "isCorrect": false },
+                    { "response": "1882", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Romano-byzantin", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel matériau a été principalement utilisé pour la construction de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Calcaire", "isCorrect": true },
+                    { "response": "Granite", "isCorrect": false },
+                    { "response": "Marbre", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle statue se trouve au sommet de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Vierge Marie", "isCorrect": true },
+                    { "response": "Saint Pierre", "isCorrect": false },
+                    { "response": "Saint Jean", "isCorrect": false },
+                    { "response": "Saint Paul", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le surnom de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Bonne Mère", "isCorrect": true },
+                    { "response": "La Grande Dame", "isCorrect": false },
+                    { "response": "La Sainte Mère", "isCorrect": false },
+                    { "response": "La Belle Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le rôle principal de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Basilique", "isCorrect": true },
+                    { "response": "Cathédrale", "isCorrect": false },
+                    { "response": "Chapelle", "isCorrect": false },
+                    { "response": "Monastère", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le point culminant de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La statue de la Vierge", "isCorrect": true },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "Le dôme", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la statue au sommet de Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Cuivre doré", "isCorrect": true },
+                    { "response": "Bronze", "isCorrect": false },
+                    { "response": "Fer", "isCorrect": false },
+                    { "response": "Argent", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement religieux célébré à Notre-Dame de la Garde?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'Assomption", "isCorrect": true },
+                    { "response": "Noël", "isCorrect": false },
+                    { "response": "Pâques", "isCorrect": false },
+                    { "response": "La Toussaint", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cathédrale La Major",
+        "description": "Une cathédrale impressionnante de style romano-byzantin située près du port, à l’entrée du quartier du Panier.",
+        "image": "cathedrale_la_major.jpg",
+        "latitude": 43.30008871502034,
+        "longitude": 5.364932600356038,
+        "questions": [
+            {
+                "question": "Quel style architectural caractérise la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Romano-byzantin", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année a été achevée la construction de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1896", "isCorrect": true },
+                    { "response": "1876", "isCorrect": false },
+                    { "response": "1906", "isCorrect": false },
+                    { "response": "1856", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la longueur de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "142 mètres", "isCorrect": true },
+                    { "response": "120 mètres", "isCorrect": false },
+                    { "response": "160 mètres", "isCorrect": false },
+                    { "response": "100 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le matériau principal utilisé pour la façade de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marbre", "isCorrect": true },
+                    { "response": "Granite", "isCorrect": false },
+                    { "response": "Calcaire", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de l'architecte principal de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Henri-Jacques Espérandieu", "isCorrect": true },
+                    { "response": "Eugène Viollet-le-Duc", "isCorrect": false },
+                    { "response": "Charles Garnier", "isCorrect": false },
+                    { "response": "Jean Nouvel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le rôle principal de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Cathédrale", "isCorrect": true },
+                    { "response": "Basilique", "isCorrect": false },
+                    { "response": "Chapelle", "isCorrect": false },
+                    { "response": "Monastère", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le point culminant de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le dôme", "isCorrect": true },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "La nef", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la coupole de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Cuivre", "isCorrect": true },
+                    { "response": "Bronze", "isCorrect": false },
+                    { "response": "Fer", "isCorrect": false },
+                    { "response": "Argent", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement religieux célébré à la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'Assomption", "isCorrect": true },
+                    { "response": "Noël", "isCorrect": false },
+                    { "response": "Pâques", "isCorrect": false },
+                    { "response": "La Toussaint", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal orgue de la Cathédrale La Major?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Cavaillé-Coll", "isCorrect": true },
+                    { "response": "Mutin", "isCorrect": false },
+                    { "response": "Puget", "isCorrect": false },
+                    { "response": "Merklin", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fort Saint-Jean",
+        "description": "Ce fort historique, situé à l’entrée du Vieux-Port, fait partie du musée des civilisations de l’Europe et de la Méditerranée (Mucem).",
+        "image": "fort_saint_jean.jpg",
+        "latitude": 43.295929994228885,
+        "longitude": 5.362015963357571,
+        "questions": [
+            {
+                "question": "En quelle année a été construit le Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1660", "isCorrect": true },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel roi a ordonné la construction du Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Louis XIV", "isCorrect": true },
+                    { "response": "Louis XIII", "isCorrect": false },
+                    { "response": "François I", "isCorrect": false },
+                    { "response": "Henri IV", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le rôle principal du Fort Saint-Jean aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Fort militaire", "isCorrect": false },
+                    { "response": "Prison", "isCorrect": false },
+                    { "response": "Résidence", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction du Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le point culminant du Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La tour", "isCorrect": true },
+                    { "response": "Le bastion", "isCorrect": false },
+                    { "response": "La porte", "isCorrect": false },
+                    { "response": "Le mur", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Révolution française", "isCorrect": true },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false },
+                    { "response": "La Guerre de Cent Ans", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal musée associé au Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "MuCEM", "isCorrect": true },
+                    { "response": "Louvre", "isCorrect": false },
+                    { "response": "Orsay", "isCorrect": false },
+                    { "response": "Pompidou", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pont-levis", "isCorrect": true },
+                    { "response": "Tunnel", "isCorrect": false },
+                    { "response": "Escalier", "isCorrect": false },
+                    { "response": "Ascenseur", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément défensif du Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les remparts", "isCorrect": true },
+                    { "response": "Les douves", "isCorrect": false },
+                    { "response": "Les canons", "isCorrect": false },
+                    { "response": "Les créneaux", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Fort Saint-Jean?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Vieux-Port", "isCorrect": true },
+                    { "response": "La Canebière", "isCorrect": false },
+                    { "response": "Le Panier", "isCorrect": false },
+                    { "response": "La Corniche", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Palais Longchamp",
+        "description": "Un monument dédié aux arts et à l’eau, avec un magnifique parc, abritant le musée des Beaux-Arts et le musée d’Histoire Naturelle.",
+        "image": "palais_longchamp.jpg",
+        "latitude": 43.30434094193662,
+        "longitude": 5.3945555693507785,
+        "questions": [
+            {
+                "question": "En quelle année a été inauguré le Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1869", "isCorrect": true },
+                    { "response": "1859", "isCorrect": false },
+                    { "response": "1879", "isCorrect": false },
+                    { "response": "1889", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal architecte du Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Henri-Jacques Espérandieu", "isCorrect": true },
+                    { "response": "Eugène Viollet-le-Duc", "isCorrect": false },
+                    { "response": "Charles Garnier", "isCorrect": false },
+                    { "response": "Jean Nouvel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction du Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal musée abrité par le Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée des Beaux-Arts", "isCorrect": true },
+                    { "response": "Musée d'Orsay", "isCorrect": false },
+                    { "response": "Musée du Louvre", "isCorrect": false },
+                    { "response": "Musée Rodin", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal parc associé au Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc Longchamp", "isCorrect": true },
+                    { "response": "Parc Borély", "isCorrect": false },
+                    { "response": "Parc Montsouris", "isCorrect": false },
+                    { "response": "Parc Monceau", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de musique", "isCorrect": true },
+                    { "response": "Exposition d'art", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément architectural du Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La fontaine", "isCorrect": true },
+                    { "response": "Le dôme", "isCorrect": false },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La ville de Marseille", "isCorrect": true },
+                    { "response": "La mer Méditerranée", "isCorrect": false },
+                    { "response": "Les montagnes", "isCorrect": false },
+                    { "response": "Le Vieux-Port", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'arrivée des eaux de la Durance", "isCorrect": true },
+                    { "response": "La Révolution française", "isCorrect": false },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Palais Longchamp?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Avenue du Prado", "isCorrect": true },
+                    { "response": "Boulevard Saint-Michel", "isCorrect": false },
+                    { "response": "Rue de Rivoli", "isCorrect": false },
+                    { "response": "Avenue des Champs-Élysées", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Château d’If",
+        "description": "Une forteresse sur une île au large de Marseille, célèbre pour avoir été la prison fictive d’Edmond Dantès dans “Le Comte de Monte-Cristo” d’Alexandre Dumas.",
+        "image": "chateau_d_if.jpg",
+        "latitude": 43.28035875358548,
+        "longitude": 5.325267824949334,
+        "questions": [
+            {
+                "question": "En quelle année a été construit le Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1524", "isCorrect": true },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1550", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel roi a ordonné la construction du Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "François I", "isCorrect": true },
+                    { "response": "Louis XIV", "isCorrect": false },
+                    { "response": "Henri IV", "isCorrect": false },
+                    { "response": "Charles IX", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le rôle principal du Château d'If aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Site touristique", "isCorrect": true },
+                    { "response": "Fort militaire", "isCorrect": false },
+                    { "response": "Prison", "isCorrect": false },
+                    { "response": "Résidence", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction du Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le point culminant du Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La tour", "isCorrect": true },
+                    { "response": "Le bastion", "isCorrect": false },
+                    { "response": "La porte", "isCorrect": false },
+                    { "response": "Le mur", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Comte de Monte-Cristo", "isCorrect": true },
+                    { "response": "La Révolution française", "isCorrect": false },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bateau", "isCorrect": true },
+                    { "response": "Pont", "isCorrect": false },
+                    { "response": "Tunnel", "isCorrect": false },
+                    { "response": "Escalier", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément défensif du Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les remparts", "isCorrect": true },
+                    { "response": "Les douves", "isCorrect": false },
+                    { "response": "Les canons", "isCorrect": false },
+                    { "response": "Les créneaux", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La mer Méditerranée", "isCorrect": true },
+                    { "response": "La ville de Marseille", "isCorrect": false },
+                    { "response": "Les montagnes", "isCorrect": false },
+                    { "response": "Le Vieux-Port", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Château d'If?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de théâtre", "isCorrect": true },
+                    { "response": "Exposition d'art", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vieux Port",
+        "description": "Le Vieux-Port est le cœur historique de Marseille, animé par des marchés de poissons et bordé de cafés.",
+        "image": "vieux_port.jpg",
+        "latitude": 43.2965,
+        "longitude": 5.3698,
+        "questions": [
+            {
+                "question": "Quel est le principal marché du Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marché aux poissons", "isCorrect": true },
+                    { "response": "Marché aux fleurs", "isCorrect": false },
+                    { "response": "Marché aux fruits", "isCorrect": false },
+                    { "response": "Marché aux légumes", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Révolution française", "isCorrect": true },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false },
+                    { "response": "La Guerre de Cent Ans", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Notre-Dame de la Garde", "isCorrect": true },
+                    { "response": "La Canebière", "isCorrect": false },
+                    { "response": "Le Panier", "isCorrect": false },
+                    { "response": "La Corniche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Canebière", "isCorrect": true },
+                    { "response": "Rue de Rivoli", "isCorrect": false },
+                    { "response": "Avenue des Champs-Élysées", "isCorrect": false },
+                    { "response": "Boulevard Saint-Michel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément architectural du Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les quais", "isCorrect": true },
+                    { "response": "Le dôme", "isCorrect": false },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de musique", "isCorrect": true },
+                    { "response": "Exposition d'art", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction des quais du Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Vieux Port aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Port de plaisance", "isCorrect": true },
+                    { "response": "Port de commerce", "isCorrect": false },
+                    { "response": "Port militaire", "isCorrect": false },
+                    { "response": "Port de pêche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de départ des excursions en bateau depuis le Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les Calanques", "isCorrect": true },
+                    { "response": "La Corse", "isCorrect": false },
+                    { "response": "La Sardaigne", "isCorrect": false },
+                    { "response": "La Sicile", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal café historique du Vieux Port?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Café de la Marine", "isCorrect": true },
+                    { "response": "Le Café de Flore", "isCorrect": false },
+                    { "response": "Le Café de la Paix", "isCorrect": false },
+                    { "response": "Le Café des Deux Moulins", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Abbaye Saint-Victor",
+        "description": "Une abbaye médiévale fondée au Ve siècle, connue pour ses cryptes et son architecture ancienne.",
+        "image": "abbaye_saint_victor.jpg",
+        "latitude": 43.2925,
+        "longitude": 5.3619,
+        "questions": [
+            {
+                "question": "En quelle année a été fondée l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "415", "isCorrect": true },
+                    { "response": "500", "isCorrect": false },
+                    { "response": "600", "isCorrect": false },
+                    { "response": "700", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction de l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément architectural de l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les cryptes", "isCorrect": true },
+                    { "response": "Le dôme", "isCorrect": false },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Révolution française", "isCorrect": true },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false },
+                    { "response": "La Guerre de Cent Ans", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La mer Méditerranée", "isCorrect": true },
+                    { "response": "La ville de Marseille", "isCorrect": false },
+                    { "response": "Les montagnes", "isCorrect": false },
+                    { "response": "Le Vieux-Port", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Rue Sainte", "isCorrect": true },
+                    { "response": "Rue de Rivoli", "isCorrect": false },
+                    { "response": "Avenue des Champs-Élysées", "isCorrect": false },
+                    { "response": "Boulevard Saint-Michel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de musique", "isCorrect": true },
+                    { "response": "Exposition d'art", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de l'Abbaye Saint-Victor aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Site touristique", "isCorrect": true },
+                    { "response": "Monastère", "isCorrect": false },
+                    { "response": "Prison", "isCorrect": false },
+                    { "response": "Résidence", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de départ des excursions en bateau depuis l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les Calanques", "isCorrect": true },
+                    { "response": "La Corse", "isCorrect": false },
+                    { "response": "La Sardaigne", "isCorrect": false },
+                    { "response": "La Sicile", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal café historique de l'Abbaye Saint-Victor?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Café de la Marine", "isCorrect": true },
+                    { "response": "Le Café de Flore", "isCorrect": false },
+                    { "response": "Le Café de la Paix", "isCorrect": false },
+                    { "response": "Le Café des Deux Moulins", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Parc Borély",
+        "description": "Un grand parc public avec des jardins à la française, un lac et un château du XVIIIe siècle.",
+        "image": "parc_borely.jpg",
+        "latitude": 43.2619,
+        "longitude": 5.3807,
+        "questions": [
+            {
+                "question": "En quelle année a été créé le Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1775", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément architectural du Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le château", "isCorrect": true },
+                    { "response": "Le dôme", "isCorrect": false },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de musique", "isCorrect": true },
+                    { "response": "Exposition d'art", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction du château du Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La mer Méditerranée", "isCorrect": true },
+                    { "response": "La ville de Marseille", "isCorrect": false },
+                    { "response": "Les montagnes", "isCorrect": false },
+                    { "response": "Le Vieux-Port", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Avenue du Prado", "isCorrect": true },
+                    { "response": "Rue de Rivoli", "isCorrect": false },
+                    { "response": "Avenue des Champs-Élysées", "isCorrect": false },
+                    { "response": "Boulevard Saint-Michel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Parc Borély aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc public", "isCorrect": true },
+                    { "response": "Jardin privé", "isCorrect": false },
+                    { "response": "Réserve naturelle", "isCorrect": false },
+                    { "response": "Site historique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de départ des excursions en bateau depuis le Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les Calanques", "isCorrect": true },
+                    { "response": "La Corse", "isCorrect": false },
+                    { "response": "La Sardaigne", "isCorrect": false },
+                    { "response": "La Sicile", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal café historique du Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Café de la Marine", "isCorrect": true },
+                    { "response": "Le Café de Flore", "isCorrect": false },
+                    { "response": "Le Café de la Paix", "isCorrect": false },
+                    { "response": "Le Café des Deux Moulins", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Parc Borély?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Révolution française", "isCorrect": true },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false },
+                    { "response": "La Guerre de Cent Ans", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musée des Civilisations de l'Europe et de la Méditerranée (MuCEM)",
+        "description": "Un musée moderne dédié aux civilisations de la Méditerranée, situé près du Fort Saint-Jean.",
+        "image": "mucem.jpg",
+        "latitude": 43.2951,
+        "longitude": 5.3619,
+        "questions": [
+            {
+                "question": "En quelle année a été inauguré le MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "2013", "isCorrect": true },
+                    { "response": "2010", "isCorrect": false },
+                    { "response": "2015", "isCorrect": false },
+                    { "response": "2020", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal architecte du MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Rudy Ricciotti", "isCorrect": true },
+                    { "response": "Jean Nouvel", "isCorrect": false },
+                    { "response": "Norman Foster", "isCorrect": false },
+                    { "response": "Frank Gehry", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction du MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Béton", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Exposition d'art", "isCorrect": true },
+                    { "response": "Festival de musique", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La mer Méditerranée", "isCorrect": true },
+                    { "response": "La ville de Marseille", "isCorrect": false },
+                    { "response": "Les montagnes", "isCorrect": false },
+                    { "response": "Le Vieux-Port", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Passerelle", "isCorrect": true },
+                    { "response": "Rue de Rivoli", "isCorrect": false },
+                    { "response": "Avenue des Champs-Élysées", "isCorrect": false },
+                    { "response": "Boulevard Saint-Michel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du MuCEM aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Galerie d'art", "isCorrect": false },
+                    { "response": "Centre culturel", "isCorrect": false },
+                    { "response": "Site historique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de départ des excursions en bateau depuis le MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les Calanques", "isCorrect": true },
+                    { "response": "La Corse", "isCorrect": false },
+                    { "response": "La Sardaigne", "isCorrect": false },
+                    { "response": "La Sicile", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal café historique du MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Café de la Marine", "isCorrect": true },
+                    { "response": "Le Café de Flore", "isCorrect": false },
+                    { "response": "Le Café de la Paix", "isCorrect": false },
+                    { "response": "Le Café des Deux Moulins", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au MuCEM?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Capitale européenne de la culture", "isCorrect": true },
+                    { "response": "La Révolution française", "isCorrect": false },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "La Canebière",
+        "description": "La Canebière est une célèbre avenue de Marseille, connue pour ses boutiques et son ambiance animée.",
+        "image": "la_canebiere.jpg",
+        "latitude": 43.2965,
+        "longitude": 5.3761,
+        "questions": [
+            {
+                "question": "En quelle année a été créée la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1666", "isCorrect": true },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Révolution française", "isCorrect": true },
+                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
+                    { "response": "La Première Guerre mondiale", "isCorrect": false },
+                    { "response": "La Guerre de Cent Ans", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Notre-Dame de la Garde", "isCorrect": true },
+                    { "response": "Le Vieux-Port", "isCorrect": false },
+                    { "response": "Le Panier", "isCorrect": false },
+                    { "response": "La Corniche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Vieux-Port", "isCorrect": true },
+                    { "response": "Rue de Rivoli", "isCorrect": false },
+                    { "response": "Avenue des Champs-Élysées", "isCorrect": false },
+                    { "response": "Boulevard Saint-Michel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal élément architectural de la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les façades", "isCorrect": true },
+                    { "response": "Le dôme", "isCorrect": false },
+                    { "response": "Le clocher", "isCorrect": false },
+                    { "response": "Le portail", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de musique", "isCorrect": true },
+                    { "response": "Exposition d'art", "isCorrect": false },
+                    { "response": "Salon du livre", "isCorrect": false },
+                    { "response": "Festival de cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de construction des façades de la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Canebière aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Avenue commerçante", "isCorrect": true },
+                    { "response": "Avenue résidentielle", "isCorrect": false },
+                    { "response": "Avenue administrative", "isCorrect": false },
+                    { "response": "Avenue touristique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de départ des excursions en bateau depuis la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les Calanques", "isCorrect": true },
+                    { "response": "La Corse", "isCorrect": false },
+                    { "response": "La Sardaigne", "isCorrect": false },
+                    { "response": "La Sicile", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal café historique de la Canebière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Café de la Marine", "isCorrect": true },
+                    { "response": "Le Café de Flore", "isCorrect": false },
+                    { "response": "Le Café de la Paix", "isCorrect": false },
+                    { "response": "Le Café des Deux Moulins", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+]

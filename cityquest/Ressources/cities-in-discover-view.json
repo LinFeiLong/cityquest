@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Marseille",
+    "image": "marseille"
+  },
+  {
+    "name": "Paris",
+    "image": "paris"
+  },
+  {
+    "name": "Lyon",
+    "image": "lyon"
+  },
+  {
+    "name": "Toulouse",
+    "image": "toulouse"
+  },
+  {
+    "name": "Nice",
+    "image": "nice"
+  },
+  {
+    "name": "Nantes",
+    "image": "nantes"
+  },
+  {
+    "name": "Strasbourg",
+    "image": "strasbourg"
+  },
+  {
+    "name": "Montpellier",
+    "image": "montpellier"
+  },
+  {
+    "name": "Bordeaux",
+    "image": "bordeaux"
+  },
+  {
+    "name": "Lille",
+    "image": "lille"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "UUID-1",
+    "name": "Marseille",
+    "description": "Marseille, fondée il y a plus de 2 600 ans, est la plus ancienne ville de France et un carrefour culturel méditerranéen. Située sur la côte sud, elle séduit par son climat ensoleillé, son riche patrimoine et sa diversité culturelle. La ville est dominée par la Basilique Notre-Dame de la Garde, qui offre une vue imprenable sur le Vieux-Port, cœur historique et animé de Marseille. Célèbre pour ses calanques aux eaux turquoise, sa cuisine typique comme la bouillabaisse et son ambiance chaleureuse, Marseille incarne un mélange unique de traditions et de modernité.",
+    "coordinate": {
+      "latitude": 43.2965,
+      "longitude": 5.3698
+    },
+    "image": "marseille"
+  },
+  {
+    "id": "UUID-2",
+    "name": "Paris",
+    "description": "Paris, la capitale de la France, est une ville emblématique connue pour sa riche histoire, son architecture impressionnante et sa culture vibrante. La Tour Eiffel, le Louvre et la Cathédrale Notre-Dame sont quelques-uns des monuments célèbres qui attirent des millions de visiteurs chaque année. Paris est également un centre mondial de la mode, de la gastronomie et des arts, offrant une expérience unique à chaque coin de rue. Avec ses charmants cafés, ses boulevards animés et ses parcs pittoresques, Paris est une ville qui inspire et enchante.",
+    "coordinate": {
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    "image": "paris"
+  },
+  {
+    "id": "UUID-3",
+    "name": "Lyon",
+    "description": "Lyon, située au confluent du Rhône et de la Saône, est une ville historique et gastronomique de France. Connue pour son patrimoine architectural, elle est classée au patrimoine mondial de l'UNESCO. Lyon est célèbre pour ses traboules, ses bouchons lyonnais et sa Fête des Lumières. La ville offre un mélange harmonieux de tradition et de modernité, avec ses quartiers anciens et ses innovations contemporaines. Lyon est également un centre économique dynamique, attirant des entreprises et des talents du monde entier.",
+    "coordinate": {
+      "latitude": 45.7640,
+      "longitude": 4.8357
+    },
+    "image": "lyon"
+  },
+  {
+    "id": "UUID-4",
+    "name": "Toulouse",
+    "description": "Toulouse, surnommée la Ville Rose en raison de la couleur de ses briques, est une ville dynamique du sud-ouest de la France. Elle est connue pour son industrie aérospatiale, abritant le siège d'Airbus. Toulouse est également riche en histoire et en culture, avec des sites comme la Basilique Saint-Sernin et le Capitole. La ville est un centre universitaire important, attirant des étudiants du monde entier. Avec son climat agréable, sa cuisine régionale et son ambiance conviviale, Toulouse est une ville où il fait bon vivre.",
+    "coordinate": {
+      "latitude": 43.6047,
+      "longitude": 1.4442
+    },
+    "image": "toulouse"
+  },
+  {
+    "id": "UUID-5",
+    "name": "Nice",
+    "description": "Nice, située sur la Côte d'Azur, est une ville ensoleillée et élégante du sud de la France. Elle est célèbre pour sa Promenade des Anglais, ses plages de galets et son climat méditerranéen. Nice offre un riche patrimoine culturel avec ses musées, ses églises baroques et son architecture Belle Époque. La vieille ville, avec ses ruelles étroites et ses marchés colorés, est un lieu incontournable. Nice est également un point de départ idéal pour explorer la région, avec des destinations comme Monaco et Cannes à proximité.",
+    "coordinate": {
+      "latitude": 43.7102,
+      "longitude": 7.2620
+    },
+    "image": "nice"
+  },
+  {
+    "id": "UUID-6",
+    "name": "Nantes",
+    "description": "Nantes, située sur la Loire, est une ville dynamique et innovante de l'ouest de la France. Elle est connue pour son patrimoine historique, avec le Château des Ducs de Bretagne et la Cathédrale Saint-Pierre-et-Saint-Paul. Nantes est également un centre culturel, avec des événements comme le Voyage à Nantes et les Machines de l'île. La ville est un exemple de développement durable, avec ses nombreux espaces verts et ses initiatives écologiques. Nantes offre une qualité de vie exceptionnelle, alliant tradition et modernité.",
+    "coordinate": {
+      "latitude": 47.2184,
+      "longitude": -1.5536
+    },
+    "image": "nantes"
+  },
+  {
+    "id": "UUID-7",
+    "name": "Strasbourg",
+    "description": "Strasbourg, située à la frontière franco-allemande, est une ville au riche patrimoine historique et culturel. Elle est célèbre pour sa cathédrale gothique, ses maisons à colombages et son quartier de la Petite France. Strasbourg est également le siège de plusieurs institutions européennes, ce qui en fait une ville cosmopolite et influente. La ville est un exemple de coexistence harmonieuse entre tradition et modernité, avec ses marchés de Noël, ses festivals et ses innovations urbaines. Strasbourg est une destination incontournable pour les amateurs d'histoire et de culture.",
+    "coordinate": {
+      "latitude": 48.5734,
+      "longitude": 7.7521
+    },
+    "image": "strasbourg"
+  },
+  {
+    "id": "UUID-8",
+    "name": "Montpellier",
+    "description": "Montpellier, située dans le sud de la France, est une ville jeune et dynamique, connue pour son université historique et son ambiance méditerranéenne. Elle offre un riche patrimoine architectural, avec des sites comme la Place de la Comédie et l'Arc de Triomphe. Montpellier est également un centre culturel, avec ses festivals, ses musées et ses théâtres. La ville est un exemple de modernité, avec ses quartiers contemporains et ses innovations urbaines. Avec son climat agréable et sa proximité avec la mer, Montpellier est une ville où il fait bon vivre.",
+    "coordinate": {
+      "latitude": 43.6108,
+      "longitude": 3.8767
+    },
+    "image": "montpellier"
+  },
+  {
+    "id": "UUID-9",
+    "name": "Bordeaux",
+    "description": "Bordeaux, située dans le sud-ouest de la France, est une ville célèbre pour ses vins et son patrimoine architectural. Elle est classée au patrimoine mondial de l'UNESCO pour ses ensembles urbains du XVIIIe siècle. Bordeaux offre une riche vie culturelle, avec ses musées, ses théâtres et ses festivals. La ville est également un centre économique dynamique, avec son port et ses industries. Bordeaux est une destination prisée pour les amateurs de vin, avec ses vignobles renommés et ses châteaux. Avec son climat doux et son ambiance conviviale, Bordeaux est une ville où il fait bon vivre.",
+    "coordinate": {
+      "latitude": 44.8378,
+      "longitude": -0.5792
+    },
+    "image": "bordeaux"
+  },
+  {
+    "id": "UUID-10",
+    "name": "Lille",
+    "description": "Lille, située dans le nord de la France, est une ville dynamique et cosmopolite, connue pour son patrimoine architectural et sa vie culturelle. Elle est célèbre pour sa Grand'Place, son Palais des Beaux-Arts et sa Braderie, le plus grand marché aux puces d'Europe. Lille est également un centre universitaire important, attirant des étudiants du monde entier. La ville offre une ambiance chaleureuse et conviviale, avec ses cafés, ses restaurants et ses événements. Lille est un exemple de renouveau urbain, alliant tradition et modernité.",
+    "coordinate": {
+      "latitude": 50.6292,
+      "longitude": 3.0573
+    },
+    "image": "lille"
+  }
+]
