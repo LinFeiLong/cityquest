@@ -1,28 +1,5 @@
 import Foundation
 
-func fetchWikipediaSource(urlString: String, completion: @escaping (Result<String, Error>) -> Void) {
-    guard let url = URL(string: urlString) else {
-        completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
-        return
-    }
-    
-    let task = URLSession.shared.dataTask(with: url) { data, response, error in
-        if let error = error {
-            completion(.failure(error))
-            return
-        }
-        
-        guard let data = data, let htmlString = String(data: data, encoding: .utf8) else {
-            completion(.failure(NSError(domain: "Data conversion error", code: 0, userInfo: nil)))
-            return
-        }
-        
-        completion(.success(htmlString))
-    }
-    
-    task.resume()
-}
-
 func extractHref(from html: String) -> String? {
     let pattern = #"<span typeof="mw:File/Frameless">.*?<a href="([^"]+)""#
     
