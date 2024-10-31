@@ -1,0 +1,835 @@
+[
+    {
+        "name": "Vieille Bourse",
+        "description": "Un ensemble de 24 maisons qui entourent une cour intérieure, un exemple emblématique de l'architecture flamande.",
+        "image": "vieille_bourse.jpg",
+        "latitude": 50.6364,
+        "longitude": 3.0633,
+        "questions": [
+            {
+                "question": "En quelle année la Vieille Bourse a-t-elle été construite?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1653", "isCorrect": true },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1750", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Flamand", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale de la Vieille Bourse aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marché aux livres", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lectures publiques", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la cour intérieure", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Vieille Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Vieille Bourse aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marché aux livres", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cathédrale Notre-Dame-de-la-Treille",
+        "description": "Une cathédrale moderne avec une façade en marbre translucide.",
+        "image": "cathedrale_notre_dame_de_la_treille.jpg",
+        "latitude": 50.6404,
+        "longitude": 3.0639,
+        "questions": [
+            {
+                "question": "En quelle année la Cathédrale Notre-Dame-de-la-Treille a-t-elle été consacrée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1999", "isCorrect": true },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néo-gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de la façade de la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "30 mètres", "isCorrect": true },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "40 mètres", "isCorrect": false },
+                    { "response": "60 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la façade de la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marbre translucide", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts d'orgue", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Lille", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marbre translucide", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cathédrale Notre-Dame-de-la-Treille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Consécration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cathédrale Notre-Dame-de-la-Treille aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Palais des Beaux-Arts",
+        "description": "Un des plus grands musées de France, abritant des collections d'art européen.",
+        "image": "palais_des_beaux_arts.jpg",
+        "latitude": 50.6322,
+        "longitude": 3.0621,
+        "questions": [
+            {
+                "question": "En quelle année le Palais des Beaux-Arts a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1892", "isCorrect": true },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal style architectural du Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Beaux-Arts", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "22 000 m²", "isCorrect": true },
+                    { "response": "20 000 m²", "isCorrect": false },
+                    { "response": "25 000 m²", "isCorrect": false },
+                    { "response": "30 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place de la République", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Palais des Beaux-Arts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Palais des Beaux-Arts aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Citadelle de Lille",
+        "description": "Une fortification militaire construite par Vauban, surnommée la 'Reine des Citadelles'.",
+        "image": "citadelle_de_lille.jpg",
+        "latitude": 50.6400,
+        "longitude": 3.0480,
+        "questions": [
+            {
+                "question": "En quelle année la Citadelle de Lille a-t-elle été construite?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1670", "isCorrect": true },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1750", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal architecte de la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vauban", "isCorrect": true },
+                    { "response": "Eiffel", "isCorrect": false },
+                    { "response": "Haussmann", "isCorrect": false },
+                    { "response": "Le Corbusier", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la forme de la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Étoile", "isCorrect": true },
+                    { "response": "Carrée", "isCorrect": false },
+                    { "response": "Rectangulaire", "isCorrect": false },
+                    { "response": "Circulaire", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Visites guidées", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur le parc de la Citadelle", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bus", "isCorrect": true },
+                    { "response": "Métro", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Citadelle de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Construction", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Citadelle de Lille aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Site militaire", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Opéra de Lille",
+        "description": "Un opéra construit au début du XXe siècle, un exemple de l'architecture néoclassique.",
+        "image": "opera_de_lille.jpg",
+        "latitude": 50.6370,
+        "longitude": 3.0650,
+        "questions": [
+            {
+                "question": "En quelle année l'Opéra de Lille a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1923", "isCorrect": true },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal style architectural de l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité de l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1136 places", "isCorrect": true },
+                    { "response": "1000 places", "isCorrect": false },
+                    { "response": "1200 places", "isCorrect": false },
+                    { "response": "1500 places", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Opéras", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place du Théâtre", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à l'Opéra de Lille?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de l'Opéra de Lille aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Salle de spectacle", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Grand Place",
+        "description": "La place centrale de Lille, également connue sous le nom de Place du Général-de-Gaulle.",
+        "image": "grand_place.jpg",
+        "latitude": 50.6369,
+        "longitude": 3.0635,
+        "questions": [
+            {
+                "question": "Quel est le principal monument situé sur la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Colonne de la Déesse", "isCorrect": true },
+                    { "response": "Tour Eiffel", "isCorrect": false },
+                    { "response": "Musée du Louvre", "isCorrect": false },
+                    { "response": "Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Braderie de Lille", "isCorrect": true },
+                    { "response": "Carnaval", "isCorrect": false },
+                    { "response": "Fête de la Musique", "isCorrect": false },
+                    { "response": "Nuit Blanche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la forme de la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Rectangulaire", "isCorrect": true },
+                    { "response": "Carrée", "isCorrect": false },
+                    { "response": "Ovale", "isCorrect": false },
+                    { "response": "Circulaire", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour le pavage de la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Asphalte", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Vieille Bourse", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments autour de la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Grand Place aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rassemblement", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal attrait touristique de la Grand Place?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Colonne de la Déesse", "isCorrect": true },
+                    { "response": "Musées", "isCorrect": false },
+                    { "response": "Théâtres", "isCorrect": false },
+                    { "response": "Cinémas", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Parc de la Citadelle",
+        "description": "Un grand parc public autour de la Citadelle de Lille, idéal pour les promenades et les activités de plein air.",
+        "image": "parc_de_la_citadelle.jpg",
+        "latitude": 50.6400,
+        "longitude": 3.0480,
+        "questions": [
+            {
+                "question": "En quelle année le Parc de la Citadelle a-t-il été ouvert au public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1950", "isCorrect": true },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal type d'activités pratiquées au Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Activités de plein air", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "110 hectares", "isCorrect": true },
+                    { "response": "100 hectares", "isCorrect": false },
+                    { "response": "120 hectares", "isCorrect": false },
+                    { "response": "130 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour les allées du Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gravier", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Asphalte", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Visites guidées", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Citadelle", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bus", "isCorrect": true },
+                    { "response": "Métro", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments du Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Parc de la Citadelle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ouverture au public", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Parc de la Citadelle aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc public", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 

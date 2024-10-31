@@ -1,0 +1,478 @@
+[
+    {
+        "name": "Cathédrale Notre-Dame de Strasbourg",
+        "description": "Une cathédrale gothique célèbre pour sa flèche unique et son horloge astronomique.",
+        "image": "cathedrale_notre_dame_strasbourg.jpg",
+        "latitude": 48.5812,
+        "longitude": 7.7507,
+        "questions": [
+            {
+                "question": "En quelle année la construction de la Cathédrale Notre-Dame de Strasbourg a-t-elle été achevée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1439", "isCorrect": true },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1300", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de la flèche de la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "142 mètres", "isCorrect": true },
+                    { "response": "100 mètres", "isCorrect": false },
+                    { "response": "200 mètres", "isCorrect": false },
+                    { "response": "120 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Grès rose", "isCorrect": true },
+                    { "response": "Pierre calcaire", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts d'orgue", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Strasbourg", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Grès rose", "isCorrect": true },
+                    { "response": "Pierre calcaire", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cathédrale Notre-Dame de Strasbourg aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Petite France",
+        "description": "Un quartier pittoresque de Strasbourg, célèbre pour ses maisons à colombages et ses canaux.",
+        "image": "petite_france.jpg",
+        "latitude": 48.5796,
+        "longitude": 7.7386,
+        "questions": [
+            {
+                "question": "Quel est le principal style architectural de la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Maisons à colombages", "isCorrect": true },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal canal traversant la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Canal de l'Ill", "isCorrect": true },
+                    { "response": "Canal du Rhône", "isCorrect": false },
+                    { "response": "Canal de la Marne", "isCorrect": false },
+                    { "response": "Canal de la Seine", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la principale activité touristique dans la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Promenades en bateau", "isCorrect": true },
+                    { "response": "Visites de musées", "isCorrect": false },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction des maisons de la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bois", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marché de Noël", "isCorrect": true },
+                    { "response": "Festival de musique", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur les canaux", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments de la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bois", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Petite France?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Petite France aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Quartier touristique", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Palais Rohan",
+        "description": "Un palais épiscopal du XVIIIe siècle, abritant aujourd'hui plusieurs musées.",
+        "image": "palais_rohan.jpg",
+        "latitude": 48.5815,
+        "longitude": 7.7511,
+        "questions": [
+            {
+                "question": "En quelle année le Palais Rohan a-t-il été construit?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1742", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Baroque", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale du Palais Rohan aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Hôtel", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Cathédrale", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Palais Rohan aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Hôtel", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Parlement Européen",
+        "description": "Le siège officiel du Parlement européen, situé dans le quartier européen de Strasbourg.",
+        "image": "parlement_europeen.jpg",
+        "latitude": 48.5977,
+        "longitude": 7.7718,
+        "questions": [
+            {
+                "question": "En quelle année le Parlement Européen de Strasbourg a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1999", "isCorrect": true },
+                    { "response": "2000", "isCorrect": false },
+                    { "response": "1990", "isCorrect": false },
+                    { "response": "1980", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Législation européenne", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "220 000 m²", "isCorrect": true },
+                    { "response": "200 000 m²", "isCorrect": false },
+                    { "response": "250 000 m²", "isCorrect": false },
+                    { "response": "300 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre et acier", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Sessions plénières", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur le quartier européen", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre et acier", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Parlement Européen?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Parlement Européen aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Législation européenne", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 
