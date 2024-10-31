@@ -27,4 +27,8 @@ class Monument: Place {
         self.questions = questions
         super.init(name: name, description: description, image: image, latitude: latitude, longitude: longitude)
     }
+    
+    required init(from decoder: any Decoder) throws {
+        fatalError("init(from:) has not been implemented")
+    }
 }
