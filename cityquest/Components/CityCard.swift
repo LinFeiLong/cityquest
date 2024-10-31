@@ -2,14 +2,13 @@ import SwiftUI
 
     // Composant card
 struct CityCard: View {
-    var cityName: String = "Paris"
-    var onDiscover: () -> Void
+    var city: City
     var onPlay: () -> Void
-    var image: ImageResource
+
 
     var body: some View {
         ZStack {
-            Image(image)
+            Image(city.image)
                 .resizable()
                 .scaledToFill()
                 .frame(height: 200)
@@ -20,22 +19,23 @@ struct CityCard: View {
                 Spacer()
 
                 HStack {
-                    Text(cityName)
+                    Text(city.name)
                         .font(.title.bold())
                         .foregroundColor(Color("AccentColor"))
                     Spacer()
 
-                    Button(action: onDiscover) {
-                        HStack {
-                            Image(systemName: "magnifyingglass.circle")
-                            Text("Découvrir")
-                                .font(.subheadline)
+
+                        NavigationLink(destination: DescriptionView(detailThing: city)) {
+                            HStack {
+                                Image(systemName: "magnifyingglass.circle")
+                                Text("Découvrir")
+                                    .font(.subheadline)
+                            }
+                            .padding(4)
+                            .background(Color("AccentColor"))
+                            .foregroundColor(Color("MainColor"))
+                            .cornerRadius(8)
                         }
-                        .padding(4)
-                        .background(Color("AccentColor"))
-                        .foregroundColor(Color("MainColor"))
-                        .cornerRadius(8)
-                    }
 
                     Button(action: onPlay) {
                         HStack {
@@ -60,9 +60,7 @@ struct CityCard: View {
 }
 
 #Preview {
-    CityCard(
-        onDiscover: { print("Découvrir action") },
-        onPlay: { print("Jouer action") },
-        image: .marseilleVueDepuisLaBasiliqueNotreDameDeLa1
+    CityCard(city: cityTest,
+        onPlay: { print("Jouer action") }
     )
 }

@@ -26,12 +26,11 @@ struct DiscoverView: View {
                         .padding(.horizontal)
 
                         ForEach(citysList, id: \.name) { city in
-                            CityCard(
-                                cityName: city.name,
-                                onDiscover: testDiscover,
-                                onPlay: testPlay,
-                                image: .marseilleVueDepuisLaBasiliqueNotreDameDeLa1
-                            )
+                            
+                            CityCard(city: city,
+                                    onPlay: testPlay)
+
+
                         }
                     }
                 }
