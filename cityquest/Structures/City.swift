@@ -10,14 +10,14 @@ import CoreLocation
 import DeveloperToolsSupport
 
 
-class City: Identifiable, DetailProtocol {
+ class City: Identifiable, DetailProtocol {
 
     
     let id = UUID()
     let name: String
     var description: String
     var coordinate: Coordinate
-    var image: ImageResource
+    var image: String
     var places: [Place]
     var monuments: [Monument]
 
@@ -25,7 +25,7 @@ class City: Identifiable, DetailProtocol {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    init(name: String, description: String, coordinate: Coordinate, image: ImageResource, places: [Place] = [], monuments: [Monument] = []) {
+    init(name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = []) {
         self.name = name
         self.description = description
         self.coordinate = coordinate

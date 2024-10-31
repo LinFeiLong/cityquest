@@ -23,7 +23,7 @@ struct Question {
 class Monument: Place {
     var questions: [Question]
 
-    init(name: String, description: String, image: ImageResource, latitude: Double, longitude: Double, questions: [Question]) {
+    init(name: String, description: String, image: String, latitude: Double, longitude: Double, questions: [Question]) {
         self.questions = questions
         super.init(name: name, description: description, image: image, latitude: latitude, longitude: longitude)
     }
