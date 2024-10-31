@@ -8,9 +8,10 @@
 import SwiftUI
 struct DiscoverView: View {
     var citysList: [City]
-
     var body: some View {
+
         NavigationStack {
+
             ZStack {
                 Color("MainColor")
                     .edgesIgnoringSafeArea(.all)
@@ -25,10 +26,15 @@ struct DiscoverView: View {
                         }
                         .padding(.horizontal)
 
-                        ForEach(citysList, id: \.name) { city in
-                            
+                        ForEach(citysList) { city in
+                          //  NavigationLink(destination: DescriptionView(detailThing: city)){}
+//                            NavigationLink(destination: DescriptionView(detailThing: city)) {
+//                                CityCard(city: city,
+//                                         onPlay: testPlay)
+//                            }
+
                             CityCard(city: city,
-                                    onPlay: testPlay)
+                                     onPlay: testPlay)
 
 
                         }
@@ -51,12 +57,7 @@ func testPlay() {
     HStack {
         DiscoverView(
             citysList: [
-                City(
-                    name: "Paris",
-                    description: "The city of lights",
-                    coordinate: Coordinate(latitude: 48.8566, longitude: 2.3522),
-                    image: ".imageTestMonument"
-                ),
+                cityTest,
                 City(
                     name: "Marseille",
                     description: "The port city",
