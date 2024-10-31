@@ -1,0 +1,1073 @@
+[
+    {
+        "name": "Château des Ducs de Bretagne",
+        "description": "Un château fort situé dans le centre-ville de Nantes, abritant aujourd'hui le musée d'histoire de Nantes.",
+        "image": "chateau_ducs_de_bretagne.jpg",
+        "latitude": 47.2153,
+        "longitude": -1.5534,
+        "questions": [
+            {
+                "question": "En quelle année le Château des Ducs de Bretagne a-t-il été construit?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1207", "isCorrect": true },
+                    { "response": "1300", "isCorrect": false },
+                    { "response": "1400", "isCorrect": false },
+                    { "response": "1500", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale du Château des Ducs de Bretagne aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Hôtel", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Nantes", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Château des Ducs de Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Château des Ducs de Bretagne aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée d'histoire", "isCorrect": true },
+                    { "response": "Hôtel", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Les Machines de l'île",
+        "description": "Un projet artistique et culturel situé à Nantes, inspiré par l'univers de Jules Verne et l'histoire industrielle de la ville.",
+        "image": "machines_de_l_ile.jpg",
+        "latitude": 47.2065,
+        "longitude": -1.5582,
+        "questions": [
+            {
+                "question": "En quelle année les Machines de l'île ont-elles été inaugurées?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "2007", "isCorrect": true },
+                    { "response": "2010", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false },
+                    { "response": "1990", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème des Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Univers de Jules Verne", "isCorrect": true },
+                    { "response": "Histoire de l'art", "isCorrect": false },
+                    { "response": "Musique", "isCorrect": false },
+                    { "response": "Littérature", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie des Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "5 hectares", "isCorrect": true },
+                    { "response": "10 hectares", "isCorrect": false },
+                    { "response": "15 hectares", "isCorrect": false },
+                    { "response": "20 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction des Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métal", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé aux Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis les Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur les expositions", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès aux Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métal", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé aux Machines de l'île?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle des Machines de l'île aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc à thème", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cathédrale Saint-Pierre-et-Saint-Paul",
+        "description": "Une cathédrale gothique située à Nantes, connue pour son architecture impressionnante et son histoire riche.",
+        "image": "cathedrale_saint_pierre.jpg",
+        "latitude": 47.2181,
+        "longitude": -1.5528,
+        "questions": [
+            {
+                "question": "En quelle année la construction de la Cathédrale Saint-Pierre-et-Saint-Paul a-t-elle commencé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1434", "isCorrect": true },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur des tours de la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "63 mètres", "isCorrect": true },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "70 mètres", "isCorrect": false },
+                    { "response": "80 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts d'orgue", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Nantes", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cathédrale Saint-Pierre-et-Saint-Paul?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cathédrale Saint-Pierre-et-Saint-Paul aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Passage Pommeraye",
+        "description": "Un passage couvert du XIXe siècle à Nantes, célèbre pour son architecture élégante et ses boutiques.",
+        "image": "passage_pommeraye.jpg",
+        "latitude": 47.2135,
+        "longitude": -1.5586,
+        "questions": [
+            {
+                "question": "En quelle année le Passage Pommeraye a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1843", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale du Passage Pommeraye aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Centre commercial", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur les boutiques", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Passage Pommeraye?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Passage Pommeraye aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Centre commercial", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jardin des Plantes",
+        "description": "Un jardin botanique situé à Nantes, connu pour sa collection de plantes et ses sculptures.",
+        "image": "jardin_des_plantes.jpg",
+        "latitude": 47.2202,
+        "longitude": -1.5428,
+        "questions": [
+            {
+                "question": "En quelle année le Jardin des Plantes a-t-il été créé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1807", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème du Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Botanique", "isCorrect": true },
+                    { "response": "Histoire de l'art", "isCorrect": false },
+                    { "response": "Musique", "isCorrect": false },
+                    { "response": "Littérature", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "7 hectares", "isCorrect": true },
+                    { "response": "10 hectares", "isCorrect": false },
+                    { "response": "15 hectares", "isCorrect": false },
+                    { "response": "20 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour les sculptures du Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Métal", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur les plantes", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments du Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Jardin des Plantes aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Jardin botanique", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Île de Nantes",
+        "description": "Un quartier moderne de Nantes, connu pour ses projets architecturaux innovants et ses espaces culturels.",
+        "image": "ile_de_nantes.jpg",
+        "latitude": 47.2065,
+        "longitude": -1.5582,
+        "questions": [
+            {
+                "question": "En quelle année le projet de l'Île de Nantes a-t-il commencé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "2003", "isCorrect": true },
+                    { "response": "2010", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false },
+                    { "response": "1990", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème de l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Innovation urbaine", "isCorrect": true },
+                    { "response": "Histoire de l'art", "isCorrect": false },
+                    { "response": "Musique", "isCorrect": false },
+                    { "response": "Littérature", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie de l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "337 hectares", "isCorrect": true },
+                    { "response": "500 hectares", "isCorrect": false },
+                    { "response": "200 hectares", "isCorrect": false },
+                    { "response": "100 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour les constructions de l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métal", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Loire", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments de l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métal", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à l'Île de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de l'Île de Nantes aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Quartier moderne", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tour Bretagne",
+        "description": "Un gratte-ciel situé à Nantes, offrant une vue panoramique sur la ville depuis son sommet.",
+        "image": "tour_bretagne.jpg",
+        "latitude": 47.2186,
+        "longitude": -1.5561,
+        "questions": [
+            {
+                "question": "En quelle année la Tour Bretagne a-t-elle été achevée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1976", "isCorrect": true },
+                    { "response": "1980", "isCorrect": false },
+                    { "response": "1990", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "144 mètres", "isCorrect": true },
+                    { "response": "100 mètres", "isCorrect": false },
+                    { "response": "120 mètres", "isCorrect": false },
+                    { "response": "160 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Béton", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Nantes", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Tour Bretagne aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bureaux", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal attrait touristique de la Tour Bretagne?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue panoramique", "isCorrect": true },
+                    { "response": "Musées", "isCorrect": false },
+                    { "response": "Théâtres", "isCorrect": false },
+                    { "response": "Cinémas", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musée d'Arts de Nantes",
+        "description": "Un musée situé à Nantes, abritant une vaste collection d'œuvres d'art allant du XIIIe siècle à nos jours.",
+        "image": "musee_d_arts_de_nantes.jpg",
+        "latitude": 47.2186,
+        "longitude": -1.5536,
+        "questions": [
+            {
+                "question": "En quelle année le Musée d'Arts de Nantes a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1801", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème du Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Art", "isCorrect": true },
+                    { "response": "Histoire", "isCorrect": false },
+                    { "response": "Musique", "isCorrect": false },
+                    { "response": "Littérature", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "17 000 m²", "isCorrect": true },
+                    { "response": "10 000 m²", "isCorrect": false },
+                    { "response": "20 000 m²", "isCorrect": false },
+                    { "response": "25 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur les œuvres d'art", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Musée d'Arts de Nantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Musée d'Arts de Nantes aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Place Royale",
+        "description": "Une place centrale de Nantes, connue pour sa fontaine monumentale et son architecture élégante.",
+        "image": "place_royale.jpg",
+        "latitude": 47.2139,
+        "longitude": -1.5583,
+        "questions": [
+            {
+                "question": "En quelle année la Place Royale a-t-elle été inaugurée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1790", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal style architectural de la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale de la Place Royale aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rassemblement", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la fontaine", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments de la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Place Royale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Place Royale aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rassemblement", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 

@@ -1,0 +1,954 @@
+[
+    {
+        "name": "Basilique Notre-Dame de Fourvière",
+        "description": "Une basilique mineure à Lyon, construite entre 1872 et 1884, offrant une vue panoramique sur la ville.",
+        "image": "notre_dame_de_fourviere.jpg",
+        "latitude": 45.7622,
+        "longitude": 4.8229,
+        "questions": [
+            {
+                "question": "Quel style architectural caractérise la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Byzantin", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Roman", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année la Basilique Notre-Dame de Fourvière a-t-elle été achevée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1884", "isCorrect": true },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le surnom de la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La colline qui prie", "isCorrect": true },
+                    { "response": "La colline qui danse", "isCorrect": false },
+                    { "response": "La colline qui chante", "isCorrect": false },
+                    { "response": "La colline qui rêve", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement religieux célébré à la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Fête de l'Immaculée Conception", "isCorrect": true },
+                    { "response": "Pâques", "isCorrect": false },
+                    { "response": "Noël", "isCorrect": false },
+                    { "response": "Toussaint", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur Lyon", "isCorrect": true },
+                    { "response": "Vue sur Paris", "isCorrect": false },
+                    { "response": "Vue sur Marseille", "isCorrect": false },
+                    { "response": "Vue sur Nice", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Funiculaire", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre blanche", "isCorrect": true },
+                    { "response": "Brique rouge", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Basilique Notre-Dame de Fourvière?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Fête des Lumières", "isCorrect": true },
+                    { "response": "Festival de Cannes", "isCorrect": false },
+                    { "response": "Fête de la Musique", "isCorrect": false },
+                    { "response": "Nuit Blanche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Basilique Notre-Dame de Fourvière aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Parc de la Tête d'Or",
+        "description": "Un grand parc urbain à Lyon, célèbre pour son lac, son zoo et ses jardins botaniques.",
+        "image": "parc_de_la_tete_dor.jpg",
+        "latitude": 45.784,
+        "longitude": 4.852,
+        "questions": [
+            {
+                "question": "Quelle est la superficie du Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "117 hectares", "isCorrect": true },
+                    { "response": "100 hectares", "isCorrect": false },
+                    { "response": "150 hectares", "isCorrect": false },
+                    { "response": "200 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal attrait du Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le lac", "isCorrect": true },
+                    { "response": "Le musée", "isCorrect": false },
+                    { "response": "Le théâtre", "isCorrect": false },
+                    { "response": "Le cinéma", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival des Roses", "isCorrect": true },
+                    { "response": "Fête de la Musique", "isCorrect": false },
+                    { "response": "Nuit Blanche", "isCorrect": false },
+                    { "response": "Fête des Lumières", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau des serres du Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre", "isCorrect": true },
+                    { "response": "Métal", "isCorrect": false },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Parc de la Tête d'Or aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Espace de loisirs", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur le lac", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau des statues du Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bronze", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du zoo du Parc de la Tête d'Or?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Conservation", "isCorrect": true },
+                    { "response": "Exposition", "isCorrect": false },
+                    { "response": "Éducation", "isCorrect": false },
+                    { "response": "Divertissement", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Place Bellecour",
+        "description": "La plus grande place de Lyon, située au cœur de la Presqu'île, célèbre pour sa statue de Louis XIV.",
+        "image": "place_bellecour.jpg",
+        "latitude": 45.757,
+        "longitude": 4.832,
+        "questions": [
+            {
+                "question": "Quelle est la superficie de la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "62 000 m²", "isCorrect": true },
+                    { "response": "50 000 m²", "isCorrect": false },
+                    { "response": "70 000 m²", "isCorrect": false },
+                    { "response": "80 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal monument de la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Statue de Louis XIV", "isCorrect": true },
+                    { "response": "Fontaine", "isCorrect": false },
+                    { "response": "Obélisque", "isCorrect": false },
+                    { "response": "Arc de Triomphe", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Fête des Lumières", "isCorrect": true },
+                    { "response": "Festival de Cannes", "isCorrect": false },
+                    { "response": "Fête de la Musique", "isCorrect": false },
+                    { "response": "Nuit Blanche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la statue de Louis XIV?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bronze", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Place Bellecour aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rassemblement", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Basilique Notre-Dame de Fourvière", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau des pavés de la Place Bellecour?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Place Bellecour aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rencontre", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musée des Confluences",
+        "description": "Un musée d'histoire naturelle et d'anthropologie situé à la confluence du Rhône et de la Saône.",
+        "image": "musee_des_confluences.jpg",
+        "latitude": 45.733,
+        "longitude": 4.819,
+        "questions": [
+            {
+                "question": "En quelle année le Musée des Confluences a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "2014", "isCorrect": true },
+                    { "response": "2010", "isCorrect": false },
+                    { "response": "2005", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Déconstructiviste", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "22 000 m²", "isCorrect": true },
+                    { "response": "15 000 m²", "isCorrect": false },
+                    { "response": "30 000 m²", "isCorrect": false },
+                    { "response": "40 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre et acier", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions temporaires", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Musée des Confluences aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée d'histoire naturelle", "isCorrect": true },
+                    { "response": "Centre culturel", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la confluence", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre", "isCorrect": true },
+                    { "response": "Métal", "isCorrect": false },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Théâtre des Célestins",
+        "description": "Un théâtre historique à Lyon, connu pour son architecture néo-classique et ses productions théâtrales.",
+        "image": "theatre_des_celestins.jpg",
+        "latitude": 45.759,
+        "longitude": 4.834,
+        "questions": [
+            {
+                "question": "En quelle année le Théâtre des Célestins a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1877", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néo-classique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité du Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "700 places", "isCorrect": true },
+                    { "response": "500 places", "isCorrect": false },
+                    { "response": "1000 places", "isCorrect": false },
+                    { "response": "1200 places", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival de théâtre", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Théâtre des Célestins aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Théâtre", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place des Célestins", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Théâtre des Célestins?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cathédrale Saint-Jean-Baptiste",
+        "description": "Une cathédrale catholique romaine située dans le Vieux Lyon, connue pour son horloge astronomique.",
+        "image": "cathedrale_saint_jean_baptiste.jpg",
+        "latitude": 45.760,
+        "longitude": 4.827,
+        "questions": [
+            {
+                "question": "En quelle année la Cathédrale Saint-Jean-Baptiste a-t-elle été achevée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1476", "isCorrect": true },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Roman", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur des tours de la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "32 mètres", "isCorrect": true },
+                    { "response": "40 mètres", "isCorrect": false },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "60 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Fête des Lumières", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cathédrale Saint-Jean-Baptiste aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur le Vieux Lyon", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cathédrale Saint-Jean-Baptiste?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Opéra de Lyon",
+        "description": "Un opéra situé à Lyon, connu pour son architecture moderne et ses productions d'opéra.",
+        "image": "opera_de_lyon.jpg",
+        "latitude": 45.767,
+        "longitude": 4.836,
+        "questions": [
+            {
+                "question": "En quelle année l'Opéra de Lyon a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1831", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néo-classique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité de l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1100 places", "isCorrect": true },
+                    { "response": "500 places", "isCorrect": false },
+                    { "response": "1000 places", "isCorrect": false },
+                    { "response": "1200 places", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival d'opéra", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de l'Opéra de Lyon aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Opéra", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place de la Comédie", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à l'Opéra de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hôtel de Ville de Lyon",
+        "description": "L'hôtel de ville de Lyon, un bâtiment historique situé sur la place des Terreaux.",
+        "image": "hotel_de_ville_de_lyon.jpg",
+        "latitude": 45.767,
+        "longitude": 4.834,
+        "questions": [
+            {
+                "question": "En quelle année l'Hôtel de Ville de Lyon a-t-il été achevé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1672", "isCorrect": true },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Baroque", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Néo-classique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "65 mètres", "isCorrect": true },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "70 mètres", "isCorrect": false },
+                    { "response": "80 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Fête des Lumières", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de l'Hôtel de Ville de Lyon aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Siège de la mairie", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place des Terreaux", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 

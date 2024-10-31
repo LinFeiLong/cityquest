@@ -1,0 +1,359 @@
+[
+    {
+        "name": "Capitole de Toulouse",
+        "description": "Le Capitole est le siège de la mairie de Toulouse et abrite également le Théâtre du Capitole.",
+        "image": "capitole_de_toulouse.jpg",
+        "latitude": 43.6045,
+        "longitude": 1.444,
+        "questions": [
+            {
+                "question": "En quelle année le Capitole de Toulouse a-t-il été construit?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1190", "isCorrect": true },
+                    { "response": "1300", "isCorrect": false },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale du Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Mairie", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place du Capitole", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Capitole de Toulouse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Capitole de Toulouse aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Siège de la mairie", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Basilique Saint-Sernin",
+        "description": "Une basilique romane située à Toulouse, connue pour être l'une des plus grandes églises romanes d'Europe.",
+        "image": "basilique_saint_sernin.jpg",
+        "latitude": 43.6086,
+        "longitude": 1.4442,
+        "questions": [
+            {
+                "question": "En quelle année la Basilique Saint-Sernin a-t-elle été consacrée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1096", "isCorrect": true },
+                    { "response": "1200", "isCorrect": false },
+                    { "response": "1300", "isCorrect": false },
+                    { "response": "1400", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Roman", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la longueur de la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "115 mètres", "isCorrect": true },
+                    { "response": "100 mètres", "isCorrect": false },
+                    { "response": "120 mètres", "isCorrect": false },
+                    { "response": "130 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place Saint-Sernin", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Brique", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Basilique Saint-Sernin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Basilique Saint-Sernin aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cité de l'Espace",
+        "description": "Un parc à thème scientifique à Toulouse, dédié à l'exploration spatiale.",
+        "image": "cite_de_l_espace.jpg",
+        "latitude": 43.5867,
+        "longitude": 1.482,
+        "questions": [
+            {
+                "question": "En quelle année la Cité de l'Espace a-t-elle été inaugurée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1997", "isCorrect": true },
+                    { "response": "2000", "isCorrect": false },
+                    { "response": "1990", "isCorrect": false },
+                    { "response": "1980", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème de la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Exploration spatiale", "isCorrect": true },
+                    { "response": "Histoire de l'art", "isCorrect": false },
+                    { "response": "Musique", "isCorrect": false },
+                    { "response": "Littérature", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie de la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "5 hectares", "isCorrect": true },
+                    { "response": "10 hectares", "isCorrect": false },
+                    { "response": "15 hectares", "isCorrect": false },
+                    { "response": "20 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métal", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur les expositions", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bus", "isCorrect": true },
+                    { "response": "Métro", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métal", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cité de l'Espace?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cité de l'Espace aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc à thème", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 

@@ -1,0 +1,954 @@
+[
+    {
+        "name": "Place de la Bourse",
+        "description": "Une place emblématique de Bordeaux, célèbre pour son miroir d'eau.",
+        "image": "place_de_la_bourse.jpg",
+        "latitude": 44.8413,
+        "longitude": -0.5695,
+        "questions": [
+            {
+                "question": "En quelle année la Place de la Bourse a-t-elle été achevée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1755", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal style architectural de la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Classique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale de la Place de la Bourse aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rassemblement", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur le miroir d'eau", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments de la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Place de la Bourse?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Place de la Bourse aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de rassemblement", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cathédrale Saint-André",
+        "description": "La cathédrale de Bordeaux, un exemple impressionnant d'architecture gothique.",
+        "image": "cathedrale_saint_andre.jpg",
+        "latitude": 44.8378,
+        "longitude": -0.5792,
+        "questions": [
+            {
+                "question": "En quelle année la Cathédrale Saint-André a-t-elle été consacrée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1096", "isCorrect": true },
+                    { "response": "1200", "isCorrect": false },
+                    { "response": "1300", "isCorrect": false },
+                    { "response": "1400", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur des tours de la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "81 mètres", "isCorrect": true },
+                    { "response": "100 mètres", "isCorrect": false },
+                    { "response": "75 mètres", "isCorrect": false },
+                    { "response": "60 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts d'orgue", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Bordeaux", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cathédrale Saint-André?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Consécration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cathédrale Saint-André aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pont de Pierre",
+        "description": "Un pont emblématique de Bordeaux, reliant les deux rives de la Garonne.",
+        "image": "pont_de_pierre.jpg",
+        "latitude": 44.8379,
+        "longitude": -0.5631,
+        "questions": [
+            {
+                "question": "En quelle année le Pont de Pierre a-t-il été achevé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1822", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la longueur du Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "487 mètres", "isCorrect": true },
+                    { "response": "300 mètres", "isCorrect": false },
+                    { "response": "500 mètres", "isCorrect": false },
+                    { "response": "600 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Garonne", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Pont de Pierre aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pont routier", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal attrait touristique du Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue panoramique", "isCorrect": true },
+                    { "response": "Musées", "isCorrect": false },
+                    { "response": "Théâtres", "isCorrect": false },
+                    { "response": "Cinémas", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Pont de Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Grand Théâtre de Bordeaux",
+        "description": "Un opéra et salle de concert historique, connu pour son architecture néoclassique.",
+        "image": "grand_theatre_bordeaux.jpg",
+        "latitude": 44.8422,
+        "longitude": -0.5736,
+        "questions": [
+            {
+                "question": "En quelle année le Grand Théâtre de Bordeaux a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1780", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1750", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural du Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité d'accueil du Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1 100 places", "isCorrect": true },
+                    { "response": "800 places", "isCorrect": false },
+                    { "response": "1 500 places", "isCorrect": false },
+                    { "response": "2 000 places", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Opéra", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place de la Comédie", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Grand Théâtre de Bordeaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Grand Théâtre de Bordeaux aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Opéra", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cité du Vin",
+        "description": "Un musée et centre culturel dédié au vin, situé à Bordeaux.",
+        "image": "cite_du_vin.jpg",
+        "latitude": 44.8625,
+        "longitude": -0.5505,
+        "questions": [
+            {
+                "question": "En quelle année la Cité du Vin a-t-elle été inaugurée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "2016", "isCorrect": true },
+                    { "response": "2010", "isCorrect": false },
+                    { "response": "2015", "isCorrect": false },
+                    { "response": "2020", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème de la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Culture du vin", "isCorrect": true },
+                    { "response": "Histoire de Bordeaux", "isCorrect": false },
+                    { "response": "Art moderne", "isCorrect": false },
+                    { "response": "Gastronomie", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie de la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "13 350 m²", "isCorrect": true },
+                    { "response": "10 000 m²", "isCorrect": false },
+                    { "response": "15 000 m²", "isCorrect": false },
+                    { "response": "20 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre et aluminium", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Dégustations", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la Garonne", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Verre et aluminium", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Brique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Cité du Vin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Cité du Vin aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tour Pey-Berland",
+        "description": "Un clocher séparé de la Cathédrale Saint-André, offrant une vue panoramique sur Bordeaux.",
+        "image": "tour_pey_berland.jpg",
+        "latitude": 44.8375,
+        "longitude": -0.5793,
+        "questions": [
+            {
+                "question": "En quelle année la Tour Pey-Berland a-t-elle été achevée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1440", "isCorrect": true },
+                    { "response": "1400", "isCorrect": false },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal style architectural de la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "66 mètres", "isCorrect": true },
+                    { "response": "50 mètres", "isCorrect": false },
+                    { "response": "70 mètres", "isCorrect": false },
+                    { "response": "80 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Visites guidées", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur Bordeaux", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Tour Pey-Berland?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Tour Pey-Berland aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tour d'observation", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Basilique Saint-Michel",
+        "description": "Une basilique gothique située dans le quartier Saint-Michel de Bordeaux.",
+        "image": "basilique_saint_michel.jpg",
+        "latitude": 44.8343,
+        "longitude": -0.5632,
+        "questions": [
+            {
+                "question": "En quelle année la Basilique Saint-Michel a-t-elle été consacrée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1472", "isCorrect": true },
+                    { "response": "1400", "isCorrect": false },
+                    { "response": "1500", "isCorrect": false },
+                    { "response": "1600", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gothique", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de la flèche de la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "114 mètres", "isCorrect": true },
+                    { "response": "100 mètres", "isCorrect": false },
+                    { "response": "120 mètres", "isCorrect": false },
+                    { "response": "130 mètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction de la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé à la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Concerts d'orgue", "isCorrect": true },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur Bordeaux", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès à la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade de la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé à la Basilique Saint-Michel?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Consécration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle de la Basilique Saint-Michel aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jardin Public",
+        "description": "Un parc urbain de Bordeaux, idéal pour la détente et les promenades.",
+        "image": "jardin_public.jpg",
+        "latitude": 44.8488,
+        "longitude": -0.5795,
+        "questions": [
+            {
+                "question": "En quelle année le Jardin Public a-t-il été créé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1746", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal type de plantes cultivées au Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Plantes ornementales", "isCorrect": true },
+                    { "response": "Plantes médicinales", "isCorrect": false },
+                    { "response": "Plantes aquatiques", "isCorrect": false },
+                    { "response": "Plantes tropicales", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "10 hectares", "isCorrect": true },
+                    { "response": "5 hectares", "isCorrect": false },
+                    { "response": "15 hectares", "isCorrect": false },
+                    { "response": "20 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour les allées du Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Gravier", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Asphalte", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Visites guidées", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Expositions", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur le lac", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments du Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Jardin Public?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Création", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Jardin Public aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc urbain", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 
