@@ -12,7 +12,7 @@ import DeveloperToolsSupport
 protocol DetailProtocol {
 
     var name : String { get }
-    var image : ImageResource { get }
+    var image : String { get }
     var description : String { get }
-   // var places : [Place]? { get }
+  
 }
