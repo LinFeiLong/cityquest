@@ -5,6 +5,7 @@
         "image": "place_de_la_bourse.jpg",
         "latitude": 44.8413,
         "longitude": -0.5695,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_de_la_Bourse_(Bordeaux)",
         "questions": [
             {
                 "question": "En quelle année la Place de la Bourse a-t-elle été achevée?",
@@ -124,6 +125,7 @@
         "image": "cathedrale_saint_andre.jpg",
         "latitude": 44.8378,
         "longitude": -0.5792,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Andr%C3%A9_de_Bordeaux",
         "questions": [
             {
                 "question": "En quelle année la Cathédrale Saint-André a-t-elle été consacrée?",
@@ -243,6 +245,7 @@
         "image": "pont_de_pierre.jpg",
         "latitude": 44.8379,
         "longitude": -0.5631,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Pont_de_Pierre_(Bordeaux)",
         "questions": [
             {
                 "question": "En quelle année le Pont de Pierre a-t-il été achevé?",
@@ -362,6 +365,7 @@
         "image": "grand_theatre_bordeaux.jpg",
         "latitude": 44.8422,
         "longitude": -0.5736,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Grand_Th%C3%A9%C3%A2tre_de_Bordeaux",
         "questions": [
             {
                 "question": "En quelle année le Grand Théâtre de Bordeaux a-t-il été inauguré?",
@@ -481,6 +485,7 @@
         "image": "cite_du_vin.jpg",
         "latitude": 44.8625,
         "longitude": -0.5505,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/La_Cit%C3%A9_du_Vin",
         "questions": [
             {
                 "question": "En quelle année la Cité du Vin a-t-elle été inaugurée?",
@@ -600,6 +605,7 @@
         "image": "tour_pey_berland.jpg",
         "latitude": 44.8375,
         "longitude": -0.5793,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Tour_Pey-Berland",
         "questions": [
             {
                 "question": "En quelle année la Tour Pey-Berland a-t-elle été achevée?",
@@ -719,6 +725,7 @@
         "image": "basilique_saint_michel.jpg",
         "latitude": 44.8343,
         "longitude": -0.5632,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Basilique_Saint-Michel_de_Bordeaux",
         "questions": [
             {
                 "question": "En quelle année la Basilique Saint-Michel a-t-elle été consacrée?",
@@ -838,6 +845,7 @@
         "image": "jardin_public.jpg",
         "latitude": 44.8488,
         "longitude": -0.5795,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Jardin_public_de_Bordeaux",
         "questions": [
             {
                 "question": "En quelle année le Jardin Public a-t-il été créé?",

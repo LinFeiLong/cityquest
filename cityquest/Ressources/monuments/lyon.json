@@ -5,6 +5,7 @@
         "image": "notre_dame_de_fourviere.jpg",
         "latitude": 45.7622,
         "longitude": 4.8229,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame_de_Fourvi%C3%A8re",
         "questions": [
             {
                 "question": "Quel style architectural caractérise la Basilique Notre-Dame de Fourvière?",
@@ -124,6 +125,7 @@
         "image": "parc_de_la_tete_dor.jpg",
         "latitude": 45.784,
         "longitude": 4.852,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Parc_de_la_T%C3%AAte_d%27Or",
         "questions": [
             {
                 "question": "Quelle est la superficie du Parc de la Tête d'Or?",
@@ -243,6 +245,7 @@
         "image": "place_bellecour.jpg",
         "latitude": 45.757,
         "longitude": 4.832,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_Bellecour",
         "questions": [
             {
                 "question": "Quelle est la superficie de la Place Bellecour?",
@@ -362,6 +365,7 @@
         "image": "musee_des_confluences.jpg",
         "latitude": 45.733,
         "longitude": 4.819,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Confluences",
         "questions": [
             {
                 "question": "En quelle année le Musée des Confluences a-t-il été inauguré?",
@@ -481,6 +485,7 @@
         "image": "theatre_des_celestins.jpg",
         "latitude": 45.759,
         "longitude": 4.834,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_des_C%C3%A9lestins",
         "questions": [
             {
                 "question": "En quelle année le Théâtre des Célestins a-t-il été inauguré?",
@@ -600,6 +605,7 @@
         "image": "cathedrale_saint_jean_baptiste.jpg",
         "latitude": 45.760,
         "longitude": 4.827,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Jean-Baptiste_de_Lyon",
         "questions": [
             {
                 "question": "En quelle année la Cathédrale Saint-Jean-Baptiste a-t-elle été achevée?",
@@ -719,6 +725,7 @@
         "image": "opera_de_lyon.jpg",
         "latitude": 45.767,
         "longitude": 4.836,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Op%C3%A9ra_National_de_Lyon",
         "questions": [
             {
                 "question": "En quelle année l'Opéra de Lyon a-t-il été inauguré?",
@@ -838,6 +845,7 @@
         "image": "hotel_de_ville_de_lyon.jpg",
         "latitude": 45.767,
         "longitude": 4.834,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Ville_de_Lyon",
         "questions": [
             {
                 "question": "En quelle année l'Hôtel de Ville de Lyon a-t-il été achevé?",

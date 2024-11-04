@@ -5,6 +5,7 @@
         "image": "notre_dame_de_la_garde.jpg",
         "latitude": 43.28419512064788,
         "longitude": 5.371275992866273,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Notre-Dame_de_la_Garde",
         "questions": [
             {
                 "question": "Quelle est la hauteur de Notre-Dame de la Garde?",
@@ -124,6 +125,7 @@
         "image": "cathedrale_la_major.jpg",
         "latitude": 43.30008871502034,
         "longitude": 5.364932600356038,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Sainte-Marie-Majeure_de_Marseille",
         "questions": [
             {
                 "question": "Quel style architectural caractérise la Cathédrale La Major?",
@@ -243,6 +245,7 @@
         "image": "fort_saint_jean.jpg",
         "latitude": 43.295929994228885,
         "longitude": 5.362015963357571,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Fort_Saint-Jean_(Marseille)",
         "questions": [
             {
                 "question": "En quelle année a été construit le Fort Saint-Jean?",
@@ -362,6 +365,7 @@
         "image": "palais_longchamp.jpg",
         "latitude": 43.30434094193662,
         "longitude": 5.3945555693507785,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Palais_Longchamp",
         "questions": [
             {
                 "question": "En quelle année a été inauguré le Palais Longchamp?",
@@ -481,6 +485,7 @@
         "image": "chateau_d_if.jpg",
         "latitude": 43.28035875358548,
         "longitude": 5.325267824949334,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d%27If",
         "questions": [
             {
                 "question": "En quelle année a été construit le Château d'If?",
@@ -600,6 +605,7 @@
         "image": "vieux_port.jpg",
         "latitude": 43.2965,
         "longitude": 5.3698,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Vieux-Port_de_Marseille",
         "questions": [
             {
                 "question": "Quel est le principal marché du Vieux Port?",
@@ -719,6 +725,7 @@
         "image": "abbaye_saint_victor.jpg",
         "latitude": 43.2925,
         "longitude": 5.3619,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Abbaye_Saint-Victor_de_Marseille",
         "questions": [
             {
                 "question": "En quelle année a été fondée l'Abbaye Saint-Victor?",
@@ -838,6 +845,7 @@
         "image": "parc_borely.jpg",
         "latitude": 43.2619,
         "longitude": 5.3807,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Parc_Bor%C3%A9ly",
         "questions": [
             {
                 "question": "En quelle année a été créé le Parc Borély?",
@@ -957,6 +965,7 @@
         "image": "mucem.jpg",
         "latitude": 43.2951,
         "longitude": 5.3619,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Civilisations_de_l%27Europe_et_de_la_M%C3%A9diterran%C3%A9e",
         "questions": [
             {
                 "question": "En quelle année a été inauguré le MuCEM?",
@@ -1076,6 +1085,7 @@
         "image": "la_canebiere.jpg",
         "latitude": 43.2965,
         "longitude": 5.3761,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/La_Canebi%C3%A8re",
         "questions": [
             {
                 "question": "En quelle année a été créée la Canebière?",

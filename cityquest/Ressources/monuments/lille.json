@@ -5,6 +5,7 @@
         "image": "vieille_bourse.jpg",
         "latitude": 50.6364,
         "longitude": 3.0633,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Vieille_Bourse_(Lille)",
         "questions": [
             {
                 "question": "En quelle année la Vieille Bourse a-t-elle été construite?",
@@ -124,6 +125,7 @@
         "image": "cathedrale_notre_dame_de_la_treille.jpg",
         "latitude": 50.6404,
         "longitude": 3.0639,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame-de-la-Treille",
         "questions": [
             {
                 "question": "En quelle année la Cathédrale Notre-Dame-de-la-Treille a-t-elle été consacrée?",
@@ -243,6 +245,7 @@
         "image": "palais_des_beaux_arts.jpg",
         "latitude": 50.6322,
         "longitude": 3.0621,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Palais_des_beaux-arts_de_Lille",
         "questions": [
             {
                 "question": "En quelle année le Palais des Beaux-Arts a-t-il été inauguré?",
@@ -362,6 +365,7 @@
         "image": "citadelle_de_lille.jpg",
         "latitude": 50.6400,
         "longitude": 3.0480,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Citadelle_de_Lille",
         "questions": [
             {
                 "question": "En quelle année la Citadelle de Lille a-t-elle été construite?",
@@ -481,6 +485,7 @@
         "image": "opera_de_lille.jpg",
         "latitude": 50.6370,
         "longitude": 3.0650,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Op%C3%A9ra_de_Lille",
         "questions": [
             {
                 "question": "En quelle année l'Opéra de Lille a-t-il été inauguré?",
@@ -600,6 +605,7 @@
         "image": "grand_place.jpg",
         "latitude": 50.6369,
         "longitude": 3.0635,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Grand%27Place_(Lille)",
         "questions": [
             {
                 "question": "Quel est le principal monument situé sur la Grand Place?",
@@ -719,6 +725,7 @@
         "image": "parc_de_la_citadelle.jpg",
         "latitude": 50.6400,
         "longitude": 3.0480,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Parc_de_la_Citadelle",
         "questions": [
             {
                 "question": "En quelle année le Parc de la Citadelle a-t-il été ouvert au public?",

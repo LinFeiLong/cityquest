@@ -5,6 +5,7 @@
         "image": "chateau_ducs_de_bretagne.jpg",
         "latitude": 47.2153,
         "longitude": -1.5534,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_des_ducs_de_Bretagne",
         "questions": [
             {
                 "question": "En quelle année le Château des Ducs de Bretagne a-t-il été construit?",
@@ -124,6 +125,7 @@
         "image": "machines_de_l_ile.jpg",
         "latitude": 47.2065,
         "longitude": -1.5582,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Les_Machines_de_l%27%C3%AEle",
         "questions": [
             {
                 "question": "En quelle année les Machines de l'île ont-elles été inaugurées?",
@@ -243,6 +245,7 @@
         "image": "cathedrale_saint_pierre.jpg",
         "latitude": 47.2181,
         "longitude": -1.5528,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Pierre-et-Saint-Paul_de_Nantes",
         "questions": [
             {
                 "question": "En quelle année la construction de la Cathédrale Saint-Pierre-et-Saint-Paul a-t-elle commencé?",
@@ -362,6 +365,7 @@
         "image": "passage_pommeraye.jpg",
         "latitude": 47.2135,
         "longitude": -1.5586,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Passage_Pommeraye",
         "questions": [
             {
                 "question": "En quelle année le Passage Pommeraye a-t-il été inauguré?",
@@ -481,6 +485,7 @@
         "image": "jardin_des_plantes.jpg",
         "latitude": 47.2202,
         "longitude": -1.5428,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Jardin_des_plantes_de_Nantes",
         "questions": [
             {
                 "question": "En quelle année le Jardin des Plantes a-t-il été créé?",
@@ -600,6 +605,7 @@
         "image": "ile_de_nantes.jpg",
         "latitude": 47.2065,
         "longitude": -1.5582,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/%C3%8Ele_de_Nantes",
         "questions": [
             {
                 "question": "En quelle année le projet de l'Île de Nantes a-t-il commencé?",
@@ -719,6 +725,7 @@
         "image": "tour_bretagne.jpg",
         "latitude": 47.2186,
         "longitude": -1.5561,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Tour_Bretagne",
         "questions": [
             {
                 "question": "En quelle année la Tour Bretagne a-t-elle été achevée?",
@@ -838,6 +845,7 @@
         "image": "musee_d_arts_de_nantes.jpg",
         "latitude": 47.2186,
         "longitude": -1.5536,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%27arts_de_Nantes",
         "questions": [
             {
                 "question": "En quelle année le Musée d'Arts de Nantes a-t-il été inauguré?",
@@ -957,6 +965,7 @@
         "image": "place_royale.jpg",
         "latitude": 47.2139,
         "longitude": -1.5583,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_Royale_de_Nantes",
         "questions": [
             {
                 "question": "En quelle année la Place Royale a-t-elle été inaugurée?",

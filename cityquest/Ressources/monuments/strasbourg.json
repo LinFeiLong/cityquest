@@ -5,6 +5,7 @@
         "image": "cathedrale_notre_dame_strasbourg.jpg",
         "latitude": 48.5812,
         "longitude": 7.7507,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Strasbourg",
         "questions": [
             {
                 "question": "En quelle année la construction de la Cathédrale Notre-Dame de Strasbourg a-t-elle été achevée?",
@@ -40,80 +41,80 @@
                 ]
             },
             {
-                "question": "Quel est le principal matériau utilisé pour la construction de la Cathédrale Notre-Dame de Strasbourg?",
+                "question": "Quel célèbre dispositif se trouve à l'intérieur de la Cathédrale Notre-Dame de Strasbourg?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Une horloge astronomique", "isCorrect": true },
+                    { "response": "Un orgue baroque", "isCorrect": false },
+                    { "response": "Un vitrail de la Renaissance", "isCorrect": false },
+                    { "response": "Une crypte romane", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel matériau a principalement été utilisé pour la construction de la Cathédrale Notre-Dame de Strasbourg?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
                     { "response": "Grès rose", "isCorrect": true },
-                    { "response": "Pierre calcaire", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Bois", "isCorrect": false }
+                    { "response": "Marbre blanc", "isCorrect": false },
+                    { "response": "Granite", "isCorrect": false },
+                    { "response": "Calcaire", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement culturel associé à la Cathédrale Notre-Dame de Strasbourg?",
+                "question": "Quel est le poids de la cloche principale de la Cathédrale Notre-Dame de Strasbourg?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Concerts d'orgue", "isCorrect": true },
-                    { "response": "Expositions", "isCorrect": false },
-                    { "response": "Opéra", "isCorrect": false },
-                    { "response": "Ballet", "isCorrect": false }
+                    { "response": "8 tonnes", "isCorrect": true },
+                    { "response": "5 tonnes", "isCorrect": false },
+                    { "response": "10 tonnes", "isCorrect": false },
+                    { "response": "12 tonnes", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal point de vue depuis la Cathédrale Notre-Dame de Strasbourg?",
+                "question": "Quel artiste a sculpté le portail principal de la Cathédrale Notre-Dame de Strasbourg?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Vue sur la ville de Strasbourg", "isCorrect": true },
-                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
-                    { "response": "Vue sur le Louvre", "isCorrect": false },
-                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                    { "response": "Erwin von Steinbach", "isCorrect": true },
+                    { "response": "Michelangelo", "isCorrect": false },
+                    { "response": "Leonardo da Vinci", "isCorrect": false },
+                    { "response": "Donatello", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal accès à la Cathédrale Notre-Dame de Strasbourg?",
+                "question": "Combien de vitraux ornent la Cathédrale Notre-Dame de Strasbourg?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Tramway", "isCorrect": true },
-                    { "response": "Bus", "isCorrect": false },
-                    { "response": "Taxi", "isCorrect": false },
-                    { "response": "Vélo", "isCorrect": false }
+                    { "response": "132", "isCorrect": true },
+                    { "response": "100", "isCorrect": false },
+                    { "response": "150", "isCorrect": false },
+                    { "response": "200", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau de la façade de la Cathédrale Notre-Dame de Strasbourg?",
+                "question": "Quel est le nom de la place où se situe la Cathédrale Notre-Dame de Strasbourg?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Grès rose", "isCorrect": true },
-                    { "response": "Pierre calcaire", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Bois", "isCorrect": false }
+                    { "response": "Place de la Cathédrale", "isCorrect": true },
+                    { "response": "Place Kléber", "isCorrect": false },
+                    { "response": "Place Gutenberg", "isCorrect": false },
+                    { "response": "Place Broglie", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement historique associé à la Cathédrale Notre-Dame de Strasbourg?",
+                "question": "Quel est le matériau principal des vitraux de la Cathédrale Notre-Dame de Strasbourg?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Inauguration", "isCorrect": true },
-                    { "response": "Révolution française", "isCorrect": false },
-                    { "response": "Exposition universelle", "isCorrect": false },
-                    { "response": "Guerre mondiale", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal rôle de la Cathédrale Notre-Dame de Strasbourg aujourd'hui?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Lieu de culte", "isCorrect": true },
-                    { "response": "Musée", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
+                    { "response": "Verre", "isCorrect": true },
+                    { "response": "Cristal", "isCorrect": false },
+                    { "response": "Plastique", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
                 ]
             }
         ]
@@ -124,6 +125,7 @@
         "image": "petite_france.jpg",
         "latitude": 48.5796,
         "longitude": 7.7386,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Petite_France_(Strasbourg)",
         "questions": [
             {
                 "question": "Quel est le principal style architectural de la Petite France?",
@@ -137,7 +139,7 @@
                 ]
             },
             {
-                "question": "Quel est le principal canal traversant la Petite France?",
+                "question": "Quel est le nom du principal canal traversant la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
@@ -148,91 +150,91 @@
                 ]
             },
             {
-                "question": "Quelle est la principale activité touristique dans la Petite France?",
+                "question": "Quel était l'usage historique des bâtiments dans la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Promenades en bateau", "isCorrect": true },
-                    { "response": "Visites de musées", "isCorrect": false },
-                    { "response": "Concerts", "isCorrect": false },
-                    { "response": "Théâtre", "isCorrect": false }
+                    { "response": "Tanneries", "isCorrect": true },
+                    { "response": "Moulins", "isCorrect": false },
+                    { "response": "Brasseries", "isCorrect": false },
+                    { "response": "Églises", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau utilisé pour la construction des maisons de la Petite France?",
+                "question": "Quel est le nom de la célèbre place située dans la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Bois", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Métal", "isCorrect": false }
+                    { "response": "Place Benjamin Zix", "isCorrect": true },
+                    { "response": "Place Kléber", "isCorrect": false },
+                    { "response": "Place Gutenberg", "isCorrect": false },
+                    { "response": "Place de la République", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement culturel associé à la Petite France?",
+                "question": "Quel est le nom du pont couvert situé dans la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Marché de Noël", "isCorrect": true },
-                    { "response": "Festival de musique", "isCorrect": false },
-                    { "response": "Expositions", "isCorrect": false },
-                    { "response": "Ballet", "isCorrect": false }
+                    { "response": "Ponts Couverts", "isCorrect": true },
+                    { "response": "Pont de l'Europe", "isCorrect": false },
+                    { "response": "Pont du Corbeau", "isCorrect": false },
+                    { "response": "Pont Vauban", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal point de vue depuis la Petite France?",
+                "question": "Quel type de commerce était florissant dans la Petite France au Moyen Âge?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Vue sur les canaux", "isCorrect": true },
-                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
-                    { "response": "Vue sur le Louvre", "isCorrect": false },
-                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                    { "response": "Tanneries", "isCorrect": true },
+                    { "response": "Boulangeries", "isCorrect": false },
+                    { "response": "Charcuteries", "isCorrect": false },
+                    { "response": "Bijouteries", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal accès à la Petite France?",
+                "question": "Quel est le nom du célèbre restaurant situé dans la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Tramway", "isCorrect": true },
-                    { "response": "Bus", "isCorrect": false },
-                    { "response": "Taxi", "isCorrect": false },
-                    { "response": "Vélo", "isCorrect": false }
+                    { "response": "Maison des Tanneurs", "isCorrect": true },
+                    { "response": "La Petite Venise", "isCorrect": false },
+                    { "response": "Le Gourmet", "isCorrect": false },
+                    { "response": "Chez Pierre", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau de la façade des bâtiments de la Petite France?",
+                "question": "Quel est le nom de l'église située dans la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Bois", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Métal", "isCorrect": false }
+                    { "response": "Église Saint-Thomas", "isCorrect": true },
+                    { "response": "Église Saint-Pierre", "isCorrect": false },
+                    { "response": "Église Saint-Paul", "isCorrect": false },
+                    { "response": "Église Saint-Jean", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement historique associé à la Petite France?",
+                "question": "Quel est le nom du musée situé dans la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Inauguration", "isCorrect": true },
-                    { "response": "Révolution française", "isCorrect": false },
-                    { "response": "Exposition universelle", "isCorrect": false },
-                    { "response": "Guerre mondiale", "isCorrect": false }
+                    { "response": "Musée Alsacien", "isCorrect": true },
+                    { "response": "Musée d'Art Moderne", "isCorrect": false },
+                    { "response": "Musée Historique", "isCorrect": false },
+                    { "response": "Musée de la Ville", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal rôle de la Petite France aujourd'hui?",
+                "question": "Quel est le nom de la rue principale de la Petite France?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Quartier touristique", "isCorrect": true },
-                    { "response": "Musée", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
+                    { "response": "Rue des Dentelles", "isCorrect": true },
+                    { "response": "Rue des Tanneurs", "isCorrect": false },
+                    { "response": "Rue des Orfèvres", "isCorrect": false },
+                    { "response": "Rue des Serruriers", "isCorrect": false }
                 ]
             }
         ]
@@ -243,6 +245,7 @@
         "image": "palais_rohan.jpg",
         "latitude": 48.5815,
         "longitude": 7.7511,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Palais_Rohan_(Strasbourg)",
         "questions": [
             {
                 "question": "En quelle année le Palais Rohan a-t-il été construit?",
@@ -250,9 +253,9 @@
                 "isAnswered": false,
                 "response": [
                     { "response": "1742", "isCorrect": true },
+                    { "response": "1700", "isCorrect": false },
                     { "response": "1800", "isCorrect": false },
-                    { "response": "1600", "isCorrect": false },
-                    { "response": "1900", "isCorrect": false }
+                    { "response": "1600", "isCorrect": false }
                 ]
             },
             {
@@ -267,18 +270,29 @@
                 ]
             },
             {
-                "question": "Quelle est la fonction principale du Palais Rohan aujourd'hui?",
+                "question": "Quel musée est situé dans le Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Musée", "isCorrect": true },
-                    { "response": "Hôtel", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
+                    { "response": "Musée des Beaux-Arts", "isCorrect": true },
+                    { "response": "Musée d'Art Moderne", "isCorrect": false },
+                    { "response": "Musée Historique", "isCorrect": false },
+                    { "response": "Musée de la Ville", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau utilisé pour la construction du Palais Rohan?",
+                "question": "Quel est le nom de l'architecte du Palais Rohan?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Robert de Cotte", "isCorrect": true },
+                    { "response": "Jules Hardouin-Mansart", "isCorrect": false },
+                    { "response": "André Le Nôtre", "isCorrect": false },
+                    { "response": "Louis Le Vau", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le matériau principal utilisé pour la construction du Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
@@ -289,188 +303,538 @@
                 ]
             },
             {
-                "question": "Quel est le principal événement culturel associé au Palais Rohan?",
+                "question": "Quel est le nom de la salle principale du Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Expositions", "isCorrect": true },
-                    { "response": "Concerts", "isCorrect": false },
-                    { "response": "Opéra", "isCorrect": false },
-                    { "response": "Ballet", "isCorrect": false }
+                    { "response": "Salle des Fêtes", "isCorrect": true },
+                    { "response": "Salle des Gardes", "isCorrect": false },
+                    { "response": "Salle des Rois", "isCorrect": false },
+                    { "response": "Salle des Ducs", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal point de vue depuis le Palais Rohan?",
+                "question": "Quel est le nom du jardin situé derrière le Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Vue sur la Cathédrale", "isCorrect": true },
-                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
-                    { "response": "Vue sur le Louvre", "isCorrect": false },
-                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                    { "response": "Jardin de l'Orangerie", "isCorrect": true },
+                    { "response": "Jardin des Plantes", "isCorrect": false },
+                    { "response": "Jardin des Tuileries", "isCorrect": false },
+                    { "response": "Jardin du Luxembourg", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal accès au Palais Rohan?",
+                "question": "Quel est le nom de la rivière qui passe à côté du Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Tramway", "isCorrect": true },
-                    { "response": "Bus", "isCorrect": false },
-                    { "response": "Taxi", "isCorrect": false },
-                    { "response": "Vélo", "isCorrect": false }
+                    { "response": "L'Ill", "isCorrect": true },
+                    { "response": "Le Rhin", "isCorrect": false },
+                    { "response": "La Seine", "isCorrect": false },
+                    { "response": "La Loire", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau de la façade du Palais Rohan?",
+                "question": "Quel est le nom de la chapelle située dans le Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Pierre", "isCorrect": true },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Bois", "isCorrect": false },
-                    { "response": "Métal", "isCorrect": false }
+                    { "response": "Chapelle Palatine", "isCorrect": true },
+                    { "response": "Chapelle Royale", "isCorrect": false },
+                    { "response": "Chapelle Impériale", "isCorrect": false },
+                    { "response": "Chapelle Ducale", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement historique associé au Palais Rohan?",
+                "question": "Quel est le nom de la bibliothèque située dans le Palais Rohan?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Inauguration", "isCorrect": true },
-                    { "response": "Révolution française", "isCorrect": false },
-                    { "response": "Exposition universelle", "isCorrect": false },
-                    { "response": "Guerre mondiale", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal rôle du Palais Rohan aujourd'hui?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Musée", "isCorrect": true },
-                    { "response": "Hôtel", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
+                    { "response": "Bibliothèque Nationale et Universitaire", "isCorrect": true },
+                    { "response": "Bibliothèque Municipale", "isCorrect": false },
+                    { "response": "Bibliothèque de l'Université", "isCorrect": false },
+                    { "response": "Bibliothèque de la Ville", "isCorrect": false }
                 ]
             }
         ]
     },
     {
-        "name": "Parlement Européen",
-        "description": "Le siège officiel du Parlement européen, situé dans le quartier européen de Strasbourg.",
-        "image": "parlement_europeen.jpg",
-        "latitude": 48.5977,
-        "longitude": 7.7718,
+        "name": "Ponts Couverts",
+        "description": "Un ensemble de ponts et de tours fortifiées datant du Moyen Âge.",
+        "image": "ponts_couverts.jpg",
+        "latitude": 48.5794,
+        "longitude": 7.7386,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Ponts_couverts_(Strasbourg)",
         "questions": [
             {
-                "question": "En quelle année le Parlement Européen de Strasbourg a-t-il été inauguré?",
+                "question": "À quelle époque les Ponts Couverts de Strasbourg ont-ils été construits?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "1999", "isCorrect": true },
-                    { "response": "2000", "isCorrect": false },
-                    { "response": "1990", "isCorrect": false },
-                    { "response": "1980", "isCorrect": false }
+                    { "response": "Moyen Âge", "isCorrect": true },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Époque moderne", "isCorrect": false },
+                    { "response": "Antiquité", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal rôle du Parlement Européen?",
+                "question": "Combien de tours fortifiées composent les Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Législation européenne", "isCorrect": true },
-                    { "response": "Musée", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
+                    { "response": "4", "isCorrect": true },
+                    { "response": "3", "isCorrect": false },
+                    { "response": "5", "isCorrect": false },
+                    { "response": "6", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quelle est la superficie du Parlement Européen?",
+                "question": "Quel est le rôle historique des Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "220 000 m²", "isCorrect": true },
-                    { "response": "200 000 m²", "isCorrect": false },
-                    { "response": "250 000 m²", "isCorrect": false },
-                    { "response": "300 000 m²", "isCorrect": false }
+                    { "response": "Défense de la ville", "isCorrect": true },
+                    { "response": "Commerce fluvial", "isCorrect": false },
+                    { "response": "Passage piéton", "isCorrect": false },
+                    { "response": "Lieu de marché", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau utilisé pour la construction du Parlement Européen?",
+                "question": "Quel cours d'eau est traversé par les Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Verre et acier", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "L'Ill", "isCorrect": true },
+                    { "response": "Le Rhin", "isCorrect": false },
+                    { "response": "La Seine", "isCorrect": false },
+                    { "response": "La Loire", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le matériau principal utilisé pour la construction des tours des Ponts Couverts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
                     { "response": "Bois", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false }
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement culturel associé au Parlement Européen?",
+                "question": "Quel est le nom de la passerelle piétonne située près des Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Sessions plénières", "isCorrect": true },
-                    { "response": "Concerts", "isCorrect": false },
-                    { "response": "Expositions", "isCorrect": false },
-                    { "response": "Ballet", "isCorrect": false }
+                    { "response": "Passerelle des Juifs", "isCorrect": true },
+                    { "response": "Passerelle des Arts", "isCorrect": false },
+                    { "response": "Passerelle des Amoureux", "isCorrect": false },
+                    { "response": "Passerelle des Écluses", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal point de vue depuis le Parlement Européen?",
+                "question": "Quel est le nom du quartier où se trouvent les Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Vue sur le quartier européen", "isCorrect": true },
-                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
-                    { "response": "Vue sur le Louvre", "isCorrect": false },
-                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                    { "response": "Quartier de la Petite France", "isCorrect": true },
+                    { "response": "Quartier de la Gare", "isCorrect": false },
+                    { "response": "Quartier de l'Orangerie", "isCorrect": false },
+                    { "response": "Quartier de la Krutenau", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal accès au Parlement Européen?",
+                "question": "Quel est le nom de l'église située près des Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Tramway", "isCorrect": true },
-                    { "response": "Bus", "isCorrect": false },
-                    { "response": "Taxi", "isCorrect": false },
-                    { "response": "Vélo", "isCorrect": false }
+                    { "response": "Église Saint-Thomas", "isCorrect": true },
+                    { "response": "Église Saint-Pierre-le-Jeune", "isCorrect": false },
+                    { "response": "Église Saint-Paul", "isCorrect": false },
+                    { "response": "Église Saint-Jean", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau de la façade du Parlement Européen?",
+                "question": "Quel est le nom du musée situé près des Ponts Couverts?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Verre et acier", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Musée d'Art Moderne", "isCorrect": true },
+                    { "response": "Musée Historique", "isCorrect": false },
+                    { "response": "Musée Alsacien", "isCorrect": false },
+                    { "response": "Musée de la Ville", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de la rue principale menant aux Ponts Couverts?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Rue du Bain-aux-Plantes", "isCorrect": true },
+                    { "response": "Rue des Tanneurs", "isCorrect": false },
+                    { "response": "Rue des Orfèvres", "isCorrect": false },
+                    { "response": "Rue des Serruriers", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Place Kléber",
+        "description": "La place centrale de Strasbourg, nommée en l'honneur du général Jean-Baptiste Kléber.",
+        "image": "place_kleber.jpg",
+        "latitude": 48.5842,
+        "longitude": 7.7458,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_Kl%C3%A9ber",
+        "questions": [
+            {
+                "question": "En l'honneur de qui la Place Kléber a-t-elle été nommée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Jean-Baptiste Kléber", "isCorrect": true },
+                    { "response": "Napoléon Bonaparte", "isCorrect": false },
+                    { "response": "Louis XIV", "isCorrect": false },
+                    { "response": "Charles de Gaulle", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal monument situé sur la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La statue de Kléber", "isCorrect": true },
+                    { "response": "La fontaine de Neptune", "isCorrect": false },
+                    { "response": "L'obélisque", "isCorrect": false },
+                    { "response": "La colonne de Juillet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel événement célèbre se tient chaque année sur la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le marché de Noël", "isCorrect": true },
+                    { "response": "Le festival de jazz", "isCorrect": false },
+                    { "response": "La fête de la musique", "isCorrect": false },
+                    { "response": "Le carnaval", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural des bâtiments autour de la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le symbole représenté au centre de la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La croix occitane", "isCorrect": true },
+                    { "response": "La tour Eiffel", "isCorrect": false },
+                    { "response": "L'arc de triomphe", "isCorrect": false },
+                    { "response": "La statue de la Liberté", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le matériau principal utilisé pour le pavage de la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
                     { "response": "Bois", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false }
+                    { "response": "Métal", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement historique associé au Parlement Européen?",
+                "question": "Quel est le nom du célèbre café situé sur la Place Kléber?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Inauguration", "isCorrect": true },
-                    { "response": "Révolution française", "isCorrect": false },
-                    { "response": "Exposition universelle", "isCorrect": false },
-                    { "response": "Guerre mondiale", "isCorrect": false }
+                    { "response": "Café de l'Opéra", "isCorrect": true },
+                    { "response": "Café de la Paix", "isCorrect": false },
+                    { "response": "Café des Arts", "isCorrect": false },
+                    { "response": "Café du Théâtre", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal rôle du Parlement Européen aujourd'hui?",
+                "question": "Quel est le nom de la rue principale menant à la Place Kléber?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Législation européenne", "isCorrect": true },
-                    { "response": "Musée", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
+                    { "response": "Rue des Grandes Arcades", "isCorrect": true },
+                    { "response": "Rue des Petites Arcades", "isCorrect": false },
+                    { "response": "Rue des Orfèvres", "isCorrect": false },
+                    { "response": "Rue des Serruriers", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de l'hôtel situé sur la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Hôtel de l'Europe", "isCorrect": true },
+                    { "response": "Hôtel de la Ville", "isCorrect": false },
+                    { "response": "Hôtel de la Paix", "isCorrect": false },
+                    { "response": "Hôtel des Arts", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du centre commercial situé près de la Place Kléber?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Centre commercial Rivetoile", "isCorrect": true },
+                    { "response": "Centre commercial Les Halles", "isCorrect": false },
+                    { "response": "Centre commercial La Fayette", "isCorrect": false },
+                    { "response": "Centre commercial Les Arcades", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jardin des Deux Rives",
+        "description": "Un parc transfrontalier reliant Strasbourg à Kehl, en Allemagne.",
+        "image": "jardin_deux_rives.jpg",
+        "latitude": 48.5734,
+        "longitude": 7.7972,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Jardin_des_deux_Rives",
+        "questions": [
+            {
+                "question": "Quel est le concept unique du Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "C'est un parc transfrontalier", "isCorrect": true },
+                    { "response": "C'est le plus grand parc de France", "isCorrect": false },
+                    { "response": "Il abrite un zoo", "isCorrect": false },
+                    { "response": "Il est situé sur une île", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel pont relie les deux rives du Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Passerelle Mimram", "isCorrect": true },
+                    { "response": "Pont de l'Europe", "isCorrect": false },
+                    { "response": "Pont Vauban", "isCorrect": false },
+                    { "response": "Pont du Rhin", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel événement culturel se déroule souvent au Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Des concerts en plein air", "isCorrect": true },
+                    { "response": "Des expositions d'art", "isCorrect": false },
+                    { "response": "Des compétitions sportives", "isCorrect": false },
+                    { "response": "Des foires agricoles", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie totale du Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "60 hectares", "isCorrect": true },
+                    { "response": "30 hectares", "isCorrect": false },
+                    { "response": "100 hectares", "isCorrect": false },
+                    { "response": "50 hectares", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel type de jardin peut-on trouver dans le Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Un jardin franco-allemand", "isCorrect": true },
+                    { "response": "Un jardin japonais", "isCorrect": false },
+                    { "response": "Un jardin botanique", "isCorrect": false },
+                    { "response": "Un jardin médiéval", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de la ville allemande reliée par le Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Kehl", "isCorrect": true },
+                    { "response": "Freiburg", "isCorrect": false },
+                    { "response": "Karlsruhe", "isCorrect": false },
+                    { "response": "Stuttgart", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de l'artiste qui a conçu la Passerelle Mimram?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marc Mimram", "isCorrect": true },
+                    { "response": "Jean Nouvel", "isCorrect": false },
+                    { "response": "Frank Gehry", "isCorrect": false },
+                    { "response": "Zaha Hadid", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du festival qui se tient au Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival des Deux Rives", "isCorrect": true },
+                    { "response": "Festival de la Musique", "isCorrect": false },
+                    { "response": "Festival des Arts", "isCorrect": false },
+                    { "response": "Festival de la Danse", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de la sculpture célèbre située dans le Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'Arbre de la Liberté", "isCorrect": true },
+                    { "response": "La Statue de la Paix", "isCorrect": false },
+                    { "response": "Le Monument de l'Amitié", "isCorrect": false },
+                    { "response": "La Colonne de l'Unité", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du parc adjacent au Jardin des Deux Rives?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Parc de l'Orangerie", "isCorrect": true },
+                    { "response": "Parc de la Citadelle", "isCorrect": false },
+                    { "response": "Parc de la Musique", "isCorrect": false },
+                    { "response": "Parc de la Liberté", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Opéra national du Rhin",
+        "description": "Un opéra situé à Strasbourg, connu pour ses productions de haute qualité.",
+        "image": "opera_national_du_rhin.jpg",
+        "latitude": 48.5846,
+        "longitude": 7.7461,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Op%C3%A9ra_national_du_Rhin",
+        "questions": [
+            {
+                "question": "Pour quoi l'Opéra national du Rhin est-il particulièrement connu?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ses productions de haute qualité", "isCorrect": true },
+                    { "response": "Son architecture baroque", "isCorrect": false },
+                    { "response": "Son orchestre symphonique", "isCorrect": false },
+                    { "response": "Ses ballets", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année l'Opéra national du Rhin a-t-il été fondé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1972", "isCorrect": true },
+                    { "response": "1980", "isCorrect": false },
+                    { "response": "1965", "isCorrect": false },
+                    { "response": "1990", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du chef d'orchestre principal de l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marko Letonja", "isCorrect": true },
+                    { "response": "Gustavo Dudamel", "isCorrect": false },
+                    { "response": "Riccardo Muti", "isCorrect": false },
+                    { "response": "Simon Rattle", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le style architectural de l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel célèbre compositeur a vu ses œuvres jouées à l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Richard Wagner", "isCorrect": true },
+                    { "response": "Ludwig van Beethoven", "isCorrect": false },
+                    { "response": "Johann Sebastian Bach", "isCorrect": false },
+                    { "response": "Franz Liszt", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de la salle principale de l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Salle Ponnelle", "isCorrect": true },
+                    { "response": "Salle Garnier", "isCorrect": false },
+                    { "response": "Salle Bastille", "isCorrect": false },
+                    { "response": "Salle Châtelet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du festival annuel organisé par l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Festival Arsmondo", "isCorrect": true },
+                    { "response": "Festival de l'Automne", "isCorrect": false },
+                    { "response": "Festival de Printemps", "isCorrect": false },
+                    { "response": "Festival d'Été", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du directeur artistique de l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Eva Kleinitz", "isCorrect": true },
+                    { "response": "Stéphane Lissner", "isCorrect": false },
+                    { "response": "Serge Dorny", "isCorrect": false },
+                    { "response": "Peter Gelb", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom de l'orchestre associé à l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Orchestre Philharmonique de Strasbourg", "isCorrect": true },
+                    { "response": "Orchestre National de France", "isCorrect": false },
+                    { "response": "Orchestre de Paris", "isCorrect": false },
+                    { "response": "Orchestre de l'Opéra de Lyon", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le nom du ballet associé à l'Opéra national du Rhin?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ballet du Rhin", "isCorrect": true },
+                    { "response": "Ballet de l'Opéra de Paris", "isCorrect": false },
+                    { "response": "Ballet de l'Opéra de Lyon", "isCorrect": false },
+                    { "response": "Ballet de l'Opéra de Bordeaux", "isCorrect": false }
                 ]
             }
         ]

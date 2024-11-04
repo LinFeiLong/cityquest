@@ -1,10 +1,11 @@
 [
     {
         "name": "Promenade des Anglais",
-        "description": "Une célèbre promenade longeant la baie des Anges à Nice, connue pour ses vues panoramiques sur la mer Méditerranée.",
+        "description": "Une célèbre promenade longeant la baie des Anges à Nice, connue pour ses plages et ses palmiers.",
         "image": "promenade_des_anglais.jpg",
         "latitude": 43.6956,
         "longitude": 7.2718,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Promenade_des_Anglais",
         "questions": [
             {
                 "question": "En quelle année la Promenade des Anglais a-t-elle été inaugurée?",
@@ -120,10 +121,11 @@
     },
     {
         "name": "Vieux Nice",
-        "description": "Le quartier historique de Nice, connu pour ses ruelles étroites, ses marchés et ses bâtiments colorés.",
+        "description": "Le quartier historique de Nice, avec ses ruelles étroites, ses marchés et ses bâtiments colorés.",
         "image": "vieux_nice.jpg",
-        "latitude": 43.6977,
-        "longitude": 7.2719,
+        "latitude": 43.6972,
+        "longitude": 7.2768,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Vieux-Nice",
         "questions": [
             {
                 "question": "Quel est le principal marché du Vieux Nice?",
@@ -239,10 +241,11 @@
     },
     {
         "name": "Cathédrale Sainte-Réparate",
-        "description": "La cathédrale principale de Nice, située dans le Vieux Nice, dédiée à Sainte Réparate.",
+        "description": "Une cathédrale baroque située dans le Vieux Nice, dédiée à Sainte Réparate.",
         "image": "cathedrale_sainte_reparate.jpg",
-        "latitude": 43.6972,
-        "longitude": 7.2734,
+        "latitude": 43.6975,
+        "longitude": 7.2735,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Sainte-R%C3%A9parate_de_Nice",
         "questions": [
             {
                 "question": "En quelle année la Cathédrale Sainte-Réparate a-t-elle été consacrée?",
@@ -358,10 +361,11 @@
     },
     {
         "name": "Musée Matisse",
-        "description": "Un musée dédié à l'œuvre de l'artiste Henri Matisse, situé dans le quartier de Cimiez à Nice.",
+        "description": "Un musée dédié à l'œuvre de l'artiste Henri Matisse, situé dans le quartier de Cimiez.",
         "image": "musee_matisse.jpg",
         "latitude": 43.7204,
         "longitude": 7.2769,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Matisse_(Nice)",
         "questions": [
             {
                 "question": "En quelle année le Musée Matisse a-t-il été inauguré?",
@@ -477,10 +481,11 @@
     },
     {
         "name": "Colline du Château",
-        "description": "Un parc situé sur une colline offrant une vue panoramique sur Nice et la mer Méditerranée.",
+        "description": "Un parc offrant une vue panoramique sur Nice et la Méditerranée, situé sur une colline surplombant la ville.",
         "image": "colline_du_chateau.jpg",
-        "latitude": 43.6945,
-        "longitude": 7.2799,
+        "latitude": 43.6946,
+        "longitude": 7.2792,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Colline_du_Ch%C3%A2teau",
         "questions": [
             {
                 "question": "En quelle année la Colline du Château a-t-elle été aménagée en parc?",
@@ -596,10 +601,11 @@
     },
     {
         "name": "Place Masséna",
-        "description": "La place principale de Nice, connue pour son architecture néoclassique et ses événements culturels.",
+        "description": "La place principale de Nice, connue pour ses bâtiments rouges et ses statues modernes.",
         "image": "place_massena.jpg",
-        "latitude": 43.6955,
-        "longitude": 7.2719,
+        "latitude": 43.695,
+        "longitude": 7.271,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_Mass%C3%A9na",
         "questions": [
             {
                 "question": "En quelle année la Place Masséna a-t-elle été inaugurée?",
@@ -714,11 +720,252 @@
         ]
     },
     {
+        "name": "Marché aux Fleurs Cours Saleya",
+        "description": "Un marché coloré dans le Vieux Nice, célèbre pour ses fleurs, ses fruits et ses légumes.",
+        "image": "marche_aux_fleurs.jpg",
+        "latitude": 43.6959,
+        "longitude": 7.2733,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cours_Saleya",
+        "questions": [
+            {
+                "question": "Quel est le principal marché du Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marché aux fleurs", "isCorrect": true },
+                    { "response": "Marché aux poissons", "isCorrect": false },
+                    { "response": "Marché aux puces", "isCorrect": false },
+                    { "response": "Marché aux légumes", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal style architectural du Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Baroque", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la principale église du Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Cathédrale Sainte-Réparate", "isCorrect": true },
+                    { "response": "Basilique Saint-Sernin", "isCorrect": false },
+                    { "response": "Église Saint-Pierre", "isCorrect": false },
+                    { "response": "Église Saint-Paul", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Carnaval de Nice", "isCorrect": true },
+                    { "response": "Festival de Cannes", "isCorrect": false },
+                    { "response": "Fête de la Musique", "isCorrect": false },
+                    { "response": "Nuit Blanche", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la colline du Château", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade des bâtiments du Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Vieux Nice aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Quartier historique", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal attrait touristique du Vieux Nice?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ruelles pittoresques", "isCorrect": true },
+                    { "response": "Musées", "isCorrect": false },
+                    { "response": "Théâtres", "isCorrect": false },
+                    { "response": "Cinémas", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musée d'Art Moderne et d'Art Contemporain (MAMAC)",
+        "description": "Un musée présentant des œuvres d'art moderne et contemporain, situé près de la place Garibaldi.",
+        "image": "mamac.jpg",
+        "latitude": 43.701,
+        "longitude": 7.281,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%27art_moderne_et_d%27art_contemporain_de_Nice",
+        "questions": [
+            {
+                "question": "En quelle année le MAMAC a-t-il été inauguré?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1990", "isCorrect": true },
+                    { "response": "1980", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false },
+                    { "response": "2010", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal thème du MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Art moderne et contemporain", "isCorrect": true },
+                    { "response": "Histoire de Nice", "isCorrect": false },
+                    { "response": "Sculpture", "isCorrect": false },
+                    { "response": "Peinture classique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "4 000 m²", "isCorrect": true },
+                    { "response": "2 000 m²", "isCorrect": false },
+                    { "response": "5 000 m²", "isCorrect": false },
+                    { "response": "6 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau utilisé pour la construction du MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Béton", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Expositions", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la ville de Nice", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Tramway", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Béton", "isCorrect": true },
+                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au MAMAC?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du MAMAC aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false },
+                    { "response": "Théâtre", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Jardin Albert 1er",
-        "description": "Un des plus anciens jardins publics de Nice, situé entre la Place Masséna et la Promenade des Anglais.",
+        "description": "Un jardin public situé entre la Promenade des Anglais et la place Masséna, idéal pour se détendre.",
         "image": "jardin_albert_1er.jpg",
-        "latitude": 43.6951,
-        "longitude": 7.2654,
+        "latitude": 43.695,
+        "longitude": 7.265,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Jardin_Albert-Ier",
         "questions": [
             {
                 "question": "En quelle année le Jardin Albert 1er a-t-il été créé?",
@@ -833,80 +1080,81 @@
         ]
     },
     {
-        "name": "Musée d'Art Moderne et d'Art Contemporain (MAMAC)",
-        "description": "Un musée dédié à l'art moderne et contemporain, situé au cœur de Nice.",
-        "image": "mamac.jpg",
-        "latitude": 43.7010,
-        "longitude": 7.2712,
+        "name": "Cathédrale Orthodoxe Russe Saint-Nicolas",
+        "description": "Une cathédrale orthodoxe russe, l'une des plus grandes en dehors de la Russie, située à Nice.",
+        "image": "cathedrale_orthodoxe_russe.jpg",
+        "latitude": 43.704,
+        "longitude": 7.262,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_orthodoxe_russe_Saint-Nicolas_de_Nice",
         "questions": [
             {
-                "question": "En quelle année le MAMAC a-t-il été inauguré?",
+                "question": "En quelle année la Cathédrale Orthodoxe Russe Saint-Nicolas a-t-elle été construite?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "1990", "isCorrect": true },
-                    { "response": "1980", "isCorrect": false },
-                    { "response": "2000", "isCorrect": false },
-                    { "response": "2010", "isCorrect": false }
+                    { "response": "1900", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1950", "isCorrect": false },
+                    { "response": "2000", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal thème du MAMAC?",
+                "question": "Quel est le style architectural de la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Art moderne et contemporain", "isCorrect": true },
-                    { "response": "Histoire de Nice", "isCorrect": false },
-                    { "response": "Sculpture", "isCorrect": false },
-                    { "response": "Peinture classique", "isCorrect": false }
+                    { "response": "Baroque", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Néoclassique", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quelle est la superficie du MAMAC?",
+                "question": "Quelle est la fonction principale de la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "4 000 m²", "isCorrect": true },
-                    { "response": "2 000 m²", "isCorrect": false },
-                    { "response": "5 000 m²", "isCorrect": false },
-                    { "response": "6 000 m²", "isCorrect": false }
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal matériau utilisé pour la construction du MAMAC?",
+                "question": "Quel est le principal matériau utilisé pour la construction de la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Béton", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
                     { "response": "Bois", "isCorrect": false },
                     { "response": "Métal", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement culturel associé au MAMAC?",
+                "question": "Quel est le principal événement culturel associé à la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Expositions", "isCorrect": true },
-                    { "response": "Concerts", "isCorrect": false },
-                    { "response": "Opéra", "isCorrect": false },
-                    { "response": "Ballet", "isCorrect": false }
+                    { "response": "Fête de Sainte Réparate", "isCorrect": true },
+                    { "response": "Carnaval de Nice", "isCorrect": false },
+                    { "response": "Fête de la Musique", "isCorrect": false },
+                    { "response": "Nuit Blanche", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal point de vue depuis le MAMAC?",
+                "question": "Quel est le principal point de vue depuis la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Vue sur la ville de Nice", "isCorrect": true },
+                    { "response": "Vue sur le Vieux Nice", "isCorrect": true },
                     { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
                     { "response": "Vue sur le Louvre", "isCorrect": false },
                     { "response": "Vue sur Notre-Dame", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal accès au MAMAC?",
+                "question": "Quel est le principal accès à la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
@@ -917,36 +1165,36 @@
                 ]
             },
             {
-                "question": "Quel est le principal matériau de la façade du MAMAC?",
+                "question": "Quel est le principal matériau de la façade de la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Béton", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
                     { "response": "Bois", "isCorrect": false },
                     { "response": "Métal", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal événement historique associé au MAMAC?",
+                "question": "Quel est le principal événement historique associé à la Cathédrale Orthodoxe Russe Saint-Nicolas?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Consécration", "isCorrect": true },
                     { "response": "Révolution française", "isCorrect": false },
                     { "response": "Exposition universelle", "isCorrect": false },
                     { "response": "Guerre mondiale", "isCorrect": false }
                 ]
             },
             {
-                "question": "Quel est le principal rôle du MAMAC aujourd'hui?",
+                "question": "Quel est le principal rôle de la Cathédrale Orthodoxe Russe Saint-Nicolas aujourd'hui?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
-                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Lieu de culte", "isCorrect": true },
+                    { "response": "Musée", "isCorrect": false },
                     { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false },
-                    { "response": "Théâtre", "isCorrect": false }
+                    { "response": "Bibliothèque", "isCorrect": false }
                 ]
             }
         ]

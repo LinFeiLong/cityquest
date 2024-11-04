@@ -1,10 +1,11 @@
 [
     {
         "name": "Tour Eiffel",
-        "description": "Un symbole emblématique de Paris, la Tour Eiffel est une tour en fer forgé située sur le Champ de Mars.",
+        "description": "Un monument emblématique de Paris, construit pour l'Exposition universelle de 1889.",
         "image": "tour_eiffel.jpg",
         "latitude": 48.8584,
         "longitude": 2.2945,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Tour_Eiffel",
         "questions": [
             {
                 "question": "En quelle année la Tour Eiffel a-t-elle été achevée?",
@@ -124,6 +125,7 @@
         "image": "musee_du_louvre.jpg",
         "latitude": 48.8606,
         "longitude": 2.3376,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Louvre",
         "questions": [
             {
                 "question": "Quel est le tableau le plus célèbre du Louvre?",
@@ -243,6 +245,7 @@
         "image": "cathedrale_notre_dame.jpg",
         "latitude": 48.852968,
         "longitude": 2.349902,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris",
         "questions": [
             {
                 "question": "Quand la Cathédrale Notre-Dame a-t-elle été achevée?",
@@ -362,6 +365,7 @@
         "image": "arc_de_triomphe.jpg",
         "latitude": 48.8738,
         "longitude": 2.2950,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Arc_de_Triomphe_de_l%27%C3%89toile",
         "questions": [
             {
                 "question": "En quelle année l'Arc de Triomphe a-t-il été achevé?",
@@ -481,6 +485,7 @@
         "image": "sacre_coeur.jpg",
         "latitude": 48.8867,
         "longitude": 2.3431,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre",
         "questions": [
             {
                 "question": "En quelle année la construction du Sacré-Cœur a-t-elle commencé?",
@@ -600,6 +605,7 @@
         "image": "palais_garnier.jpg",
         "latitude": 48.8719,
         "longitude": 2.3316,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Palais_Garnier",
         "questions": [
             {
                 "question": "En quelle année le Palais Garnier a-t-il été inauguré?",
@@ -719,6 +725,7 @@
         "image": "pantheon.jpg",
         "latitude": 48.8462,
         "longitude": 2.3449,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Panth%C3%A9on_(Paris)",
         "questions": [
             {
                 "question": "En quelle année le Panthéon a-t-il été achevé?",
@@ -838,6 +845,7 @@
         "image": "chateau_versailles.jpg",
         "latitude": 48.8049,
         "longitude": 2.1204,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles",
         "questions": [
             {
                 "question": "En quelle année le Château de Versailles a-t-il été achevé?",
@@ -957,6 +965,7 @@
         "image": "centre_pompidou.jpg",
         "latitude": 48.8606,
         "longitude": 2.3522,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Centre_Pompidou",
         "questions": [
             {
                 "question": "En quelle année le Centre Pompidou a-t-il été inauguré?",
