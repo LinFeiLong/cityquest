@@ -10,7 +10,9 @@ import MapKit
 
 struct GameView: View {
     @Environment(\.colorScheme) var colorScheme
-    @State var selectedMonument: Monument = monuments.first! //Pas bien
+    @Binding var game: Game
+    
+//    @State var selectedMonument: Monument //Pas bien
     @State var isOnDestination: Bool = false
     @State var currentRoute: MKRoute?
     
@@ -20,23 +22,20 @@ struct GameView: View {
         return [buttonColor, textColor]
     }
     
+    var selectedMonument: Monument {
+        game.steps[game.indexOfStep].place
+    }
+    
     @State private var index: Int = 0
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             ZStack(alignment: .top) {
-                GameMapView(route: $currentRoute, selectedMonument: $selectedMonument, colors: colors)
+                GameMapView(indexOfStep: $game.indexOfStep, route: $currentRoute, selectedMonument: selectedMonument, colors: colors)
                 GameMapInfoView(route: currentRoute)
             }
             if isOnDestination {
-                GameQuestionsView(monument: selectedMonument, isPresented: $isOnDestination) {
-                    index += 1
-                    if index >= monuments.count {
-                        index = 0
-                    }
-                    selectedMonument = monuments[index]
-                    print(selectedMonument.name)
-                }
+                GameQuestionsView(game: $game, isPresented: $isOnDestination)
             } else {
                 HStack(alignment: .bottom) {
                     Button {
@@ -51,7 +50,7 @@ struct GameView: View {
                             }
                     }
                     Spacer()
-                    GameTabNav(selectedMonument: $selectedMonument)
+                    GameTabNav(game: $game)
                         
                 }
                 .padding(.horizontal, 25)
@@ -63,5 +62,6 @@ struct GameView: View {
 }
 
 #Preview {
-    GameView()
+    @Previewable @State var game: Game = Game()
+    GameView(game: $game)
 }

@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct GameMapView: View {
+    @Binding var indexOfStep: Int
     //Position de la camera
     @State var cameraPosition: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(
         // Position : Marseille
@@ -22,7 +23,7 @@ struct GameMapView: View {
     // Position de l'utilisateur régler sur Marseille
     @State private var userLocation = CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698)
     // Essai avec des Monuments
-    @Binding var selectedMonument: Monument
+    let selectedMonument: Monument
     
     let colors: [Color]
     
@@ -135,8 +136,6 @@ struct GameMapView: View {
 }
 
 struct AnnotationAnimationView: View {
-   
-    
     let selectedMonument: Monument
     let monument: Monument
     let index: Int
@@ -208,7 +207,7 @@ struct AnnotationAnimationView: View {
 }
 
 #Preview {
-    @Previewable @State var test = monuments[2]
+    @Previewable @State var indexOfStep: Int = 0
     @Previewable @State var route: MKRoute?
-    GameMapView(route: $route, selectedMonument: $test, colors: [.mainDark, .accent])
+    GameMapView(indexOfStep: $indexOfStep, route: $route, selectedMonument: monuments[2], colors: [.mainDark, .accent])
 }

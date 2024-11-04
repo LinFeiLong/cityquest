@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct GameFormView: View {
+    
+    @State private var monuments: [Monument] = []
+    @State private var game: Game = Game()
 
     @State private var isDatePickerVisible: Bool = true
-    @State private var selectedDate = Date()
-    @State private var selectedDuration: Double = 3
-    @State private var selectedDistance: Double = 5
     
     @State private var isLoading: Bool = false
     @State private var isCreated: Bool = false
+    @State private var gameIsReady: Bool = false
     
     func createGame() {
         Task {
@@ -48,14 +49,14 @@ struct GameFormView: View {
                             HStack {
                                 Spacer()
                                 // Date Picker
-                                DatePicker("", selection: $selectedDate, displayedComponents: [.date])
+                                DatePicker("", selection: $game.scheduled_date, displayedComponents: [.date])
                                     .labelsHidden()
                                     .datePickerStyle(CompactDatePickerStyle())
                                     .cornerRadius(10)
                                     .tint(.mainDark)
                                 
                                 // Time Picker
-                                DatePicker("", selection: $selectedDate, displayedComponents: [.hourAndMinute])
+                                DatePicker("", selection: $game.scheduled_date, displayedComponents: [.hourAndMinute])
                                     .labelsHidden()
                                     .datePickerStyle(CompactDatePickerStyle())
                                     .cornerRadius(10)
@@ -70,9 +71,9 @@ struct GameFormView: View {
                             .foregroundColor(.white)
                         // Duration Picker (Hour)
                         HStack {
-                            Slider(value: $selectedDuration, in: 1...10, step: 1)
+                            Slider(value: $game.durationMax, in: 1...10, step: 1)
                                 .accentColor(.accent)
-                            Text("\(selectedDuration, specifier: "%.0f") h")
+                            Text("\(game.durationMax, specifier: "%.0f") h")
                                 .foregroundColor(.white)
                         }
                     }
@@ -84,9 +85,9 @@ struct GameFormView: View {
                             .multilineTextAlignment(.leading)
                             .padding(.bottom, 10)
                         HStack {
-                            Slider(value: $selectedDistance, in: 5...50, step: 1)
+                            Slider(value: $game.distanceMax, in: 5...50, step: 1)
                                 .accentColor(.accent)
-                            Text("\(selectedDistance, specifier: "%.0f") km")
+                            Text("\(game.distanceMax, specifier: "%.0f") km")
                                 .foregroundColor(.white)
                         }
                     }
@@ -126,16 +127,54 @@ struct GameFormView: View {
                             }
                         }
                     }
-                    .disabled(isLoading)
+                    .disabled(isLoading || !gameIsReady)
                 }
                 .padding()
             }
             .navigationDestination(isPresented: $isCreated, destination: {
-                GameView()
+                GameView(game: $game)
                     .navigationBarHidden(true)
             })
         }
-        
+        .onAppear {
+            Task {
+                do {
+                    monuments.removeAll()
+                    let data = try await LoadJSONManager().loadJSON(from: "marseille")
+                    monuments = data
+                    // creation des étapes
+                    // Faire une array d'index unique
+                    var uniqueNumbers: Set<Int> = []
+                    for _ in 0..<5 {
+                        addRandomNumber(max: monuments.count, array: &uniqueNumbers)
+                    }
+                    // Parcourir l'array et créer chaque étape
+                    for index in uniqueNumbers {
+                        var newStep = Step(place: monuments[index])
+                        var uniqueQuestionIndex: Set<Int> = []
+                        for _ in 0..<5 {
+                            addRandomNumber(max: newStep.place.questions.count, array: &uniqueQuestionIndex)
+                        }
+                        for index in uniqueQuestionIndex {
+                            newStep.questions.append(newStep.place.questions[index])
+                        }
+                        print(newStep)
+                        game.steps.append(newStep)
+                    }
+                    gameIsReady.toggle()
+                }
+            }
+
+        }
+    }
+    
+    func addRandomNumber(max: Int, array: inout Set<Int>) {
+        let randomNumber = Int.random(in: 0..<max)
+        if !array.contains(randomNumber) {
+            array.insert(randomNumber)
+        } else {
+            addRandomNumber(max: max, array: &array)
+        }
     }
 }
 

@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct GameQuestionsView: View {
-    let monument: Monument
+    @Binding var game: Game
     @Binding var isPresented: Bool
     @State var appearAnim: Bool = false
-    var action: () -> Void
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -33,7 +32,6 @@ struct GameQuestionsView: View {
                         appearAnim.toggle()
                     } completion: {
                         isPresented.toggle()
-                        action()
                     }
                 }
             }
@@ -50,5 +48,6 @@ struct GameQuestionsView: View {
 }
 
 #Preview {
-    GameQuestionsView(monument: monuments.first!, isPresented: .constant(true), action: {})
+    @Previewable @State var game: Game = Game()
+    GameQuestionsView(game: $game, isPresented: .constant(true))
 }

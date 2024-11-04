@@ -11,7 +11,7 @@ import SwiftData
 struct cityquestApp: App {
     var body: some Scene {
         WindowGroup {
-            FirstView().modelContainer(for : User.self)
+            FirstView().modelContainer(for : [User.self])
         }
     }
 }
