@@ -6,23 +6,27 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct GameMapInfoView: View {
-    let distance: Double?
-    let duration: Double?
+    @Environment(\.dismiss) var dismiss
+    let route: MKRoute?
+    var notRoute: Bool {
+        route == nil
+    }
     
     var calculatedDistance: String {
-            guard let distance = distance else { return "Route indisponible" }
-            if distance > 1000 {
-                return "Distance : \(String(format: "%.2f", distance / 1000)) km"
+        guard let route = route else { return "--" }
+        if route.distance > 1000 {
+            return "\(String(format: "%.2f", route.distance / 1000)) km"
             } else {
-                return "Distance : \(String(format: "%.0f", distance)) m"
+                return "\(String(format: "%.0f", route.distance)) m"
             }
         }
         
         var calculatrdTime: String {
-            guard let eta = duration else { return "Temps indisponible" }
-            return convertTime(Int(eta))
+            guard let route = route else { return "--" }
+            return convertTime(Int(route.expectedTravelTime))
         }
         
         func convertTime(_ time: Int) -> String {
@@ -33,26 +37,55 @@ struct GameMapInfoView: View {
         }
     
     var body: some View {
-        RoundedRectangle(cornerRadius: 30.0)
-            .fill(.mainDark)
-            .frame(width: 200, height: 60)
-            .overlay {
-                VStack {
-                    Text(calculatedDistance)
-                    HStack(spacing: 0) {
-                        Image(systemName: "figure.walk")
-                        Text(calculatrdTime)
+        ZStack {
+            HStack {
+                Circle()
+                    .fill(.mainDark)
+                    .frame(width: 40)
+                    .overlay {
+                        Image(systemName: "arrowshape.backward.fill")
+                            .foregroundStyle(.white)
                     }
-                }
-                .foregroundStyle(.accent)
-                .font(.headline)
+                    .onTapGesture { dismiss() }
+                    .padding()
+                Spacer()
             }
-            .padding(.vertical, 10)
-            .shadow(radius: 2)
+            
+            RoundedRectangle(cornerRadius: 30.0)
+                .fill(.white)
+                .stroke(.mainDark, style: StrokeStyle(lineWidth: 1))
+                .frame(width: 260, height: 40)
+                .shadow(radius: 2)
+                .overlay {
+                    HStack {
+                        Spacer()
+                        if notRoute {
+                            Text("Pas d'itinéraire")
+                        } else {
+                            HStack {
+                                Image(systemName: "figure.walk")
+                                Text(calculatedDistance)
+                            }
+                            HStack(spacing: 0) {
+                                Image(systemName: "clock")
+                                Text(calculatrdTime)
+                            }
+                        }
+                        Spacer()
+                    }
+                    .foregroundStyle(.main)
+                    .font(.headline)
+                }
+                .padding(.vertical, 10)
+        }
     }
 }
 
 #Preview {
-    
-    GameMapInfoView(distance: 1203, duration: 666)
+    ZStack {
+        Color(.blue).ignoresSafeArea()
+        var route: MKRoute?
+        GameMapInfoView(route: route)
+    }
+
 }
