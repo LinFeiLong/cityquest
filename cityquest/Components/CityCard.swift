@@ -3,7 +3,7 @@ import SwiftUI
     // Composant card
 struct CityCard: View {
     var city: City
-    var onPlay: () -> Void
+     var progress : Double?
 
 
     var body: some View {
@@ -16,8 +16,9 @@ struct CityCard: View {
                     Spacer()
 
                     ZStack {
-                        RoundedRectangle(cornerRadius: 15, style: .continuous).fill( Color("MainColor").opacity(0.6)).containerRelativeFrame(.vertical, count: 20, span: 2, spacing: 0)
+                        RoundedRectangle(cornerRadius: 15, style: .continuous).fill( Color("MainColor").opacity(0.6)).containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
 
+                       // Text(city.name).font(.title.bold()).foregroundColor(Color("AccentColor")).padding(.trailing, 2)
                         HStack {
                             Text(city.name)
                                 .font(.title2.bold())
@@ -40,7 +41,7 @@ struct CityCard: View {
                                 .cornerRadius(8)
                             }
                             
-                            Button(action: onPlay) {
+                           
                                 HStack {
                                     Image(systemName: "play.circle")
                                     Text("Jouer")
@@ -53,7 +54,7 @@ struct CityCard: View {
 
                                 .cornerRadius(8)
 
-                            }
+
                         }
                         .padding(.horizontal,5)
 
@@ -72,9 +73,7 @@ struct CityCard: View {
 
 #Preview {
     NavigationStack {
-        CityCard(city: cityTest,
-            onPlay: { print("Jouer action") }
-        )
+        CityCard(city: cityTest)
     }
 
 }

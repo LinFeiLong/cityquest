@@ -11,7 +11,7 @@ import CoreLocation
 
 class Place : Identifiable, DetailProtocol, Codable {
 
-    let id = UUID()
+    var id = UUID()
     let name: String
     var description: String
     var image: String

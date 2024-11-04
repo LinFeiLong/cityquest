@@ -10,22 +10,24 @@ import CoreLocation
 import DeveloperToolsSupport
 
 
- class City: Identifiable, DetailProtocol {
+class City: Identifiable, DetailProtocol, Decodable {
 
     
-    let id = UUID()
+    let id : String
     let name: String
     var description: String
     var coordinate: Coordinate
     var image: String
-    var places: [Place]
-    var monuments: [Monument]
+    var places: [Place] = []
+    var monuments: [Monument] = []
+
 
     var location: CLLocationCoordinate2D {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    init(name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = []) {
+    init( id: String = UUID().uuidString, name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = []) {
+        self.id = id
         self.name = name
         self.description = description
         self.coordinate = coordinate
@@ -33,6 +35,11 @@ import DeveloperToolsSupport
         self.places = places
         self.monuments = monuments
     }
+
+    private enum CodingKeys: String, CodingKey {
+        case id, name, description, image, coordinate
+    }
+
 }
 
 
