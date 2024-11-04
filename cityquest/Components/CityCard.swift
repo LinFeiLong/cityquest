@@ -10,7 +10,7 @@ struct CityCard: View {
 
 
 //            ZStack {
-        Image(city.image)
+        Image(.imageTestMonument)
             .resizable().containerRelativeFrame(.vertical, count: 6, span: 2, spacing: 0).mask(RoundedRectangle(cornerRadius: 15, style: .continuous)).overlay {
                 VStack {
                     Spacer()
@@ -20,9 +20,9 @@ struct CityCard: View {
 
                         HStack {
                             Text(city.name)
-                                .font(.title.bold())
+                                .font(.title2.bold())
                                 .foregroundColor(Color("AccentColor"))
-                                .padding(.horizontal, 10)
+                                .padding(.trailing, 2)
                             //  Spacer()
                             
                             
@@ -32,7 +32,7 @@ struct CityCard: View {
                                     Text("Découvrir")
                                         .font(.subheadline)
                                 }
-                                .padding(.horizontal, 15)
+                                .padding(.horizontal, 12)
                                 .padding(.vertical, 5)
                                 .background(Color("AccentColor"))
 
@@ -46,14 +46,16 @@ struct CityCard: View {
                                     Text("Jouer")
                                         .font(.subheadline)
                                 }
-                                .padding(.horizontal, 15)
+                                .padding(.horizontal, 12)
                                 .padding(.vertical, 5)
                                 .background(Color("AccentColor"))
                                 .foregroundColor(Color("MainColor"))
+
                                 .cornerRadius(8)
+
                             }
                         }
-                        .padding(.vertical)
+                        .padding(.horizontal,5)
 
                     }
                 }

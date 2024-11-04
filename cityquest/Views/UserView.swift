@@ -149,6 +149,6 @@ extension UserView {
 
 #Preview {
 
-    UserView()
+    UserView().modelContainer(PreviewContainer.mc)
 
 }

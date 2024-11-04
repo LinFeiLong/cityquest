@@ -1,67 +1,205 @@
 {
-    "monument": {
-        "name": "Notre-Dame de la Garde",
-        "description": "Une basilique emblématique située sur une colline à Marseille, offrant une vue panoramique sur la ville.",
-        "image": "notre_dame_de_la_garde.jpg",
-        "latitude": 43.2851,
-        "longitude": 5.3698,
-        "questions": [
-            {
-                "question": "Quelle est la hauteur de Notre-Dame de la Garde?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "41 mètres", "isCorrect": true },
-                    { "response": "50 mètres", "isCorrect": false },
-                    { "response": "33 mètres", "isCorrect": false },
-                    { "response": "60 mètres", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "En quelle année a été inaugurée Notre-Dame de la Garde?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "1864", "isCorrect": true },
-                    { "response": "1854", "isCorrect": false },
-                    { "response": "1870", "isCorrect": false },
-                    { "response": "1882", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel surnom porte la basilique?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "La Bonne Mère", "isCorrect": true },
-                    { "response": "La Sainte", "isCorrect": false },
-                    { "response": "La Gardienne", "isCorrect": false },
-                    { "response": "Notre-Dame de Marseille", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel type de matériaux est principalement utilisé dans la basilique?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Marbre", "isCorrect": false },
-                    { "response": "Pierre calcaire", "isCorrect": false },
-                    { "response": "Pierre verte et blanche", "isCorrect": true },
-                    { "response": "Granit", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel célèbre peintre a immortalisé la basilique dans ses œuvres?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Paul Cézanne", "isCorrect": true },
-                    { "response": "Vincent Van Gogh", "isCorrect": false },
-                    { "response": "Henri Matisse", "isCorrect": false },
-                    { "response": "Claude Monet", "isCorrect": false }
-                ]
-            }
-        ]
-    }
+    "monuments": [
+        {
+            "name": "Notre-Dame de la Garde",
+            "description": "Une basilique emblématique située sur une colline à Marseille, offrant une vue panoramique sur la ville.",
+            "image": "notre_dame_de_la_garde.jpg",
+            "latitude": 43.2851,
+            "longitude": 5.3698,
+            "questions": [
+                {
+                    "question": "Quelle est la hauteur de Notre-Dame de la Garde?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "41 mètres", "isCorrect": true },
+                        { "response": "50 mètres", "isCorrect": false },
+                        { "response": "33 mètres", "isCorrect": false },
+                        { "response": "60 mètres", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "En quelle année a été inaugurée Notre-Dame de la Garde?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "1864", "isCorrect": true },
+                        { "response": "1854", "isCorrect": false },
+                        { "response": "1870", "isCorrect": false },
+                        { "response": "1882", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quel surnom porte la basilique?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "La Bonne Mère", "isCorrect": true },
+                        { "response": "La Sainte", "isCorrect": false },
+                        { "response": "La Gardienne", "isCorrect": false },
+                        { "response": "Notre-Dame de Marseille", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quel type de matériaux est principalement utilisé dans la basilique?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Marbre", "isCorrect": false },
+                        { "response": "Pierre calcaire", "isCorrect": false },
+                        { "response": "Pierre verte et blanche", "isCorrect": true },
+                        { "response": "Granit", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quel célèbre peintre a immortalisé la basilique dans ses œuvres?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Paul Cézanne", "isCorrect": true },
+                        { "response": "Vincent Van Gogh", "isCorrect": false },
+                        { "response": "Henri Matisse", "isCorrect": false },
+                        { "response": "Claude Monet", "isCorrect": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "La Vieille Charité",
+            "description": "Un ancien hospice situé dans le quartier du Panier à Marseille, devenu un centre culturel abritant divers musées et expositions.",
+            "image": "vieille_charite.jpg",
+            "latitude": 43.3028,
+            "longitude": 5.3683,
+            "questions": [
+                {
+                    "question": "Quel architecte a conçu la Vieille Charité?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Pierre Puget", "isCorrect": true },
+                        { "response": "Gustave Eiffel", "isCorrect": false },
+                        { "response": "Léon Gaudibert", "isCorrect": false },
+                        { "response": "Charles Garnier", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "En quelle année la construction de la Vieille Charité a-t-elle commencé?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "1671", "isCorrect": true },
+                        { "response": "1789", "isCorrect": false },
+                        { "response": "1650", "isCorrect": false },
+                        { "response": "1720", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quelle est la fonction principale de la Vieille Charité aujourd'hui?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Un centre culturel et musée", "isCorrect": true },
+                        { "response": "Un hôpital", "isCorrect": false },
+                        { "response": "Une université", "isCorrect": false },
+                        { "response": "Une mairie", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quel type de bâtiment représente la Vieille Charité?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Un hospice", "isCorrect": true },
+                        { "response": "Un château", "isCorrect": false },
+                        { "response": "Un palais", "isCorrect": false },
+                        { "response": "Une abbaye", "isCorrect": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Palais Longchamp",
+            "description": "Un palais construit pour célébrer l'arrivée de l'eau à Marseille via le canal de Marseille, abritant des musées et entouré de jardins.",
+            "image": "palais_longchamp.jpg",
+            "latitude": 43.3047,
+            "longitude": 5.3929,
+            "questions": [
+                {
+                    "question": "Quel est le but initial du Palais Longchamp?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Célébrer l'arrivée de l'eau à Marseille", "isCorrect": true },
+                        { "response": "Résidence royale", "isCorrect": false },
+                        { "response": "Un opéra", "isCorrect": false },
+                        { "response": "Un centre commercial", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quand a été inauguré le Palais Longchamp?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "1869", "isCorrect": true },
+                        { "response": "1900", "isCorrect": false },
+                        { "response": "1845", "isCorrect": false },
+                        { "response": "1890", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quels types de musées se trouvent dans le Palais Longchamp?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Musée des beaux-arts et d'histoire naturelle", "isCorrect": true },
+                        { "response": "Musée de la mode", "isCorrect": false },
+                        { "response": "Musée de la marine", "isCorrect": false },
+                        { "response": "Musée archéologique", "isCorrect": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fort Saint-Jean",
+            "description": "Une forteresse située à l'entrée du Vieux-Port de Marseille, un lieu stratégique ayant servi de défense pour la ville.",
+            "image": "fort_saint_jean.jpg",
+            "latitude": 43.2952,
+            "longitude": 5.3615,
+            "questions": [
+                {
+                    "question": "Quand a été construit le Fort Saint-Jean?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "1660", "isCorrect": true },
+                        { "response": "1520", "isCorrect": false },
+                        { "response": "1750", "isCorrect": false },
+                        { "response": "1800", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quel monument moderne est relié au Fort Saint-Jean?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Le MUCEM", "isCorrect": true },
+                        { "response": "La Vieille Charité", "isCorrect": false },
+                        { "response": "La Cathédrale de la Major", "isCorrect": false },
+                        { "response": "Le Palais Longchamp", "isCorrect": false }
+                    ]
+                },
+                {
+                    "question": "Quel est le rôle principal du Fort Saint-Jean aujourd'hui?",
+                    "isAnsweredCorrectly": false,
+                    "isAnswered": false,
+                    "response": [
+                        { "response": "Un site touristique et culturel", "isCorrect": true },
+                        { "response": "Une prison", "isCorrect": false },
+                        { "response": "Une caserne militaire", "isCorrect": false },
+                        { "response": "Un hôtel", "isCorrect": false }
+                    ]
+                }
+            ]
+        }
+    ]
 }
-

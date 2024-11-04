@@ -14,6 +14,7 @@ import SwiftData
     var username: String
     var email: String
     var avatarData: Data?
+    var history: [UUID: [UUID]] = [:]
 
 
 
@@ -31,3 +32,15 @@ import SwiftData
 
 }
 
+
+extension User {
+
+    func isVisited(idCity : UUID?, idMonument: UUID) -> Bool {
+        guard let monumentsIDVisited = history[idCity ?? UUID()] else {
+            return false
+        }
+        return monumentsIDVisited.contains(idMonument)
+
+    }
+
+}

@@ -31,7 +31,7 @@ struct FirstView: View {
                 )                }
 
             Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
-                MonudexView(monuments: monuments)
+                MonudexView(city: cityTest)
             }
             Tab("Profil", systemImage: "person") {
                 UserView()

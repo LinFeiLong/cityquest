@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct MonudexView: View {
-    let title: String = "Marseille"
-    let monuments : [Monument]
+    let city : City
     var body: some View {
 
         NavigationStack {
             ZStack {
                 Color.main.edgesIgnoringSafeArea(.all)
                 VStack() {
-                    Text(title).font(.title2).foregroundStyle(.accent).fontWeight(.semibold).padding(.vertical)
-                    GridCardPlacesComponent(places: monuments)
+                    Text(city.name).font(.title2).foregroundStyle(.accent).fontWeight(.semibold).padding(.vertical)
+                    GridCardPlacesComponent(places: city.monuments)
 
                     Spacer()
                 }.navigationTitle("Mon Monudex").navigationBarTitleTextColor(.accentColor)
@@ -27,6 +26,6 @@ struct MonudexView: View {
     }
 }
 #Preview {
-    MonudexView(monuments: monuments)
+    MonudexView(city: cityTest)
 }
 
