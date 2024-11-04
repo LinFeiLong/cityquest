@@ -28,15 +28,20 @@ struct FirstView: View {
                             image: ".imageTestMonument"
                         )
                     ]
-                )                }
-
-            Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
-                MonudexView(city: cityTest)
+                )
             }
+            
+            Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
+                MonudexView(monuments: cityTest)
+            }
+            
             Tab("Profil", systemImage: "person") {
                 UserView()
             }
-
+            
+            Tab("Wikipedia", systemImage: "book") {
+                WikipediaResultView(urlString: "https://en.wikipedia.org/wiki/Swift_(programming_language)")
+            }
         }
     }
 }
