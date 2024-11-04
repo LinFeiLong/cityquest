@@ -9,24 +9,46 @@ import SwiftUI
 
 struct GameQuestionsView: View {
     let monument: Monument
+    @Binding var isPresented: Bool
+    @State var appearAnim: Bool = false
+    var action: () -> Void
     
     var body: some View {
         ZStack(alignment: .top) {
             RoundedRectangle(cornerRadius: 30)
-                .fill(Color.mainDark.opacity(0.97))
+                .fill(Color.mainDark)
+                .shadow(radius: 10)
+                .padding(.top, 55)
             VStack {
-                Text("Game Questions")
+                // Question View
+                Text("Questions")
                     .font(.title)
                     .fontWeight(.bold)
-                    .foregroundColor(.accent)
-                    .padding(.top, 20)
+                    .foregroundColor(.white)
+                    .padding(.top, 75)
+                Text("Test")
+                Spacer()
+                Button("close") {
+                    withAnimation(.easeIn(duration: 0.25)) {
+                        appearAnim.toggle()
+                    } completion: {
+                        isPresented.toggle()
+                        action()
+                    }
+                }
             }
-                
+            .padding()
+        }
+        .scaleEffect(appearAnim ? 1 : 0)
+        .onAppear {
+            withAnimation(.spring(duration: 0.5, bounce: 0.4)) {
+                appearAnim.toggle()
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    GameQuestionsView(monument: monuments.first!)
+    GameQuestionsView(monument: monuments.first!, isPresented: .constant(true), action: {})
 }
