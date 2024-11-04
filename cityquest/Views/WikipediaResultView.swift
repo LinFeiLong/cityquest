@@ -107,7 +107,7 @@ func extractSrc(from html: String) -> String? {
 }
 
 func loadMonuments() -> [Monument]? {
-    guard let url = Bundle.main.url(forResource: "../Ressources/monuments/marseille", withExtension: "json") else {
+    guard let url = Bundle.main.url(forResource: "marseille", withExtension: "json") else {
         print("Failed to locate marseille.json in bundle.")
         return nil
     }
