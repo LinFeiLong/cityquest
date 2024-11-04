@@ -13,12 +13,8 @@ struct FirstView: View {
             Tab("Discover", systemImage: "magnifyingglass") {
                 DiscoverView(
                     citysList: [
-                        City(
-                            name: "Paris",
-                            description: "The city of lights",
-                            coordinate: Coordinate(latitude: 48.8566, longitude: 2.3522),
-                            image: ".imageTestMonument"
-                        ),
+                        cityTest
+                        ,
                         City(
                             name: "Marseille",
                             description: "The port city",
@@ -36,7 +32,7 @@ struct FirstView: View {
             }
             
             Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
-                MonudexView(monuments: monuments)
+                MonudexView(monuments: cityTest)
             }
             
             Tab("Profil", systemImage: "person") {
