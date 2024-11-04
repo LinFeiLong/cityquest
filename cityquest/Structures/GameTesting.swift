@@ -20,5 +20,5 @@ var cityTest = City(
     name: "Marseille",
     description: "Marseille, située dans le sud de la France, est une ville portuaire dynamique sur la mer Méditerranée, connue pour sa riche histoire et sa diversité culturelle. Fondée par les Grecs vers 600 avant J.-C., elle est la plus ancienne ville de France. Son Vieux-Port, animé par des marchés de poissons et bordé de cafés, est un lieu emblématique qui incarne l’esprit méditerranéen de la ville. Marseille est également célèbre pour la basilique Notre-Dame-de-la-Garde, perchée sur une colline, offrant une vue panoramique sur la ville et la mer, ainsi que pour sa spécialité culinaire, la bouillabaisse, un plat de poisson typique de la région.",
     coordinate: Coordinate(latitude: 43.28035875358548, longitude: 5.325267824949334),
-    image: ".marseilleAmarelo"
-)
+    image: ".marseilleAmarelo", monuments : monuments )
+

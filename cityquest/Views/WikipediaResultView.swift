@@ -5,38 +5,49 @@ import Foundation
 struct WikipediaResultView: View {
     @State private var formattedUrl: String = "Loading..."
     let urlString: String
+    @State private var monuments: [Monument] = []
 
     var body: some View {
         VStack {
-            if let url = URL(string: formattedUrl), formattedUrl != "Loading..." && formattedUrl != "No image source found." && formattedUrl != "Failed to fetch the page." {
-                AsyncImage(url: url) { image in
-                    image
-                        .resizable()
-                        .scaledToFit()
-                        .frame(maxWidth: 300, maxHeight: 300)
-                } placeholder: {
-                    ProgressView()
+//            if let url = URL(string: formattedUrl), formattedUrl != "Loading..." && formattedUrl != "No image source found." && formattedUrl != "Failed to fetch the page." {
+//                AsyncImage(url: url) { image in
+//                    image
+//                        .resizable()
+//                        .scaledToFit()
+//                        .frame(maxWidth: 300, maxHeight: 300)
+//                } placeholder: {
+//                    ProgressView()
+//                }
+//            } else {
+//                Text(formattedUrl)
+//                    .padding()
+//            }
+            List {
+                if !monuments.isEmpty {
+                    ForEach(monuments) { monument in
+                        Text(monument.name)
+                    }
+                } else {
+                    Text("No results found.")
                 }
-            } else {
-                Text(formattedUrl)
-                    .padding()
             }
         }
         .onAppear {
-            fetchWikipediaSource(urlString: urlString) { result in
-                DispatchQueue.main.async {
-                    switch result {
-                    case .success(let html):
-                        if let src = extractSrc(from: html) {
-                            formattedUrl = src
-                        } else {
-                            formattedUrl = "No image source found."
-                        }
-                    case .failure:
-                        formattedUrl = "Failed to fetch the page."
-                    }
-                }
-            }
+//            fetchWikipediaSource(urlString: urlString) { result in
+//                DispatchQueue.main.async {
+//                    switch result {
+//                    case .success(let html):
+//                        if let src = extractSrc(from: html) {
+//                            formattedUrl = src
+//                        } else {
+//                            formattedUrl = "No image source found."
+//                        }
+//                    case .failure:
+//                        formattedUrl = "Failed to fetch the page."
+//                    }
+//                }
+//            }
+            monuments = loadMonuments() ?? []
         }
     }
 }
@@ -93,6 +104,24 @@ func extractSrc(from html: String) -> String? {
     }
     
     return nil
+}
+
+func loadMonuments() -> [Monument]? {
+    guard let url = Bundle.main.url(forResource: "marseille", withExtension: "json") else {
+        print("Failed to locate marseille.json in bundle.")
+        return nil
+    }
+    
+    do {
+        let data = try Data(contentsOf: url)
+        print(data)
+        let decoder = JSONDecoder()
+        let monuments = try decoder.decode([Monument].self, from: data)
+        return monuments
+    } catch {
+        print("Failed to load or decode marseille.json: \(error)")
+        return nil
+    }
 }
 
 #Preview {
