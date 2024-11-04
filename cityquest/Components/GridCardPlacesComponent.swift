@@ -11,7 +11,7 @@ import SwiftData
 
 struct GridCardPlacesComponent: View {
     @Query var  user : [User]
-    var cityId : UUID?
+    var cityId : String?
     let places : [Place]
     var body: some View {
 
@@ -42,7 +42,7 @@ struct GridCardPlacesComponent: View {
                         NavigationLink {
                             DescriptionView(detailThing: monument)
                         } label: {
-                            CardPlaceComponent(place: monument, isHighlighted: user[0].isVisited(idCity: cityId, idMonument: monument.id)).shadow(radius: 5)
+                            CardPlaceComponent(place: monument, isHighlighted: user[0].isVisited(idCity: cityId, idMonument: "monument.id")).shadow(radius: 5)
                         }
 
 

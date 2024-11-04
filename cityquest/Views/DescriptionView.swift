@@ -22,9 +22,9 @@ struct DescriptionView: View {
                     VStack {
 
                         VStack(alignment: .leading) {
-                            Text("Les monuments phares :").font(.title2)
+                            Text("Les monuments phares :").foregroundStyle(.accent).fontWeight(.bold)
                             GridCardPlacesComponent(places: (detailThing as! City).monuments )
-                            Text("Les bonnes adresse :").font(.title2)
+                            Text("Les bonnes adresse :").foregroundStyle(.accent).fontWeight(.bold)
                             GridCardPlacesComponent(places: (detailThing as! City).places)
                         }
                     }.padding()
@@ -41,3 +41,4 @@ struct DescriptionView: View {
         DescriptionView(detailThing: cityTest)
     }
 }
+
