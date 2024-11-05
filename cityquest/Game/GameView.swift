@@ -18,8 +18,8 @@ struct GameView: View {
 //    @State var currentRoute: MKRoute?
     
     var colors: [Color] {
-        let buttonColor = colorScheme == .dark ? Color.accent : Color.main
-        let textColor = colorScheme == .dark ? Color.main : Color.accent
+        let buttonColor = colorScheme == .dark ? Color.accent : .color
+        let textColor = colorScheme == .dark ? .color : Color.accent
         return [buttonColor, textColor]
     }
     

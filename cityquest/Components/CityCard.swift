@@ -20,7 +20,7 @@ struct CityCard: View {
 
                         ZStack {
                             RoundedRectangle(cornerRadius: 15, style: .continuous).fill(
-                                Color("MainColor").opacity(0.6)
+                                Color(.color).opacity(0.75)
                             ).containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
 
                                 HStack {

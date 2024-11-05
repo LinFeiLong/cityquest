@@ -40,7 +40,7 @@ struct GameTabNav: View {
                             Text(String(index + 1))
                                 .font(.headline)
                                 .fontWeight(.heavy)
-                                .foregroundColor(isSelected ? .main : .mainDark)
+                                .foregroundColor(isSelected ? .color : .mainDark)
 
                         }
                     }

@@ -24,7 +24,7 @@ struct CardPlaceComponent: View {
                         VStack {
                             Spacer(minLength: 95)
                             UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(topLeading: 0, bottomLeading: 15, bottomTrailing: 15, topTrailing: 0))
-                                .fill(isHighlighted ? .main : .gray)
+                                .fill(isHighlighted ? .color : .gray)
                                 .opacity(0.7)
                                 .overlay {
                                     Text(place.name)
@@ -41,7 +41,7 @@ struct CardPlaceComponent: View {
                         VStack {
                             Spacer(minLength: 95)
                             UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(topLeading: 0, bottomLeading: 15, bottomTrailing: 15, topTrailing: 0))
-                                .fill(isHighlighted ? .main : .gray)
+                                .fill(isHighlighted ? .color : .gray)
                                 .opacity(0.7)
                                 .overlay {
                                     Text(place.name)

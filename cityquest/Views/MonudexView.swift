@@ -13,7 +13,7 @@ struct MonudexView: View {
 
         NavigationStack {
             ZStack {
-                Color.main.edgesIgnoringSafeArea(.all)
+                Color.color.edgesIgnoringSafeArea(.all)
                 VStack() {
                     Text(city.name).font(.title2).foregroundStyle(.accent).fontWeight(.semibold).padding(.vertical)
                     GridCardPlacesComponent(places: city.monuments , isMonudex: true)

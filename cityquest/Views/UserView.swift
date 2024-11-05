@@ -22,7 +22,7 @@ struct UserView: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                Color.main.ignoresSafeArea()
+                Color(.color).ignoresSafeArea()
 
                 VStack (alignment: .trailing) {
                     Button(action: {
@@ -90,7 +90,7 @@ struct UserView: View {
                                 saveModification()
                             }
                             label: {
-                                ButtonView(label: "Enregistrer les modifications ", icon: "", fontColor: .main, color: .accent).padding(.horizontal)
+                                ButtonView(label: "Enregistrer les modifications ", icon: "", fontColor: .color, color: .accent).padding(.horizontal)
                             }
                             if !user.isEmpty {
                                 Button {
@@ -101,8 +101,8 @@ struct UserView: View {
                                     context.delete(user[0])
                                     try? context.save()
                                 } label: {
-                                    ButtonView(label: "Réinitialiser mon compte ", icon: "", fontColor: .main, color: .white).padding(.horizontal)
-                                    
+                                    ButtonView(label: "Réinitialiser mon compte ", icon: "", fontColor: .color, color: .white).padding(.horizontal)
+
                                 }
                             }
                         }.padding(.vertical)

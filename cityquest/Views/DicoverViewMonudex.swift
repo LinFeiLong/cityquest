@@ -14,7 +14,7 @@ struct DiscoverViewMonudex: View {
     @State var citysList : [City] = []
     var body: some View {
         ZStack {
-            Color("MainColor")
+            Color(.color)
                 .edgesIgnoringSafeArea(.all)
             if user.isEmpty {
                 VStack {
@@ -26,7 +26,7 @@ struct DiscoverViewMonudex: View {
                 NavigationStack {
 
                     ZStack {
-                        Color("MainColor")
+                        Color(.color)
                             .edgesIgnoringSafeArea(.all)
                         Image("Background")
 

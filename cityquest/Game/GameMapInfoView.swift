@@ -74,7 +74,7 @@ struct GameMapInfoView: View {
                         }
                         Spacer()
                     }
-                    .foregroundStyle(.main)
+                    .foregroundStyle(.color)
                     .font(.headline)
                 }
                 .padding(.vertical, 10)
