@@ -23,38 +23,6 @@ struct CityCard: View {
                                 Color("MainColor").opacity(0.6)
                             ).containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
 
-                            //    Text(city.name).font(.title.bold()).foregroundColor(Color("AccentColor")).padding(.trailing, 2)
-                            HStack {
-                                Text(city.name)
-                                    .font(.title2.bold())
-                                    .foregroundColor(Color("AccentColor"))
-                                    .padding(.trailing, 2)
-                                //  Spacer()
-
-                                NavigationLink(destination: DescriptionView(detailThing: city)) {
-                                    HStack {
-                                        Image(systemName: "magnifyingglass.circle")
-                                        Text("Découvrir")
-                                            .font(.subheadline)
-                                    }
-                                    .padding(.horizontal, 12)
-                                    .padding(.vertical, 5)
-                                    .background(Color("AccentColor"))
-
-                                    .foregroundColor(Color("MainColor"))
-                                    .cornerRadius(8)
-                                }
-
-                                HStack {
-                                    Image(systemName: "play.circle")
-                                    Text("Jouer")
-                                        .font(.subheadline)
-                                }
-                                .padding(.horizontal, 12)
-                                .padding(.vertical, 5)
-                                .background(Color("AccentColor"))
-                                .foregroundColor(Color("MainColor"))
-
                                 HStack {
                                     Text(city.name).font(.title.bold()).foregroundColor(
                                         Color("AccentColor")
@@ -68,12 +36,11 @@ struct CityCard: View {
                                 }
                                 .padding(.horizontal, 5)
 
-                            }
-
                         }
                     }
                 }.padding(.horizontal)
         } else {
+
             // Handle the case where the URL is nil, e.g., show a placeholder image
             // WikipediaImage(url: "placeholder_image_url")
         }

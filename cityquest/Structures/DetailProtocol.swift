@@ -14,5 +14,6 @@ protocol DetailProtocol {
     var name : String { get }
     var image : String { get }
     var description : String { get }
-  
+    var wikipedia_page_url : String? { get }
+
 }

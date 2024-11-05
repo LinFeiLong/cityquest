@@ -31,7 +31,7 @@ struct CircularProgressView: View {
             VStack {
                 Text("\(Int(progressAmount * 100))%")
                     
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
             }
         }.onAppear {
 

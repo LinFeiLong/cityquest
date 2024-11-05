@@ -27,7 +27,11 @@ struct DiscoverView: View {
                         .padding(.horizontal)
 
                         ForEach(citysList) { city in
-                            CityCard(city: city)
+                            NavigationLink(destination: DescriptionView(detailThing: city)) {
+
+                                CityCard(city: city)
+                            }
+
                         }
                     }
                     .padding(.top)
@@ -35,21 +39,24 @@ struct DiscoverView: View {
             }
             .onAppear {
                 loadCities()
+                for city in citysList {
+                    city.loadMonuments()
+                }
             }
         }
     }
 
     private func loadCities() {
-        guard let url = Bundle.main.url(forResource: "cities-in-discover-view", withExtension: "json") else {
+        guard let url = Bundle.main.url(forResource: "cities", withExtension: "json") else {
             print("Failed to locate cities.json in bundle.")
             return
         }
         
         do {
             let data = try Data(contentsOf: url)
-            let decodedData = try JSONDecoder().decode([String: [City]].self, from: data)
-            citysList = decodedData["citysList"] ?? []
-        } catch {
+            let decodedData = try JSONDecoder().decode([City].self, from: data)
+            citysList = decodedData}
+        catch {
             print("Failed to load or decode cities.json: \(error)")
         }
     }

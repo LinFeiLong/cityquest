@@ -62,6 +62,6 @@ var cityTest = City(
     coordinate: Coordinate(latitude: 43.28035875358548, longitude: 5.325267824949334),
     image: ".marseilleAmarelo",
     monuments: monuments,
-    wikipedia_page_url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde"
+    wikipedia_page_url: "https://fr.wikipedia.org/wiki/Lyon"
 )
 

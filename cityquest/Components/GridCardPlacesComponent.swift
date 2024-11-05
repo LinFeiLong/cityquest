@@ -13,9 +13,10 @@ struct GridCardPlacesComponent: View {
     @Query var  user : [User]
     var cityId : String?
     let places : [Place]
+    var isMonudex = false
     var body: some View {
 
-        if user.isEmpty {
+        if user.isEmpty || isMonudex == false {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.flexible()) ,GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
                     ForEach(places) { monument in

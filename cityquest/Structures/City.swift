@@ -13,8 +13,6 @@ import DeveloperToolsSupport
 class City: Identifiable, DetailProtocol, Decodable {
 
 
-
-
     let id : String
     let name: String
     var description: String
@@ -37,7 +35,7 @@ class City: Identifiable, DetailProtocol, Decodable {
         self.image = image
         self.places = places
         self.monuments = monuments
-        self.wikipedia_page_url = wikipedia_page_url
+        self.wikipedia_page_url = nil
     }
 
     
