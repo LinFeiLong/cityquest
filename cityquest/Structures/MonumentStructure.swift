@@ -23,9 +23,16 @@ struct Question: Decodable {
 class Monument: Place {
     var questions: [Question]
 
-    init(name: String, description: String, image: String, latitude: Double, longitude: Double, questions: [Question], wikipedia_page_url: String) {
+    init(name: String, description: String, image: String, latitude: Double, longitude: Double, questions: [Question]) {
         self.questions = questions
-        super.init(name: name, description: description, image: image, latitude: latitude, longitude: longitude, wikipedia_page_url: wikipedia_page_url)
+        super.init(
+            name: name,
+            description: description,
+            image: image,
+            latitude: latitude,
+            longitude: longitude,
+            wikipedia_page_url: nil
+        )
     }
     
     required init(from decoder: Decoder) throws {

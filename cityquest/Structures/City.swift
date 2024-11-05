@@ -20,14 +20,14 @@ class City: Identifiable, DetailProtocol, Decodable {
     var image: String
     var places: [Place] = []
     var monuments: [Monument] = []
-    var wikipedia_page_url: String
+    var wikipedia_page_url: String?
 
 
     var location: CLLocationCoordinate2D {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    init( id: String = UUID().uuidString, name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = [], wikipedia_page_url: String) {
+    init( id: String = UUID().uuidString, name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = []) {
         self.id = id
         self.name = name
         self.description = description
@@ -35,7 +35,7 @@ class City: Identifiable, DetailProtocol, Decodable {
         self.image = image
         self.places = places
         self.monuments = monuments
-        self.wikipedia_page_url = wikipedia_page_url
+        self.wikipedia_page_url = nil
     }
 
     private enum CodingKeys: String, CodingKey {

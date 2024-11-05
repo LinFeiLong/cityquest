@@ -16,14 +16,14 @@ class Place : Identifiable, DetailProtocol, Codable {
     var description: String
     var image: String
     var coordinate: Coordinate
-    var wikipedia_page_url: String
+    var wikipedia_page_url: String?
 
 
     var location: CLLocationCoordinate2D {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    init(name: String, description: String, image: String, latitude: Double, longitude: Double, wikipedia_page_url: String) {
+    init(name: String, description: String, image: String, latitude: Double, longitude: Double, wikipedia_page_url: String?) {
         self.name = name
         self.description = description
         self.image = image
