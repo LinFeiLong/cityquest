@@ -13,13 +13,13 @@ struct GameMapView: View {
     //Position de la camera
     @State var cameraPosition: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(
         // Position : Marseille
-        center: CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698),
+        center: CLLocationCoordinate2D(latitude: 43.3018, longitude: 5.3753),
         // Zoom sur la Map
         span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10)
     ))
     
-    // Position de l'utilisateur régler sur Marseille
-    @State private var userLocation = CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698)
+    // Position de l'utilisateur régler sur Marseille GARE
+    @State private var userLocation = CLLocationCoordinate2D(latitude: 43.3018, longitude: 5.3753)
     
     //Monument actuellement selectionné
     var selectedMonument: Monument? {
@@ -89,6 +89,7 @@ struct GameMapView: View {
                     Circle()
                         .fill(colors[0])
                         .stroke(colors[1], style: StrokeStyle(lineWidth: 3))
+                        .foregroundStyle(colors[0])
                         .frame(width: 17)
                 }
                 // Position de tous les monuments de la liste
@@ -172,7 +173,7 @@ struct AnnotationAnimationView: View {
                 animate()
             }
             Text(step.place.name)
-                .foregroundStyle(.accent)
+                .foregroundStyle(colors[0])
                 .font(.headline)
         }
     }

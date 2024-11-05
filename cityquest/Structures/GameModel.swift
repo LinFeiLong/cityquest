@@ -58,6 +58,13 @@ class Game: Identifiable {
     }
 }
 
+extension Game: CustomStringConvertible {
+    var description: String {
+        "Partie \(indexOfStep + 1)/\(steps.count) - \(score) points" + "\n" +
+        "\(currentStep)"
+    }
+}
+
 enum Transportation: String, Codable {
     case car, walk, transport, ferry
     

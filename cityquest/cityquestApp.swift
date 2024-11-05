@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 @main
 struct cityquestApp: App {
-    @State var gameManager = GameManager()
+    @Bindable var gameManager = GameManager()
     
     var body: some Scene {
         WindowGroup {
