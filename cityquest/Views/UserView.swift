@@ -72,7 +72,7 @@ struct UserView: View {
                         HStack {
                             Text("Email:").foregroundColor(.white)
                             if editingName || user.isEmpty {
-                                TextField("Entrez votre email" , text: $fields[2])
+                                TextField("Entrez votre email" , text: $debouncedFields[2])
                                     .keyboardType(.emailAddress)
                                     .textInputAutocapitalization(.never)
                                     .padding()

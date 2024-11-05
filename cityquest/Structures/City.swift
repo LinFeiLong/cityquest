@@ -12,7 +12,9 @@ import DeveloperToolsSupport
 
 class City: Identifiable, DetailProtocol, Decodable {
 
-    
+
+
+
     let id : String
     let name: String
     var description: String
@@ -38,10 +40,41 @@ class City: Identifiable, DetailProtocol, Decodable {
         self.wikipedia_page_url = nil
     }
 
+    
     private enum CodingKeys: String, CodingKey {
         case id, name, description, image, coordinate, wikipedia_page_url
     }
 
 }
+extension City {
+    func getProgess(history: [String : [String]]) -> Double {
+        let nbMonuments = monuments.count
+        if nbMonuments == 0 { return 0 }
+        guard let historyCity = history[id] else { return 1 }
+        // print()
+        return Double(historyCity.count)/Double(nbMonuments)
+
+    }
+
+    func loadMonuments() {
+
+        guard let url = Bundle.main.url(forResource: name.lowercased(), withExtension: "json") else {
+            print("Failed to create URL \( name.lowercased())")
+            return
+        }
+
+
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            monuments = try decoder.decode([Monument].self, from: data)
+
+        } catch {
+            print("Failed to load or decode : \(error)")
+
+        }
+    }
+}
+
 
 
