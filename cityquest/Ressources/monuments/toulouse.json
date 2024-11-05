@@ -1,6 +1,7 @@
 [
     {
         "name": "Capitole de Toulouse",
+        "slug": "capitole-de-toulouse",
         "description": "Le Capitole est le siège de la mairie de Toulouse et du théâtre du Capitole.",
         "image": "capitole_de_toulouse.jpg",
         "latitude": 43.6045,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Basilique Saint-Sernin",
+        "slug": "basilique-saint-sernin",
         "description": "Une basilique romane située au cœur de Toulouse, classée au patrimoine mondial de l'UNESCO.",
         "image": "basilique_saint_sernin.jpg",
         "latitude": 43.6086,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Cité de l'espace",
+        "slug": "cite-de-l-espace",
         "description": "Un parc à thème scientifique dédié à l'espace et à la conquête spatiale.",
         "image": "cite_de_l_espace.jpg",
         "latitude": 43.5867,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Pont Neuf",
+        "slug": "pont-neuf",
         "description": "Le plus ancien pont de Toulouse, traversant la Garonne.",
         "image": "pont_neuf.jpg",
         "latitude": 43.6008,
@@ -481,6 +485,7 @@
     },
     {
         "name": "Canal du Midi",
+        "slug": "canal-du-midi",
         "description": "Un canal historique reliant Toulouse à la mer Méditerranée, classé au patrimoine mondial de l'UNESCO.",
         "image": "canal_du_midi.jpg",
         "latitude": 43.6043,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Église des Jacobins",
+        "slug": "eglise-des-jacobins",
         "description": "Un couvent dominicain célèbre pour son architecture gothique méridionale et son cloître.",
         "image": "eglise_des_jacobins.jpg",
         "latitude": 43.605,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Place du Capitole",
+        "slug": "place-du-capitole",
         "description": "La place centrale de Toulouse, entourée de bâtiments historiques et de cafés.",
         "image": "place_du_capitole.jpg",
         "latitude": 43.6045,
@@ -841,6 +848,7 @@
     },
     {
         "name": "Hôtel d'Assézat",
+        "slug": "hotel-d-assezat",
         "description": "Un hôtel particulier de la Renaissance, abritant la Fondation Bemberg.",
         "image": "hotel_d_assezat.jpg",
         "latitude": 43.6003,
@@ -961,6 +969,7 @@
     },
     {
         "name": "Musée des Augustins",
+        "slug": "musee-des-augustins",
         "description": "Un musée des beaux-arts situé dans un ancien couvent, abritant des collections de peintures et de sculptures.",
         "image": "musee_des_augustins.jpg",
         "latitude": 43.6011,
@@ -1081,6 +1090,7 @@
     },
     {
         "name": "Jardin Japonais",
+        "slug": "jardin-japonais",
         "description": "Un jardin zen situé dans le parc Compans-Caffarelli, inspiré des jardins traditionnels japonais.",
         "image": "jardin_japonais.jpg",
         "latitude": 43.6125,

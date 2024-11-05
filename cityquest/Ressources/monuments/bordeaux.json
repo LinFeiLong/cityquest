@@ -1,6 +1,7 @@
 [
     {
         "name": "Place de la Bourse",
+        "slug": "place-de-la-bourse",
         "description": "Une place emblématique de Bordeaux, célèbre pour son miroir d'eau.",
         "image": "place_de_la_bourse.jpg",
         "latitude": 44.8413,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Cathédrale Saint-André",
+        "slug": "cathedrale-saint-andre",
         "description": "La cathédrale de Bordeaux, un exemple impressionnant d'architecture gothique.",
         "image": "cathedrale_saint_andre.jpg",
         "latitude": 44.8378,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Pont de Pierre",
+        "slug": "pont-de-pierre",
         "description": "Un pont emblématique de Bordeaux, reliant les deux rives de la Garonne.",
         "image": "pont_de_pierre.jpg",
         "latitude": 44.8379,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Grand Théâtre de Bordeaux",
+        "slug": "grand-theatre-de-bordeaux",
         "description": "Un opéra et salle de concert historique, connu pour son architecture néoclassique.",
         "image": "grand_theatre_bordeaux.jpg",
         "latitude": 44.8422,
@@ -481,6 +485,7 @@
     },
     {
         "name": "Cité du Vin",
+        "slug": "cite-du-vin",
         "description": "Un musée et centre culturel dédié au vin, situé à Bordeaux.",
         "image": "cite_du_vin.jpg",
         "latitude": 44.8625,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Tour Pey-Berland",
+        "slug": "tour-pey-berland",
         "description": "Un clocher séparé de la Cathédrale Saint-André, offrant une vue panoramique sur Bordeaux.",
         "image": "tour_pey_berland.jpg",
         "latitude": 44.8375,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Basilique Saint-Michel",
+        "slug": "basilique-saint-michel",
         "description": "Une basilique gothique située dans le quartier Saint-Michel de Bordeaux.",
         "image": "basilique_saint_michel.jpg",
         "latitude": 44.8343,
@@ -841,6 +848,7 @@
     },
     {
         "name": "Jardin Public",
+        "slug": "jardin-public",
         "description": "Un parc urbain de Bordeaux, idéal pour la détente et les promenades.",
         "image": "jardin_public.jpg",
         "latitude": 44.8488,

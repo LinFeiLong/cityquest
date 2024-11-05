@@ -1,6 +1,7 @@
 [
     {
         "name": "Vieille Bourse",
+        "slug": "vieille-bourse",
         "description": "Un ensemble de 24 maisons qui entourent une cour intérieure, un exemple emblématique de l'architecture flamande.",
         "image": "vieille_bourse.jpg",
         "latitude": 50.6364,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Cathédrale Notre-Dame-de-la-Treille",
+        "slug": "cathedrale-notre-dame-de-la-treille",
         "description": "Une cathédrale moderne avec une façade en marbre translucide.",
         "image": "cathedrale_notre_dame_de_la_treille.jpg",
         "latitude": 50.6404,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Palais des Beaux-Arts",
+        "slug": "palais-des-beaux-arts",
         "description": "Un des plus grands musées de France, abritant des collections d'art européen.",
         "image": "palais_des_beaux_arts.jpg",
         "latitude": 50.6322,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Citadelle de Lille",
+        "slug": "citadelle-de-lille",
         "description": "Une fortification militaire construite par Vauban, surnommée la 'Reine des Citadelles'.",
         "image": "citadelle_de_lille.jpg",
         "latitude": 50.6400,
@@ -481,6 +485,7 @@
     },
     {
         "name": "Opéra de Lille",
+        "slug": "opera-de-lille",
         "description": "Un opéra construit au début du XXe siècle, un exemple de l'architecture néoclassique.",
         "image": "opera_de_lille.jpg",
         "latitude": 50.6370,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Grand Place",
+        "slug": "grand-place",
         "description": "La place centrale de Lille, également connue sous le nom de Place du Général-de-Gaulle.",
         "image": "grand_place.jpg",
         "latitude": 50.6369,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Parc de la Citadelle",
+        "slug": "parc-de-la-citadelle",
         "description": "Un grand parc public autour de la Citadelle de Lille, idéal pour les promenades et les activités de plein air.",
         "image": "parc_de_la_citadelle.jpg",
         "latitude": 50.6400,
