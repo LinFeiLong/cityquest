@@ -11,55 +11,70 @@ import DeveloperToolsSupport
 
 
 class City: Identifiable, DetailProtocol, Decodable {
-    let id = UUID()
+
+
+
+
+    let id : String
     let name: String
     var description: String
     var coordinate: Coordinate
     var image: String
-    var places: [Place]
-    var monuments: [Monument]
+    var places: [Place] = []
+    var monuments: [Monument] = []
+    var wikipedia_page_url: String?
+
 
     var location: CLLocationCoordinate2D {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    // Initialiseur pour la décodabilité
-    enum CodingKeys: String, CodingKey {
-        case name
-        case description
-        case coordinate
-        case image
-        case places
-        case monuments
-    }
-
-    required init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        name = try container.decode(String.self, forKey: .name)
-        description = try container.decode(String.self, forKey: .description)
-        coordinate = try container.decode(Coordinate.self, forKey: .coordinate)
-        image = try container.decode(String.self, forKey: .image)
-        
-        if let placesArray = try? container.decode([Place].self, forKey: .places) {
-            places = placesArray
-        } else {
-            places = []
-        }
-
-        if let monumentsArray = try? container.decode([Monument].self, forKey: .monuments) {
-            monuments = monumentsArray
-        } else {
-            monuments = []
-        }
-    }
-
-
-    init(name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = []) {
+    init( id: String = UUID().uuidString, name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = [], wikipedia_page_url: String?) {
+        self.id = id
         self.name = name
         self.description = description
         self.coordinate = coordinate
         self.image = image
         self.places = places
         self.monuments = monuments
+        self.wikipedia_page_url = wikipedia_page_url
+    }
+
+    
+    private enum CodingKeys: String, CodingKey {
+        case id, name, description, image, coordinate, wikipedia_page_url
+    }
+
+}
+extension City {
+    func getProgess(history: [String : [String]]) -> Double {
+        let nbMonuments = monuments.count
+        if nbMonuments == 0 { return 0 }
+        guard let historyCity = history[id] else { return 1 }
+        // print()
+        return Double(historyCity.count)/Double(nbMonuments)
+
+    }
+
+    func loadMonuments() {
+
+        guard let url = Bundle.main.url(forResource: name.lowercased(), withExtension: "json") else {
+            print("Failed to create URL \( name.lowercased())")
+            return
+        }
+
+
+        do {
+            let data = try Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            monuments = try decoder.decode([Monument].self, from: data)
+
+        } catch {
+            print("Failed to load or decode : \(error)")
+
+        }
     }
 }
+
+
+
