@@ -15,11 +15,11 @@ class GameManager {
     
     func getStepsFromJSON(_ city: String, _ numberOfSteps: Int, _ numberOfQuestions: Int) async throws {
         do {
-            let monuments: [Monument]  = try await LoadJSONManager().loadJSON(from: city)
+            let monuments: [Monument] = try await LoadJSONManager().loadJSON(from: city)
             // creation des étapes
             // Faire une array d'index unique
             var uniqueNumbers: Set<Int> = []
-            for _ in 0..<numberOfSteps{
+            for _ in 0..<numberOfSteps {
                 addRandomNumber(max: monuments.count, array: &uniqueNumbers)
             }
             // Parcourir l'array et créer chaque étape
@@ -37,6 +37,9 @@ class GameManager {
                 // Ajout de la Step au Game
                 currentGame.steps.append(newStep)
             }
+        } catch {
+            // Handle error appropriately
+            throw error
         }
     }
 }

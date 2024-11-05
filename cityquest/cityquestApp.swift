@@ -7,15 +7,16 @@
 
 import SwiftUI
 import SwiftData
+
 @main
 struct cityquestApp: App {
-    @Bindable var gameManager = GameManager()
-    
+    @State var gameManager = GameManager()
+
     var body: some Scene {
         WindowGroup {
             FirstView()
                 .environment(gameManager)
-                .modelContainer(for : [User.self])
+                .modelContainer(for: [User.self])
         }
     }
 }
