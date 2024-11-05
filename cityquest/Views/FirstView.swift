@@ -16,15 +16,10 @@ struct FirstView: View {
             
             Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
                 DiscoverViewMonudex()
-              //  MonudexView(monuments: cityTest)
             }
             
             Tab("Profil", systemImage: "person") {
                 UserView()
-            }
-            
-            Tab("Wikipedia", systemImage: "book") {
-                WikipediaResultView()
             }
         }
     }

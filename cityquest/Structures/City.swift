@@ -12,11 +12,6 @@ import DeveloperToolsSupport
 
 class City: Identifiable, DetailProtocol, Decodable {
     let id: String
-
-
-
-
-    let id : String
     let name: String
     var description: String
     var coordinate: Coordinate
