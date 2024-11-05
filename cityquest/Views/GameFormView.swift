@@ -8,18 +8,24 @@
 import SwiftUI
 
 struct GameFormView: View {
+    @Environment(GameManager.self) var gameManager: GameManager
+    @State private var monuments: [Monument] = []
+    
+    @State private var newGame = Game()
 
     @State private var isDatePickerVisible: Bool = true
-    @State private var selectedDate = Date()
-    @State private var selectedDuration: Double = 3
-    @State private var selectedDistance: Double = 5
     
     @State private var isLoading: Bool = false
     @State private var isCreated: Bool = false
+    @State private var gameIsReady: Bool = false
     
     func createGame() {
         Task {
             isLoading = true
+            gameManager.currentGame.scheduled = newGame.scheduled
+            gameManager.currentGame.scheduled_date = newGame.scheduled_date
+            gameManager.currentGame.distanceMax = newGame.distanceMax
+            gameManager.currentGame.durationMax = newGame.durationMax
             try await Task.sleep(for: .seconds(3))
             isLoading = false
             isCreated = true
@@ -36,26 +42,26 @@ struct GameFormView: View {
                         .fontWeight(.bold)
                         .colorScheme(.dark)
                     
-                    Toggle(isOn: $isDatePickerVisible) {
+                    Toggle(isOn: $newGame.scheduled) {
                         Text("Programmer une date")
                             .foregroundColor(.white)
                     }
                     .toggleStyle(SwitchToggleStyle(tint: Color.accent))
                     .colorScheme(.dark)
                     
-                    if isDatePickerVisible {
+                    if newGame.scheduled {
                         VStack(alignment: .trailing) {
                             HStack {
                                 Spacer()
                                 // Date Picker
-                                DatePicker("", selection: $selectedDate, displayedComponents: [.date])
+                                DatePicker("", selection: $newGame.scheduled_date, displayedComponents: [.date])
                                     .labelsHidden()
                                     .datePickerStyle(CompactDatePickerStyle())
                                     .cornerRadius(10)
                                     .tint(.mainDark)
                                 
                                 // Time Picker
-                                DatePicker("", selection: $selectedDate, displayedComponents: [.hourAndMinute])
+                                DatePicker("", selection: $newGame.scheduled_date, displayedComponents: [.hourAndMinute])
                                     .labelsHidden()
                                     .datePickerStyle(CompactDatePickerStyle())
                                     .cornerRadius(10)
@@ -70,9 +76,9 @@ struct GameFormView: View {
                             .foregroundColor(.white)
                         // Duration Picker (Hour)
                         HStack {
-                            Slider(value: $selectedDuration, in: 1...10, step: 1)
+                            Slider(value: $newGame.durationMax, in: 1...10, step: 1)
                                 .accentColor(.accent)
-                            Text("\(selectedDuration, specifier: "%.0f") h")
+                            Text("\(newGame.durationMax, specifier: "%.0f") h")
                                 .foregroundColor(.white)
                         }
                     }
@@ -84,27 +90,13 @@ struct GameFormView: View {
                             .multilineTextAlignment(.leading)
                             .padding(.bottom, 10)
                         HStack {
-                            Slider(value: $selectedDistance, in: 5...50, step: 1)
+                            Slider(value: $newGame.distanceMax, in: 5...50, step: 1)
                                 .accentColor(.accent)
-                            Text("\(selectedDistance, specifier: "%.0f") km")
+                            Text("\(newGame.distanceMax, specifier: "%.0f") km")
                                 .foregroundColor(.white)
                         }
                     }
-                    
-//                    VStack(alignment: .leading) {
-//                        Text("Vos modes de transport")
-//                            .foregroundColor(.white)
-//                            .multilineTextAlignment(.leading)
-//                        HStack {
-//                            
-//                        }
-//                    }
-//                    .frame(maxWidth: .infinity)
-                    
                     Spacer()
-//                    NavigationLink() {
-//                        GameView() //add Game
-//                            .navigationBarHidden(true)
                     Button {
                         createGame()
                     } label: {
@@ -126,7 +118,7 @@ struct GameFormView: View {
                             }
                         }
                     }
-                    .disabled(isLoading)
+                    .disabled(isLoading || !gameIsReady)
                 }
                 .padding()
             }
@@ -135,10 +127,19 @@ struct GameFormView: View {
                     .navigationBarHidden(true)
             })
         }
-        
+        .onAppear {
+            Task {
+                gameManager.currentGame = Game()
+                try await gameManager.getStepsFromJSON("marseille", 5, 5)
+                gameIsReady = true
+                print(gameManager.currentGame)
+            }
+
+        }
     }
 }
 
 #Preview {
     GameFormView()
+        .environment(GameManager())
 }

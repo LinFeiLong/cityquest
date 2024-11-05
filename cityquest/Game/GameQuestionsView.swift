@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct GameQuestionsView: View {
-    let monument: Monument
+    @Environment(GameManager.self) var gameManager: GameManager
+    
     @Binding var isPresented: Bool
     @State var appearAnim: Bool = false
-    var action: () -> Void
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -28,12 +28,12 @@ struct GameQuestionsView: View {
                     .padding(.top, 75)
                 Text("Test")
                 Spacer()
+                
                 Button("close") {
                     withAnimation(.easeIn(duration: 0.25)) {
                         appearAnim.toggle()
                     } completion: {
                         isPresented.toggle()
-                        action()
                     }
                 }
             }
@@ -50,5 +50,6 @@ struct GameQuestionsView: View {
 }
 
 #Preview {
-    GameQuestionsView(monument: monuments.first!, isPresented: .constant(true), action: {})
+    GameQuestionsView(isPresented: .constant(true))
+        .environment(GameManager())
 }

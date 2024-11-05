@@ -10,13 +10,14 @@ import MapKit
 
 struct GameMapInfoView: View {
     @Environment(\.dismiss) var dismiss
-    let route: MKRoute?
+    @Environment(GameManager.self) var gameManager: GameManager
+
     var notRoute: Bool {
-        route == nil
+        gameManager.currentRoute == nil
     }
     
     var calculatedDistance: String {
-        guard let route = route else { return "--" }
+        guard let route = gameManager.currentRoute else { return "--" }
         if route.distance > 1000 {
             return "\(String(format: "%.2f", route.distance / 1000)) km"
             } else {
@@ -25,7 +26,7 @@ struct GameMapInfoView: View {
         }
         
         var calculatrdTime: String {
-            guard let route = route else { return "--" }
+            guard let route = gameManager.currentRoute else { return "--" }
             return convertTime(Int(route.expectedTravelTime))
         }
         
@@ -84,8 +85,8 @@ struct GameMapInfoView: View {
 #Preview {
     ZStack {
         Color(.blue).ignoresSafeArea()
-        var route: MKRoute?
-        GameMapInfoView(route: route)
+        GameMapInfoView()
+            .environment(GameManager())
     }
 
 }

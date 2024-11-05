@@ -9,28 +9,28 @@ import SwiftUI
 import MapKit
 
 struct GameMapView: View {
+    @Environment(GameManager.self ) var gameManager: GameManager
     //Position de la camera
     @State var cameraPosition: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(
         // Position : Marseille
-        center: CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698),
+        center: CLLocationCoordinate2D(latitude: 43.3018, longitude: 5.3753),
         // Zoom sur la Map
         span: MKCoordinateSpan(latitudeDelta: 10, longitudeDelta: 10)
     ))
-    // C'est la variable pour l'itinéraire
-    @Binding var route: MKRoute?
     
-    // Position de l'utilisateur régler sur Marseille
-    @State private var userLocation = CLLocationCoordinate2D(latitude: 43.2965, longitude: 5.3698)
-    // Essai avec des Monuments
-    @Binding var selectedMonument: Monument
+    // Position de l'utilisateur régler sur Marseille GARE
+    @State private var userLocation = CLLocationCoordinate2D(latitude: 43.3018, longitude: 5.3753)
+    
+    //Monument actuellement selectionné
+    var selectedMonument: Monument? {
+        if gameManager.currentGame.steps.isEmpty {
+            return nil
+        } else {
+            return gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].place
+        }
+    }
     
     let colors: [Color]
-    
-//    init (selectedMonument: Monument){
-//        self.selectedMonument = selectedMonument
-//        let configuration = MKStandardMapConfiguration()
-//        configuration.pointOfInterestFilter = MKPointOfInterestFilter(including: [])
-//    }
     
     // Fonction pour avoir l'itineraire
     func getDirections(userLocation: CLLocationCoordinate2D, destination: CLLocationCoordinate2D) {
@@ -46,9 +46,9 @@ struct GameMapView: View {
                 let directions = MKDirections(request: request)
                 let response = try? await directions.calculate()
                 if ((response?.routes.first) != nil) {
-                    route = response?.routes.first
+                    gameManager.currentRoute = response?.routes.first
                 } else {
-                    self.route = nil
+                    gameManager.currentRoute = nil
                 }
                 zoomToFit(userLocation: userLocation, destination: destination)
             }
@@ -89,18 +89,17 @@ struct GameMapView: View {
                     Circle()
                         .fill(colors[0])
                         .stroke(colors[1], style: StrokeStyle(lineWidth: 3))
+                        .foregroundStyle(colors[0])
                         .frame(width: 17)
                 }
                 // Position de tous les monuments de la liste
-                ForEach(Array(monuments.enumerated()), id: \.1.id) { (index, monument) in
-                    Annotation(monument.name, coordinate: monument.location) {
-                        AnnotationAnimationView(selectedMonument: selectedMonument, monument: monument, index: index, colors: colors) {
-//                            selectedMonument = monument
-                        }
+                ForEach(gameManager.currentGame.steps) { step in
+                    Annotation(step.place.name, coordinate: step.place.location) {
+                        AnnotationAnimationView(step: step, colors: colors)
                     }
                 }
                 // Si il y a un itinéraire
-                if let route {
+                if let route = gameManager.currentRoute {
                     MapPolyline(route)
                         .stroke(colors[0], lineWidth: 5)
                 }
@@ -109,44 +108,33 @@ struct GameMapView: View {
             .mapStyle(.standard(pointsOfInterest: .excludingAll))
             // Quand la map apparait charger le monument selectionné
             .onAppear {
-                getDirections(userLocation: userLocation, destination: selectedMonument.location)
+                if let selectedMonument {
+                    getDirections(userLocation: userLocation, destination: selectedMonument.location)
+                }
                 
             }
             // Quand on change de monument on va chercher getDirection
             .onChange(of: selectedMonument) { oldValue, newValue in
-                getDirections(userLocation: userLocation, destination: selectedMonument.location)
+                if let selectedMonument {
+                    getDirections(userLocation: userLocation, destination: selectedMonument.location)
+                }
             }
-//            if let route {
-//                GameMapInfoView(distance: route.distance, duration: route.expectedTravelTime)
-//            } else {
-//                RoundedRectangle(cornerRadius: 30.0)
-//                    .fill(.white)
-//                    .frame(width: 270, height: 40)
-//                    .overlay {
-//                        VStack {
-//                            Text("Pas d'itinéraire")
-//                                .font(.headline)
-//                                .foregroundStyle(.main)
-//                        }
-//                    }
-//            }
         }
     }
 }
 
 struct AnnotationAnimationView: View {
-   
-    
-    let selectedMonument: Monument
-    let monument: Monument
-    let index: Int
+    @Environment(GameManager.self ) var gameManager: GameManager
+    let step: Step
     let colors: [Color]
     
     var isSelected: Bool {
-        selectedMonument == monument
+        gameManager.currentGame.currentStep == step
     }
     
-    var action: () -> ()
+    var stepIndex: Int {
+        gameManager.currentGame.steps.firstIndex(where: { $0.id == step.id }) ?? 99
+    }
     
     @State var anim1: Bool = false
     @State var anim2: Bool = false
@@ -168,16 +156,13 @@ struct AnnotationAnimationView: View {
                     Circle()
                         .fill(colors[0])
                         .frame(width: 25)
-                    Text(String(index + 1))
+                    Text(String(stepIndex + 1))
                         .font(.headline)
                         .fontWeight(.heavy)
                         .foregroundStyle(colors[1])
                     
                 }
                 
-            }
-            .onTapGesture {
-                action()
             }
             .onAppear {
                 if isSelected {
@@ -187,8 +172,8 @@ struct AnnotationAnimationView: View {
             .onChange(of: isSelected) { oldValue, newValue in
                 animate()
             }
-            Text(monument.name)
-                .foregroundStyle(.accent)
+            Text(step.place.name)
+                .foregroundStyle(colors[0])
                 .font(.headline)
         }
     }
@@ -208,7 +193,6 @@ struct AnnotationAnimationView: View {
 }
 
 #Preview {
-    @Previewable @State var test = monuments[2]
-    @Previewable @State var route: MKRoute?
-    GameMapView(route: $route, selectedMonument: $test, colors: [.mainDark, .accent])
+    GameMapView(colors: [.mainDark, .accent])
+        .environment(GameManager())
 }

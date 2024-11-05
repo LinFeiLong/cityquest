@@ -10,9 +10,12 @@ import MapKit
 
 struct GameView: View {
     @Environment(\.colorScheme) var colorScheme
-    @State var selectedMonument: Monument = monuments.first! //Pas bien
+    
+    @Environment(GameManager.self) var gameManager: GameManager
+    
+//    @State var selectedMonument: Monument //Pas bien
     @State var isOnDestination: Bool = false
-    @State var currentRoute: MKRoute?
+//    @State var currentRoute: MKRoute?
     
     var colors: [Color] {
         let buttonColor = colorScheme == .dark ? Color.accent : Color.main
@@ -25,18 +28,11 @@ struct GameView: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
             ZStack(alignment: .top) {
-                GameMapView(route: $currentRoute, selectedMonument: $selectedMonument, colors: colors)
-                GameMapInfoView(route: currentRoute)
+                GameMapView(colors: colors)
+                GameMapInfoView()
             }
             if isOnDestination {
-                GameQuestionsView(monument: selectedMonument, isPresented: $isOnDestination) {
-                    index += 1
-                    if index >= monuments.count {
-                        index = 0
-                    }
-                    selectedMonument = monuments[index]
-                    print(selectedMonument.name)
-                }
+                GameQuestionsView(isPresented: $isOnDestination)
             } else {
                 HStack(alignment: .bottom) {
                     Button {
@@ -51,7 +47,7 @@ struct GameView: View {
                             }
                     }
                     Spacer()
-                    GameTabNav(selectedMonument: $selectedMonument)
+                    GameTabNav()
                         
                 }
                 .padding(.horizontal, 25)
@@ -64,4 +60,5 @@ struct GameView: View {
 
 #Preview {
     GameView()
+        .environment(GameManager())
 }

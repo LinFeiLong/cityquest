@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct GameTabNav: View {
-    @Binding var selectedMonument: Monument
-    
-//    var btnOffset: Double = 0
+    @Environment(GameManager.self) var gameManager: GameManager
     
     private let width: Double = 60
     private var heigth: Double {
@@ -29,10 +27,11 @@ struct GameTabNav: View {
 //                .animation(.spring(duration: 0.7, bounce: 0.5), value: btnOffset)
             
             VStack(spacing: 20) {
-                ForEach(Array(monuments.enumerated()), id: \.1.id) { (index, monument) in
-                    let isSelected = monument.id == selectedMonument.id
+                ForEach(gameManager.currentGame.steps.indices, id: \.self) { index in
+                    let step = gameManager.currentGame.steps[index]
+                    let isSelected = gameManager.currentGame.currentStep == step
                     Button {
-                        selectedMonument = monument
+                        gameManager.currentGame.indexOfStep = index
                     } label: {
                         ZStack {
                             Circle()
@@ -42,7 +41,7 @@ struct GameTabNav: View {
                                 .font(.headline)
                                 .fontWeight(.heavy)
                                 .foregroundColor(isSelected ? .main : .mainDark)
-                            
+
                         }
                     }
                 }
@@ -54,6 +53,6 @@ struct GameTabNav: View {
 }
 
 #Preview {
-    @Previewable @State var test = monuments[0]
-    GameTabNav(selectedMonument: $test)
+    GameTabNav()
+        .environment(GameManager())
 }
