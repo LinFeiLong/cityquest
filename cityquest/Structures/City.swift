@@ -11,7 +11,7 @@ import DeveloperToolsSupport
 
 
 class City: Identifiable, DetailProtocol, Decodable {
-    let id = UUID()
+    let id : String
     let name: String
     var description: String
     var coordinate: Coordinate
@@ -61,5 +61,6 @@ class City: Identifiable, DetailProtocol, Decodable {
         self.image = image
         self.places = places
         self.monuments = monuments
+        self.wikipedia_page_url = nil
     }
 }

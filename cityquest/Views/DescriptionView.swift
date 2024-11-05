@@ -14,7 +14,9 @@ struct DescriptionView: View {
         ZStack {
             Color.main.ignoresSafeArea()
             ScrollView{
-                Image(detailThing.image).resizable().scaledToFit().frame(width: .infinity).padding(.vertical)
+                if let url = detailThing.wikipedia_page_url {
+                    WikipediaImage(url: url)}
+
                 Text(detailThing.description).padding()
                     .foregroundStyle(Color.white)
 

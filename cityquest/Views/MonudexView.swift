@@ -16,7 +16,7 @@ struct MonudexView: View {
                 Color.main.edgesIgnoringSafeArea(.all)
                 VStack() {
                     Text(city.name).font(.title2).foregroundStyle(.accent).fontWeight(.semibold).padding(.vertical)
-                    GridCardPlacesComponent(places: city.monuments)
+                    GridCardPlacesComponent(places: city.monuments , isMonudex: true)
 
                     Spacer()
                 }.navigationTitle("Mon Monudex").navigationBarTitleTextColor(.accentColor)
