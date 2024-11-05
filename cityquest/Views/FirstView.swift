@@ -41,7 +41,7 @@ struct FirstView: View {
             }
             
             Tab("Wikipedia", systemImage: "book") {
-                WikipediaResultView(urlString: "https://en.wikipedia.org/wiki/Swift_(programming_language)")
+                WikipediaResultView()
             }
         }
     }
