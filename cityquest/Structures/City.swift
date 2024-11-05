@@ -29,7 +29,7 @@ class City: Identifiable, DetailProtocol, Decodable {
         coordinate.toCLLocationCoordinate2D()
     }
 
-    init( id: String = UUID().uuidString, name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = []) {
+    init( id: String = UUID().uuidString, name: String, description: String, coordinate: Coordinate, image: String, places: [Place] = [], monuments: [Monument] = [], wikipedia_page_url: String?) {
         self.id = id
         self.name = name
         self.description = description
@@ -37,7 +37,7 @@ class City: Identifiable, DetailProtocol, Decodable {
         self.image = image
         self.places = places
         self.monuments = monuments
-        self.wikipedia_page_url = nil
+        self.wikipedia_page_url = wikipedia_page_url
     }
 
     

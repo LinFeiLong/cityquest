@@ -19,13 +19,15 @@ struct FirstView: View {
                             name: "Marseille",
                             description: "The port city",
                             coordinate: Coordinate(latitude: 43.2965, longitude: 5.3698),
-                            image: ".imageTestMonument"
+                            image: ".imageTestMonument",
+                            wikipedia_page_url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde"
                         ),
                         City(
                             name: "Lyon",
                             description: "The gastronomic capital",
                             coordinate: Coordinate(latitude: 45.7640, longitude: 4.8357),
-                            image: ".imageTestMonument"
+                            image: ".imageTestMonument",
+                            wikipedia_page_url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde"
                         )
                     ]
                 )

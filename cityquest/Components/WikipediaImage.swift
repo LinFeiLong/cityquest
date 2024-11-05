@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-func fetchWikipediaSource(url: String, completion: @escaping (Result<String, Error>) -> Void) {
-    guard let url = URL(string: url) else {
+func fetchWikipediaSource(url: String?, completion: @escaping (Result<String, Error>) -> Void) {
+    guard let urlString = url, let url = URL(string: urlString) else {
         completion(.failure(NSError(domain: "Invalid URL", code: 0, userInfo: nil)))
         return
     }
@@ -63,12 +63,12 @@ func extractSrc(from html: String) -> String? {
 
 struct WikipediaImage: View {
     @State private var formattedUrl: String = "Loading..."
-    let url: String
+    let url: String?
 
     var body: some View {
         VStack {
-            if let url = URL(string: formattedUrl), formattedUrl != "Loading..." && formattedUrl != "No image source found." && formattedUrl != "Failed to fetch the page." {
-                AsyncImage(url: url) { image in
+            if let imageUrl = URL(string: formattedUrl), formattedUrl != "Loading..." {
+                AsyncImage(url: imageUrl) { image in
                     image
                         .resizable()
                         .scaledToFit()
@@ -78,10 +78,11 @@ struct WikipediaImage: View {
             } else {
                 Text(formattedUrl)
                     .padding()
+                    .scaledToFit()
             }
         }
         .onAppear {
-            fetchWikipediaSource(url: url) { result in
+             fetchWikipediaSource(url: url) { result in
                 DispatchQueue.main.async {
                     switch result {
                     case .success(let html):
