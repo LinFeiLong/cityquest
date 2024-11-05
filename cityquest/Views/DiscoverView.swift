@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
+
 struct DiscoverView: View {
-    var citysList: [City]
+    @State private var citysList: [City] = []
+
     var body: some View {
-
         NavigationStack {
-
             ZStack {
                 Color("MainColor")
                     .edgesIgnoringSafeArea(.all)
@@ -27,48 +27,34 @@ struct DiscoverView: View {
                         .padding(.horizontal)
 
                         ForEach(citysList) { city in
-                            NavigationLink(destination: DescriptionView(detailThing: city)){
-                                CityCard(city: city)
-                            }
-
-
-
+                            CityCard(city: city)
                         }
                     }
+                    .padding(.top)
                 }
             }
+            .onAppear {
+                loadCities()
+            }
+        }
+    }
+
+    private func loadCities() {
+        guard let url = Bundle.main.url(forResource: "cities-in-discover-view", withExtension: "json") else {
+            print("Failed to locate cities.json in bundle.")
+            return
+        }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let decodedData = try JSONDecoder().decode([String: [City]].self, from: data)
+            citysList = decodedData["citysList"] ?? []
+        } catch {
+            print("Failed to load or decode cities.json: \(error)")
         }
     }
 }
 
-func testDiscover() {
-    print("Discovering")
-}
-
-func testPlay() {
-    print("Playing")
-}
-
 #Preview {
-    HStack {
-        DiscoverView(
-            citysList: [
-                cityTest,
-                City(
-                    name: "Marseille",
-                    description: "The port city",
-                    coordinate: Coordinate(latitude: 43.2965, longitude: 5.3698),
-                    image: ".imageTestMonument",
-                    wikipedia_page_url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde"
-                ),
-                City(
-                    name: "Lyon",
-                    description: "The gastronomic capital",
-                    coordinate: Coordinate(latitude: 45.7640, longitude: 4.8357),
-                    image: ".imageTestMonument",
-                    wikipedia_page_url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde"
-                )
-            ]
-        )
-    }
+    DiscoverView()
 }
