@@ -31,10 +31,10 @@ class User {
 
 extension User {
     func isVisited(idCity : String?, idMonument: String) -> Bool {
-        guard let monumentsIDVisited = history[idCity ?? ""] else {
+        guard let history = history[idCity ?? ""] else {
             return false
         }
-        return monumentsVisited.contains(idMonument.uuidString)
+        return history.contains(idMonument)
     }
     
     // Helper method to add visited monument
