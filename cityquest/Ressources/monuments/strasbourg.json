@@ -1,6 +1,7 @@
 [
     {
         "name": "Cathédrale Notre-Dame de Strasbourg",
+        "slug": "cathedrale-notre-dame-de-strasbourg",
         "description": "Une cathédrale gothique célèbre pour sa flèche unique et son horloge astronomique.",
         "image": "cathedrale_notre_dame_strasbourg.jpg",
         "latitude": 48.5812,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Petite France",
+        "slug": "petite-france",
         "description": "Un quartier pittoresque de Strasbourg, célèbre pour ses maisons à colombages et ses canaux.",
         "image": "petite_france.jpg",
         "latitude": 48.5796,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Palais Rohan",
+        "slug": "palais-rohan",
         "description": "Un palais épiscopal du XVIIIe siècle, abritant aujourd'hui plusieurs musées.",
         "image": "palais_rohan.jpg",
         "latitude": 48.5815,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Ponts Couverts",
+        "slug": "ponts-couverts",
         "description": "Un ensemble de ponts et de tours fortifiées datant du Moyen Âge.",
         "image": "ponts_couverts.jpg",
         "latitude": 48.5794,
@@ -481,6 +485,7 @@
     },
     {
         "name": "Place Kléber",
+        "slug": "place-kleber",
         "description": "La place centrale de Strasbourg, nommée en l'honneur du général Jean-Baptiste Kléber.",
         "image": "place_kleber.jpg",
         "latitude": 48.5842,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Jardin des Deux Rives",
+        "slug": "jardin-des-deux-rives",
         "description": "Un parc transfrontalier reliant Strasbourg à Kehl, en Allemagne.",
         "image": "jardin_deux_rives.jpg",
         "latitude": 48.5734,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Opéra national du Rhin",
+        "slug": "opera-national-du-rhin",
         "description": "Un opéra situé à Strasbourg, connu pour ses productions de haute qualité.",
         "image": "opera_national_du_rhin.jpg",
         "latitude": 48.5846,

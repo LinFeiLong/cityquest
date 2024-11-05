@@ -1,6 +1,7 @@
 [
     {
         "name": "Promenade des Anglais",
+        "slug": "promenade-des-anglais",
         "description": "Une célèbre promenade longeant la baie des Anges à Nice, connue pour ses plages et ses palmiers.",
         "image": "promenade_des_anglais.jpg",
         "latitude": 43.6956,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Vieux Nice",
+        "slug": "vieux-nice",
         "description": "Le quartier historique de Nice, avec ses ruelles étroites, ses marchés et ses bâtiments colorés.",
         "image": "vieux_nice.jpg",
         "latitude": 43.6972,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Cathédrale Sainte-Réparate",
+        "slug": "cathedrale-sainte-reparate",
         "description": "Une cathédrale baroque située dans le Vieux Nice, dédiée à Sainte Réparate.",
         "image": "cathedrale_sainte_reparate.jpg",
         "latitude": 43.6975,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Musée Matisse",
+        "slug": "musee-matisse",
         "description": "Un musée dédié à l'œuvre de l'artiste Henri Matisse, situé dans le quartier de Cimiez.",
         "image": "musee_matisse.jpg",
         "latitude": 43.7204,
@@ -481,6 +485,7 @@
     },
     {
         "name": "Colline du Château",
+        "slug": "colline-du-chateau",
         "description": "Un parc offrant une vue panoramique sur Nice et la Méditerranée, situé sur une colline surplombant la ville.",
         "image": "colline_du_chateau.jpg",
         "latitude": 43.6946,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Place Masséna",
+        "slug": "place-massena",
         "description": "La place principale de Nice, connue pour ses bâtiments rouges et ses statues modernes.",
         "image": "place_massena.jpg",
         "latitude": 43.695,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Marché aux Fleurs Cours Saleya",
+        "slug": "marche-aux-fleurs-cours-saleya",
         "description": "Un marché coloré dans le Vieux Nice, célèbre pour ses fleurs, ses fruits et ses légumes.",
         "image": "marche_aux_fleurs.jpg",
         "latitude": 43.6959,
@@ -841,6 +848,7 @@
     },
     {
         "name": "Musée d'Art Moderne et d'Art Contemporain (MAMAC)",
+        "slug": "musee-d-art-moderne-et-d-art-contemporain",
         "description": "Un musée présentant des œuvres d'art moderne et contemporain, situé près de la place Garibaldi.",
         "image": "mamac.jpg",
         "latitude": 43.701,
@@ -961,6 +969,7 @@
     },
     {
         "name": "Jardin Albert 1er",
+        "slug": "jardin-albert-1er",
         "description": "Un jardin public situé entre la Promenade des Anglais et la place Masséna, idéal pour se détendre.",
         "image": "jardin_albert_1er.jpg",
         "latitude": 43.695,
@@ -1081,6 +1090,7 @@
     },
     {
         "name": "Cathédrale Orthodoxe Russe Saint-Nicolas",
+        "slug": "cathedrale-orthodoxe-russe-saint-nicolas",
         "description": "Une cathédrale orthodoxe russe, l'une des plus grandes en dehors de la Russie, située à Nice.",
         "image": "cathedrale_orthodoxe_russe.jpg",
         "latitude": 43.704,

@@ -1,6 +1,7 @@
 [
     {
         "name": "Tour Eiffel",
+        "slug": "tour-eiffel",
         "description": "Un monument emblématique de Paris, construit pour l'Exposition universelle de 1889.",
         "image": "tour_eiffel.jpg",
         "latitude": 48.8584,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Musée du Louvre",
+        "slug": "musee-du-louvre",
         "description": "Le plus grand musée d'art du monde et un monument historique à Paris, France.",
         "image": "musee_du_louvre.jpg",
         "latitude": 48.8606,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Cathédrale Notre-Dame",
+        "slug": "cathedrale-notre-dame",
         "description": "Une cathédrale catholique médiévale située sur l'Île de la Cité dans le 4e arrondissement de Paris.",
         "image": "cathedrale_notre_dame.jpg",
         "latitude": 48.852968,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Arc de Triomphe",
+        "slug": "arc-de-triomphe",
         "description": "Un monument célèbre à Paris, situé à l'extrémité ouest des Champs-Élysées.",
         "image": "arc_de_triomphe.jpg",
         "latitude": 48.8738,
@@ -480,7 +484,8 @@
         ]
     },
     {
-        "name": "Sacré-Cœur",
+        "name": "Basilique du Sacré-Cœur",
+        "slug": "basilique-du-sacre-coeur",
         "description": "Une basilique catholique située au sommet de la butte Montmartre, le point culminant de la ville.",
         "image": "sacre_coeur.jpg",
         "latitude": 48.8867,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Palais Garnier",
+        "slug": "palais-garnier",
         "description": "Un opéra célèbre à Paris, connu pour son architecture somptueuse et son histoire riche.",
         "image": "palais_garnier.jpg",
         "latitude": 48.8719,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Panthéon",
+        "slug": "pantheon",
         "description": "Un monument situé dans le 5e arrondissement de Paris, dédié aux grands hommes de la nation.",
         "image": "pantheon.jpg",
         "latitude": 48.8462,
@@ -841,6 +848,7 @@
     },
     {
         "name": "Château de Versailles",
+        "slug": "chateau-de-versailles",
         "description": "Un château royal situé à Versailles, connu pour ses jardins somptueux et son architecture grandiose.",
         "image": "chateau_versailles.jpg",
         "latitude": 48.8049,
@@ -961,6 +969,7 @@
     },
     {
         "name": "Centre Pompidou",
+        "slug": "centre-pompidou",
         "description": "Un complexe culturel situé dans le 4e arrondissement de Paris, connu pour son architecture moderne.",
         "image": "centre_pompidou.jpg",
         "latitude": 48.8606,

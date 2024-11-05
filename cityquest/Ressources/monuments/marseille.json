@@ -1,6 +1,7 @@
 [
     {
         "name": "Basilique Notre-Dame de la Garde",
+        "slug": "basilique-notre-dame-de-la-garde",
         "description": "La “Bonne Mère” est l’un des symboles les plus connus de Marseille, située au sommet d’une colline offrant une vue panoramique sur la ville et la Méditerranée.",
         "image": "notre_dame_de_la_garde.jpg",
         "latitude": 43.28419512064788,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Cathédrale La Major",
+        "slug": "cathedrale-la-major",
         "description": "Une cathédrale impressionnante de style romano-byzantin située près du port, à l’entrée du quartier du Panier.",
         "image": "cathedrale_la_major.jpg",
         "latitude": 43.30008871502034,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Fort Saint-Jean",
+        "slug": "fort-saint-jean",
         "description": "Ce fort historique, situé à l’entrée du Vieux-Port, fait partie du musée des civilisations de l’Europe et de la Méditerranée (Mucem).",
         "image": "fort_saint_jean.jpg",
         "latitude": 43.295929994228885,
@@ -360,127 +363,8 @@
         ]
     },
     {
-        "name": "Palais Longchamp",
-        "description": "Un monument dédié aux arts et à l’eau, avec un magnifique parc, abritant le musée des Beaux-Arts et le musée d’Histoire Naturelle.",
-        "image": "palais_longchamp.jpg",
-        "latitude": 43.30434094193662,
-        "longitude": 5.3945555693507785,
-        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Palais_Longchamp",
-        "questions": [
-            {
-                "question": "En quelle année a été inauguré le Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "1869", "isCorrect": true },
-                    { "response": "1859", "isCorrect": false },
-                    { "response": "1879", "isCorrect": false },
-                    { "response": "1889", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal architecte du Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Henri-Jacques Espérandieu", "isCorrect": true },
-                    { "response": "Eugène Viollet-le-Duc", "isCorrect": false },
-                    { "response": "Charles Garnier", "isCorrect": false },
-                    { "response": "Jean Nouvel", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal matériau de construction du Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Pierre", "isCorrect": true },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Bois", "isCorrect": false },
-                    { "response": "Métal", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal musée abrité par le Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Musée des Beaux-Arts", "isCorrect": true },
-                    { "response": "Musée d'Orsay", "isCorrect": false },
-                    { "response": "Musée du Louvre", "isCorrect": false },
-                    { "response": "Musée Rodin", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal parc associé au Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Parc Longchamp", "isCorrect": true },
-                    { "response": "Parc Borély", "isCorrect": false },
-                    { "response": "Parc Montsouris", "isCorrect": false },
-                    { "response": "Parc Monceau", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal événement culturel associé au Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Festival de musique", "isCorrect": true },
-                    { "response": "Exposition d'art", "isCorrect": false },
-                    { "response": "Salon du livre", "isCorrect": false },
-                    { "response": "Festival de cinéma", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal élément architectural du Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "La fontaine", "isCorrect": true },
-                    { "response": "Le dôme", "isCorrect": false },
-                    { "response": "Le clocher", "isCorrect": false },
-                    { "response": "Le portail", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal point de vue depuis le Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "La ville de Marseille", "isCorrect": true },
-                    { "response": "La mer Méditerranée", "isCorrect": false },
-                    { "response": "Les montagnes", "isCorrect": false },
-                    { "response": "Le Vieux-Port", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal événement historique associé au Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "L'arrivée des eaux de la Durance", "isCorrect": true },
-                    { "response": "La Révolution française", "isCorrect": false },
-                    { "response": "La Seconde Guerre mondiale", "isCorrect": false },
-                    { "response": "La Première Guerre mondiale", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal accès au Palais Longchamp?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Avenue du Prado", "isCorrect": true },
-                    { "response": "Boulevard Saint-Michel", "isCorrect": false },
-                    { "response": "Rue de Rivoli", "isCorrect": false },
-                    { "response": "Avenue des Champs-Élysées", "isCorrect": false }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Château d’If",
+        "name": "Château d'If",
+        "slug": "chateau-d-if",
         "description": "Une forteresse sur une île au large de Marseille, célèbre pour avoir été la prison fictive d’Edmond Dantès dans “Le Comte de Monte-Cristo” d’Alexandre Dumas.",
         "image": "chateau_d_if.jpg",
         "latitude": 43.28035875358548,
@@ -601,6 +485,7 @@
     },
     {
         "name": "Vieux Port",
+        "slug": "vieux-port",
         "description": "Le Vieux-Port est le cœur historique de Marseille, animé par des marchés de poissons et bordé de cafés.",
         "image": "vieux_port.jpg",
         "latitude": 43.2965,
@@ -721,6 +606,7 @@
     },
     {
         "name": "Abbaye Saint-Victor",
+        "slug": "abbaye-saint-victor",
         "description": "Une abbaye médiévale fondée au Ve siècle, connue pour ses cryptes et son architecture ancienne.",
         "image": "abbaye_saint_victor.jpg",
         "latitude": 43.2925,
@@ -841,6 +727,7 @@
     },
     {
         "name": "Parc Borély",
+        "slug": "parc-borely",
         "description": "Un grand parc public avec des jardins à la française, un lac et un château du XVIIIe siècle.",
         "image": "parc_borely.jpg",
         "latitude": 43.2619,
@@ -961,6 +848,7 @@
     },
     {
         "name": "Musée des Civilisations de l'Europe et de la Méditerranée (MuCEM)",
+        "slug": "mucem",
         "description": "Un musée moderne dédié aux civilisations de la Méditerranée, situé près du Fort Saint-Jean.",
         "image": "mucem.jpg",
         "latitude": 43.2951,
@@ -1081,6 +969,7 @@
     },
     {
         "name": "La Canebière",
+        "slug": "la-canebiere",
         "description": "La Canebière est une célèbre avenue de Marseille, connue pour ses boutiques et son ambiance animée.",
         "image": "la_canebiere.jpg",
         "latitude": 43.2965,
