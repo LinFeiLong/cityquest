@@ -51,7 +51,11 @@ struct DiscoverViewMonudex: View {
                                     ForEach(citysList) { city in
                                         
                                         if user[0].history.keys.contains(city.id) {
-                                            CityCard(city: city)
+                                            NavigationLink(destination: MonudexView(city: city)) {
+                                                CityCard(city: city,progress: city.getProgess(history: user[0].history))
+                                                
+                                            }
+
                                         }
 
 
@@ -67,6 +71,10 @@ struct DiscoverViewMonudex: View {
                         if !user[0].history.isEmpty{
                             if let citiesLoaded = loadCites() {
                                 citysList = citiesLoaded
+                            }
+                            for city in citysList {
+                                print(city.name)
+                                city.loadMonuments()
                             }
                         }
 

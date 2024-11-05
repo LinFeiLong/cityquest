@@ -8,12 +8,12 @@
 import Foundation
 import SwiftUI
 
-struct Response: Decodable {
+struct Response: Codable {
     var response: String
     var isCorrect: Bool
 }
 
-struct Question: Decodable {
+struct Question: Codable {
     var question: String
     var isAnsweredCorrectly: Bool
     var isAnswered: Bool
@@ -21,7 +21,7 @@ struct Question: Decodable {
 }
 
 class Monument: Place {
-    var questions: [Question]
+    var questions: [Question] = []
 
     init(name: String, description: String, image: String, latitude: Double, longitude: Double, questions: [Question]) {
         self.questions = questions
@@ -34,11 +34,9 @@ class Monument: Place {
             wikipedia_page_url: nil
         )
     }
-    
-    required init(from decoder: Decoder) throws {
+
+    required init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
-        // Decode properties
         let name = try container.decode(String.self, forKey: .name)
         let description = try container.decode(String.self, forKey: .description)
         let image = try container.decode(String.self, forKey: .image)
@@ -54,4 +52,9 @@ class Monument: Place {
     private enum CodingKeys: String, CodingKey {
         case name, description, image, latitude, longitude, questions, wikipedia_page_url
     }
+
+
+    //    private enum CodingKeys: String, CodingKey {
+    //        case questions
+    //    }
 }

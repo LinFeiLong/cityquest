@@ -27,8 +27,10 @@ struct DiscoverView: View {
                         .padding(.horizontal)
 
                         ForEach(citysList) { city in
+                            NavigationLink(destination: DescriptionView(detailThing: city)){
+                                CityCard(city: city)
+                            }
 
-                            CityCard(city: city)
 
 
                         }
