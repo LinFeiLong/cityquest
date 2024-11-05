@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameTabNav: View {
-    @Binding var game: Game
+    @Environment(GameManager.self) var gameManager: GameManager
     
     private let width: Double = 60
     private var heigth: Double {
@@ -27,12 +27,11 @@ struct GameTabNav: View {
 //                .animation(.spring(duration: 0.7, bounce: 0.5), value: btnOffset)
             
             VStack(spacing: 20) {
-                ForEach(Array($game.steps.enumerated()), id: \.self) { (index, step) in
-//                    let isSelected = index == $game.index.wrappedValue
-                    let isSelected = true
-                    
+                ForEach(gameManager.currentGame.steps.indices, id: \.self) { index in
+                    let step = gameManager.currentGame.steps[index]
+                    let isSelected = gameManager.currentGame.currentStep == step
                     Button {
-                        $game.indexOfStep = Int(index)
+                        gameManager.currentGame.indexOfStep = index
                     } label: {
                         ZStack {
                             Circle()
@@ -46,23 +45,6 @@ struct GameTabNav: View {
                         }
                     }
                 }
-//                ForEach(Array(monuments.enumerated()), id: \.1.id) { (index, monument) in
-//                    let isSelected = monument.id == selectedMonument.id
-//                    Button {
-//                        indexOfStep = index
-//                    } label: {
-//                        ZStack {
-//                            Circle()
-//                                .frame(width: 39)
-//                                .foregroundColor(isSelected ? .accent : .mainLight)
-//                            Text(String(index + 1))
-//                                .font(.headline)
-//                                .fontWeight(.heavy)
-//                                .foregroundColor(isSelected ? .main : .mainDark)
-//                            
-//                        }
-//                    }
-//                }
             }
         }
         .frame(width: width, height: heigth)
@@ -71,6 +53,6 @@ struct GameTabNav: View {
 }
 
 #Preview {
-    @Previewable @State var game = Game()
-    GameTabNav(game: $game)
+    GameTabNav()
+        .environment(GameManager())
 }

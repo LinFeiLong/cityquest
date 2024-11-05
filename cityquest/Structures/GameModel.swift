@@ -9,7 +9,8 @@ import Foundation
 import CoreLocation
 import SwiftData
 
-struct Step {
+struct Step: Identifiable {
+    var id = UUID()
     var place: Monument // Place
     var questions: [Question] = []// Place -> Question selected in Place at start
     var indexOfQuestion: Int = 0
@@ -31,7 +32,14 @@ extension Step: CustomStringConvertible {
     }
 }
 
-struct Game {
+extension Step: Equatable {
+    static func == (lhs: Step, rhs: Step) -> Bool {
+        lhs.id == rhs.id
+    }
+}
+@Observable
+class Game: Identifiable {
+    var id = UUID()
     var score: Int = 0
     var steps: [Step] = []
     var indexOfStep: Int = 0
@@ -40,6 +48,10 @@ struct Game {
     var durationMax: Double = 3
     var distanceMax: Double = 5
     var transportation: Transportation = .walk
+    
+    var currentStep: Step {
+        steps[indexOfStep]
+    }
     
     var stepInProgress: Step? {
         steps.first(where: { $0.isFinished == false })

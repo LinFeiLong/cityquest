@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct GameFormView: View {
-    
+    @Environment(GameManager.self) var gameManager: GameManager
     @State private var monuments: [Monument] = []
-    @State private var game: Game = Game()
 
     @State private var isDatePickerVisible: Bool = true
     
@@ -37,26 +36,26 @@ struct GameFormView: View {
                         .fontWeight(.bold)
                         .colorScheme(.dark)
                     
-                    Toggle(isOn: $isDatePickerVisible) {
+                    Toggle(isOn: gameManager.currentGame.scheduled) {
                         Text("Programmer une date")
                             .foregroundColor(.white)
                     }
                     .toggleStyle(SwitchToggleStyle(tint: Color.accent))
                     .colorScheme(.dark)
                     
-                    if isDatePickerVisible {
+                    if gameManager.currentGame.scheduled {
                         VStack(alignment: .trailing) {
                             HStack {
                                 Spacer()
                                 // Date Picker
-                                DatePicker("", selection: $game.scheduled_date, displayedComponents: [.date])
+                                DatePicker("", selection: gameManager.currentGame.scheduled_date, displayedComponents: [.date])
                                     .labelsHidden()
                                     .datePickerStyle(CompactDatePickerStyle())
                                     .cornerRadius(10)
                                     .tint(.mainDark)
                                 
                                 // Time Picker
-                                DatePicker("", selection: $game.scheduled_date, displayedComponents: [.hourAndMinute])
+                                DatePicker("", selection: gameManager.currentGame.scheduled_date, displayedComponents: [.hourAndMinute])
                                     .labelsHidden()
                                     .datePickerStyle(CompactDatePickerStyle())
                                     .cornerRadius(10)
@@ -71,9 +70,9 @@ struct GameFormView: View {
                             .foregroundColor(.white)
                         // Duration Picker (Hour)
                         HStack {
-                            Slider(value: $game.durationMax, in: 1...10, step: 1)
+                            Slider(value: gameManager.currentGame.durationMax, in: 1...10, step: 1)
                                 .accentColor(.accent)
-                            Text("\(game.durationMax, specifier: "%.0f") h")
+                            Text("\(gameManager.currentGame.durationMax, specifier: "%.0f") h")
                                 .foregroundColor(.white)
                         }
                     }
@@ -85,27 +84,13 @@ struct GameFormView: View {
                             .multilineTextAlignment(.leading)
                             .padding(.bottom, 10)
                         HStack {
-                            Slider(value: $game.distanceMax, in: 5...50, step: 1)
+                            Slider(value: gameManager.currentGame.distanceMax, in: 5...50, step: 1)
                                 .accentColor(.accent)
-                            Text("\(game.distanceMax, specifier: "%.0f") km")
+                            Text("\(gameManager.currentGame.distanceMax, specifier: "%.0f") km")
                                 .foregroundColor(.white)
                         }
                     }
-                    
-//                    VStack(alignment: .leading) {
-//                        Text("Vos modes de transport")
-//                            .foregroundColor(.white)
-//                            .multilineTextAlignment(.leading)
-//                        HStack {
-//                            
-//                        }
-//                    }
-//                    .frame(maxWidth: .infinity)
-                    
                     Spacer()
-//                    NavigationLink() {
-//                        GameView() //add Game
-//                            .navigationBarHidden(true)
                     Button {
                         createGame()
                     } label: {
@@ -132,52 +117,22 @@ struct GameFormView: View {
                 .padding()
             }
             .navigationDestination(isPresented: $isCreated, destination: {
-                GameView(game: $game)
+                GameView()
                     .navigationBarHidden(true)
             })
         }
         .onAppear {
             Task {
-                do {
-                    monuments.removeAll()
-                    let data = try await LoadJSONManager().loadJSON(from: "marseille")
-                    monuments = data
-                    // creation des étapes
-                    // Faire une array d'index unique
-                    var uniqueNumbers: Set<Int> = []
-                    for _ in 0..<5 {
-                        addRandomNumber(max: monuments.count, array: &uniqueNumbers)
-                    }
-                    // Parcourir l'array et créer chaque étape
-                    for index in uniqueNumbers {
-                        var newStep = Step(place: monuments[index])
-                        var uniqueQuestionIndex: Set<Int> = []
-                        for _ in 0..<5 {
-                            addRandomNumber(max: newStep.place.questions.count, array: &uniqueQuestionIndex)
-                        }
-                        for index in uniqueQuestionIndex {
-                            newStep.questions.append(newStep.place.questions[index])
-                        }
-                        print(newStep)
-                        game.steps.append(newStep)
-                    }
-                    gameIsReady.toggle()
-                }
+                try await gameManager.getStepsFromJSON("marseille", 5, 5)
+                gameIsReady = true
+                print(gameManager.currentGame)
             }
 
-        }
-    }
-    
-    func addRandomNumber(max: Int, array: inout Set<Int>) {
-        let randomNumber = Int.random(in: 0..<max)
-        if !array.contains(randomNumber) {
-            array.insert(randomNumber)
-        } else {
-            addRandomNumber(max: max, array: &array)
         }
     }
 }
 
 #Preview {
     GameFormView()
+        .environment(GameManager())
 }

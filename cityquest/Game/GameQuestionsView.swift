@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct GameQuestionsView: View {
-    @Binding var game: Game
+    @Environment(GameManager.self) var gameManager: GameManager
+    
     @Binding var isPresented: Bool
     @State var appearAnim: Bool = false
     
@@ -27,6 +28,7 @@ struct GameQuestionsView: View {
                     .padding(.top, 75)
                 Text("Test")
                 Spacer()
+                
                 Button("close") {
                     withAnimation(.easeIn(duration: 0.25)) {
                         appearAnim.toggle()
@@ -48,6 +50,6 @@ struct GameQuestionsView: View {
 }
 
 #Preview {
-    @Previewable @State var game: Game = Game()
-    GameQuestionsView(game: $game, isPresented: .constant(true))
+    GameQuestionsView(isPresented: .constant(true))
+        .environment(GameManager())
 }
