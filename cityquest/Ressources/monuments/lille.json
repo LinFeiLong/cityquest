@@ -6,7 +6,7 @@
         "image": "vieille_bourse.jpg",
         "latitude": 50.6364,
         "longitude": 3.0633,
-        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Vieille_Bourse_(Lille)",
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Vieille_Bourse",
         "questions": [
             {
                 "question": "En quelle année la Vieille Bourse a-t-elle été construite?",
@@ -732,7 +732,7 @@
         "image": "parc_de_la_citadelle.jpg",
         "latitude": 50.6400,
         "longitude": 3.0480,
-        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Parc_de_la_Citadelle",
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Citadelle_de_Lille",
         "questions": [
             {
                 "question": "En quelle année le Parc de la Citadelle a-t-il été ouvert au public?",

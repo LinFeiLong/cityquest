@@ -8,7 +8,7 @@
       "longitude": 5.3698
     },
     "image": "marseille",
-    "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde"
+    "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Marseille"
   },
   {
     "id": "UUID-2",
@@ -19,7 +19,7 @@
       "longitude": 2.3522
     },
     "image": "paris",
-    "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Toulouse" 
+    "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Paris" 
   },
   {
     "id": "UUID-3",

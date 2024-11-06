@@ -1,0 +1,662 @@
+[
+    {
+        "name": "Place de la Comédie",
+        "slug": "place-de-la-comedie",
+        "description": "Place emblématique de Montpellier, surnommée 'l'Œuf' en raison de sa forme ovale, avec sa célèbre fontaine des Trois Grâces.",
+        "image": "place_de_la_comedie.jpg",
+        "latitude": 43.6084,
+        "longitude": 3.8792,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_de_la_Com%C3%A9die_(Montpellier)",
+        "questions": [
+            {
+                "question": "Quel est le surnom de la Place de la Comédie?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'Œuf", "isCorrect": true },
+                    { "response": "Le Cercle", "isCorrect": false },
+                    { "response": "L'Ovale", "isCorrect": false },
+                    { "response": "La Rotonde", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année la fontaine des Trois Grâces a-t-elle été installée?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1790", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false },
+                    { "response": "1920", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel bâtiment emblématique borde la Place de la Comédie?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'Opéra Comédie", "isCorrect": true },
+                    { "response": "Le Musée Fabre", "isCorrect": false },
+                    { "response": "La Cathédrale", "isCorrect": false },
+                    { "response": "L'Hôtel de Ville", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle ligne de tramway ne passe pas par la Place de la Comédie?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ligne 3", "isCorrect": true },
+                    { "response": "Ligne 1", "isCorrect": false },
+                    { "response": "Ligne 2", "isCorrect": false },
+                    { "response": "Ligne 4", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel centre commercial se trouve à proximité immédiate de la Place de la Comédie?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Polygone", "isCorrect": true },
+                    { "response": "Odysseum", "isCorrect": false },
+                    { "response": "Grand Sud", "isCorrect": false },
+                    { "response": "Les Halles", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Promenade du Peyrou",
+        "slug": "promenade-du-peyrou",
+        "description": "Esplanade royale du XVIIIe siècle dominée par la statue équestre de Louis XIV et l'arc de triomphe.",
+        "image": "promenade_du_peyrou.jpg",
+        "latitude": 43.6114,
+        "longitude": 3.8707,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Promenade_du_Peyrou",
+        "questions": [
+            {
+                "question": "Quelle statue équestre domine la Promenade du Peyrou?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Louis XIV", "isCorrect": true },
+                    { "response": "Napoléon", "isCorrect": false },
+                    { "response": "Louis XVI", "isCorrect": false },
+                    { "response": "Henri IV", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année a été inaugurée la statue équestre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1718", "isCorrect": true },
+                    { "response": "1750", "isCorrect": false },
+                    { "response": "1680", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel monument emblématique se trouve à l'extrémité de la promenade?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Château d'eau", "isCorrect": true },
+                    { "response": "La Tour de la Babote", "isCorrect": false },
+                    { "response": "L'Aqueduc", "isCorrect": false },
+                    { "response": "Le Beffroi", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel style architectural caractérise la Promenade du Peyrou?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Classique français", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel marché traditionnel se tient régulièrement sur la Promenade du Peyrou?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Marché aux antiquités", "isCorrect": true },
+                    { "response": "Marché aux fleurs", "isCorrect": false },
+                    { "response": "Marché aux légumes", "isCorrect": false },
+                    { "response": "Marché aux poissons", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cathédrale Saint-Pierre",
+        "slug": "cathedrale-saint-pierre",
+        "description": "Ancienne cathédrale catholique romaine, remarquable par ses tours fortifiées et son style gothique méridional.",
+        "image": "cathedrale_saint_pierre.jpg",
+        "latitude": 43.6136,
+        "longitude": 3.8731,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Saint-Pierre_de_Montpellier",
+        "questions": [
+            {
+                "question": "En quelle année a débuté la construction de la Cathédrale Saint-Pierre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1364", "isCorrect": true },
+                    { "response": "1400", "isCorrect": false },
+                    { "response": "1250", "isCorrect": false },
+                    { "response": "1500", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel pape a autorisé la construction de la cathédrale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Urbain V", "isCorrect": true },
+                    { "response": "Clément VI", "isCorrect": false },
+                    { "response": "Innocent VI", "isCorrect": false },
+                    { "response": "Grégoire XI", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la particularité architecturale de la cathédrale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ses tours fortifiées", "isCorrect": true },
+                    { "response": "Sa flèche", "isCorrect": false },
+                    { "response": "Son dôme", "isCorrect": false },
+                    { "response": "Sa rosace", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel événement historique a endommagé la cathédrale au XVIe siècle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les guerres de religion", "isCorrect": true },
+                    { "response": "Un incendie", "isCorrect": false },
+                    { "response": "Un tremblement de terre", "isCorrect": false },
+                    { "response": "Une inondation", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel élément architectural relie la faculté de médecine à la cathédrale?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Un baldaquin", "isCorrect": true },
+                    { "response": "Un pont", "isCorrect": false },
+                    { "response": "Une arche", "isCorrect": false },
+                    { "response": "Un tunnel", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Faculté de Médecine",
+        "slug": "faculte-de-medecine",
+        "description": "Plus ancienne faculté de médecine en exercice au monde, fondée en 1220, abritant un prestigieux conservatoire d'anatomie.",
+        "image": "faculte_de_medecine.jpg",
+        "latitude": 43.6137,
+        "longitude": 3.8728,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Facult%C3%A9_de_m%C3%A9decine_de_Montpellier",
+        "questions": [
+            {
+                "question": "En quelle année a été fondée la Faculté de Médecine de Montpellier?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1220", "isCorrect": true },
+                    { "response": "1180", "isCorrect": false },
+                    { "response": "1300", "isCorrect": false },
+                    { "response": "1400", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel célèbre médecin a enseigné à la Faculté de Médecine au XVIe siècle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Rabelais", "isCorrect": true },
+                    { "response": "Ambroise Paré", "isCorrect": false },
+                    { "response": "Nostradamus", "isCorrect": false },
+                    { "response": "Vesalius", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Que trouve-t-on dans le conservatoire d'anatomie?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Des collections anatomiques", "isCorrect": true },
+                    { "response": "Des herbiers", "isCorrect": false },
+                    { "response": "Des tableaux", "isCorrect": false },
+                    { "response": "Des sculptures", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Dans quel ancien bâtiment est installée la Faculté de Médecine?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Un monastère bénédictin", "isCorrect": true },
+                    { "response": "Un palais royal", "isCorrect": false },
+                    { "response": "Une église", "isCorrect": false },
+                    { "response": "Un hôpital", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel jardin historique est associé à la Faculté de Médecine?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Jardin des Plantes", "isCorrect": true },
+                    { "response": "Le Jardin Royal", "isCorrect": false },
+                    { "response": "Le Jardin des Simples", "isCorrect": false },
+                    { "response": "Le Jardin Botanique", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jardin des Plantes",
+        "slug": "jardin-des-plantes",
+        "description": "Plus ancien jardin botanique de France, créé en 1593 sous Henri IV, servant à l'étude des plantes médicinales.",
+        "image": "jardin_des_plantes.jpg",
+        "latitude": 43.6147,
+        "longitude": 3.8724,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Jardin_des_plantes_de_Montpellier",
+        "questions": [
+            {
+                "question": "En quelle année a été créé le Jardin des Plantes de Montpellier?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1593", "isCorrect": true },
+                    { "response": "1600", "isCorrect": false },
+                    { "response": "1550", "isCorrect": false },
+                    { "response": "1650", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Qui a ordonné la création du Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Henri IV", "isCorrect": true },
+                    { "response": "Louis XIII", "isCorrect": false },
+                    { "response": "Louis XIV", "isCorrect": false },
+                    { "response": "François Ier", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle était la fonction principale du Jardin des Plantes à sa création?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'étude des plantes médicinales", "isCorrect": true },
+                    { "response": "La promenade publique", "isCorrect": false },
+                    { "response": "La culture potagère", "isCorrect": false },
+                    { "response": "L'agrément royal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel célèbre botaniste a dirigé le Jardin des Plantes au XVIIIe siècle?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre Magnol", "isCorrect": true },
+                    { "response": "Antoine de Jussieu", "isCorrect": false },
+                    { "response": "Joseph Pitton de Tournefort", "isCorrect": false },
+                    { "response": "Georges-Louis Leclerc de Buffon", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle espèce d'arbre emblématique peut-on trouver au Jardin des Plantes?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le Ginkgo biloba", "isCorrect": true },
+                    { "response": "Le Séquoia", "isCorrect": false },
+                    { "response": "Le Cèdre du Liban", "isCorrect": false },
+                    { "response": "Le Baobab", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aqueduc Saint-Clément",
+        "slug": "aqueduc-saint-clement",
+        "description": "Aqueduc historique du XVIIIe siècle qui alimentait Montpellier en eau depuis la source du Lez, culminant avec les Arceaux.",
+        "image": "aqueduc_saint_clement.jpg",
+        "latitude": 43.6116,
+        "longitude": 3.8670,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Aqueduc_Saint-Cl%C3%A9ment",
+        "questions": [
+            {
+                "question": "En quelle année a débuté la construction de l'Aqueduc Saint-Clément?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1753", "isCorrect": true },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1650", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la longueur totale de l'Aqueduc Saint-Clément?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "14 kilomètres", "isCorrect": true },
+                    { "response": "10 kilomètres", "isCorrect": false },
+                    { "response": "20 kilomètres", "isCorrect": false },
+                    { "response": "5 kilomètres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel ingénieur a conçu l'Aqueduc Saint-Clément?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Henri Pitot", "isCorrect": true },
+                    { "response": "Jean-Antoine Giral", "isCorrect": false },
+                    { "response": "François d'Orbay", "isCorrect": false },
+                    { "response": "Jacques-François Blondel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel quartier de Montpellier est traversé par les Arceaux?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Le quartier des Arceaux", "isCorrect": true },
+                    { "response": "Antigone", "isCorrect": false },
+                    { "response": "Les Beaux-Arts", "isCorrect": false },
+                    { "response": "Boutonnet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle source alimentait l'Aqueduc Saint-Clément?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La source du Lez", "isCorrect": true },
+                    { "response": "La source du Verdanson", "isCorrect": false },
+                    { "response": "La source de la Mosson", "isCorrect": false },
+                    { "response": "La source Saint-Clément", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musée Fabre",
+        "slug": "musee-fabre",
+        "description": "L'un des plus importants musées des beaux-arts de France, fondé en 1825 par François-Xavier Fabre.",
+        "image": "musee_fabre.jpg",
+        "latitude": 43.6116,
+        "longitude": 3.8797,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Fabre",
+        "questions": [
+            {
+                "question": "Qui a fondé le Musée Fabre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "François-Xavier Fabre", "isCorrect": true },
+                    { "response": "Antoine Valedau", "isCorrect": false },
+                    { "response": "Alfred Bruyas", "isCorrect": false },
+                    { "response": "Pierre Soulages", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle année le Musée Fabre a-t-il été fondé?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1825", "isCorrect": true },
+                    { "response": "1800", "isCorrect": false },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1875", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel célèbre peintre a fait don de sa collection au musée en 1868?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Alfred Bruyas", "isCorrect": true },
+                    { "response": "Eugène Delacroix", "isCorrect": false },
+                    { "response": "Gustave Courbet", "isCorrect": false },
+                    { "response": "Jean-Auguste-Dominique Ingres", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle œuvre majeure de Courbet est conservée au Musée Fabre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Bonjour Monsieur Courbet", "isCorrect": true },
+                    { "response": "L'Origine du monde", "isCorrect": false },
+                    { "response": "Les Casseurs de pierres", "isCorrect": false },
+                    { "response": "Un enterrement à Ornans", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel artiste contemporain a une salle dédiée au Musée Fabre?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre Soulages", "isCorrect": true },
+                    { "response": "Daniel Buren", "isCorrect": false },
+                    { "response": "Jean-Michel Basquiat", "isCorrect": false },
+                    { "response": "Yves Klein", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Antigone",
+        "slug": "antigone",
+        "description": "Quartier néoclassique conçu par Ricardo Bofill dans les années 1970, exemple remarquable d'architecture postmoderne.",
+        "image": "antigone.jpg",
+        "latitude": 43.6082,
+        "longitude": 3.8897,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Antigone_(Montpellier)",
+        "questions": [
+            {
+                "question": "Quel architecte a conçu le quartier Antigone?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Ricardo Bofill", "isCorrect": true },
+                    { "response": "Le Corbusier", "isCorrect": false },
+                    { "response": "Oscar Niemeyer", "isCorrect": false },
+                    { "response": "Jean Nouvel", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "En quelle décennie a débuté la construction d'Antigone?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les années 1970", "isCorrect": true },
+                    { "response": "Les années 1960", "isCorrect": false },
+                    { "response": "Les années 1980", "isCorrect": false },
+                    { "response": "Les années 1990", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel style architectural caractérise Antigone?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néoclassique", "isCorrect": true },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Art déco", "isCorrect": false },
+                    { "response": "Gothique", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle place emblématique se trouve au cœur d'Antigone?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Place du Nombre d'Or", "isCorrect": true },
+                    { "response": "Place de la Comédie", "isCorrect": false },
+                    { "response": "Place Royale", "isCorrect": false },
+                    { "response": "Place du Peyrou", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel bâtiment administratif important se trouve à Antigone?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "L'Hôtel de Région", "isCorrect": true },
+                    { "response": "La Mairie", "isCorrect": false },
+                    { "response": "La Préfecture", "isCorrect": false },
+                    { "response": "Le Conseil Général", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Arc de Triomphe",
+        "slug": "arc-de-triomphe",
+        "description": "Monument historique du XVIIe siècle marquant l'entrée de la promenade du Peyrou, dédié à Louis XIV.",
+        "image": "arc_de_triomphe.jpg",
+        "latitude": 43.6114,
+        "longitude": 3.8707,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Porte_du_Peyrou",
+        "questions": [
+            {
+                "question": "En quelle année a été achevé l'Arc de Triomphe de Montpellier?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1693", "isCorrect": true },
+                    { "response": "1650", "isCorrect": false },
+                    { "response": "1700", "isCorrect": false },
+                    { "response": "1750", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "À quel roi est dédié l'Arc de Triomphe?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Louis XIV", "isCorrect": true },
+                    { "response": "Louis XIII", "isCorrect": false },
+                    { "response": "Louis XV", "isCorrect": false },
+                    { "response": "Henri IV", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel architecte a conçu l'Arc de Triomphe?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "François d'Orbay", "isCorrect": true },
+                    { "response": "Charles Augustin d'Aviler", "isCorrect": false },
+                    { "response": "Jules Hardouin-Mansart", "isCorrect": false },
+                    { "response": "Robert de Cotte", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle victoire militaire est commémorée sur l'Arc de Triomphe?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La prise de Namur", "isCorrect": true },
+                    { "response": "La bataille de Rocroi", "isCorrect": false },
+                    { "response": "Le siège de La Rochelle", "isCorrect": false },
+                    { "response": "La bataille de Denain", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la hauteur de l'Arc de Triomphe?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "15 mètres", "isCorrect": true },
+                    { "response": "20 mètres", "isCorrect": false },
+                    { "response": "25 mètres", "isCorrect": false },
+                    { "response": "30 mètres", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Basilique Notre-Dame des Tables",
+        "slug": "basilique-notre-dame-des-tables",
+        "description": "Église historique du XIXe siècle, construite sur l'emplacement d'un sanctuaire médiéval, célèbre pour son pèlerinage marial.",
+        "image": "basilique_notre_dame_des_tables.jpg",
+        "latitude": 43.6089,
+        "longitude": 3.8777,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame_des_Tables",
+        "questions": [
+            {
+                "question": "En quelle année a été consacrée l'actuelle basilique?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "1867", "isCorrect": true },
+                    { "response": "1850", "isCorrect": false },
+                    { "response": "1880", "isCorrect": false },
+                    { "response": "1900", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel style architectural caractérise la basilique?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néogothique", "isCorrect": true },
+                    { "response": "Roman", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle relique célèbre était vénérée dans l'ancienne église?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "La Vierge Noire", "isCorrect": true },
+                    { "response": "Le Saint Suaire", "isCorrect": false },
+                    { "response": "La Sainte Croix", "isCorrect": false },
+                    { "response": "La Couronne d'Épines", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel événement a détruit l'église médiévale d'origine?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Les guerres de religion", "isCorrect": true },
+                    { "response": "Un incendie", "isCorrect": false },
+                    { "response": "La Révolution française", "isCorrect": false },
+                    { "response": "Un tremblement de terre", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel titre honorifique a été accordé à l'église en 1873?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Basilique mineure", "isCorrect": true },
+                    { "response": "Cathédrale", "isCorrect": false },
+                    { "response": "Prieuré royal", "isCorrect": false },
+                    { "response": "Abbaye", "isCorrect": false }
+                ]
+            }
+        ]
+    }
+] 
