@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GameFormView: View {
+    let cityName: String
     @Environment(GameManager.self) var gameManager: GameManager
     @State private var monuments: [Monument] = []
     
@@ -129,17 +130,17 @@ struct GameFormView: View {
         }
         .onAppear {
             Task {
+                let jsonName = cityName.lowercased()
                 gameManager.currentGame = Game()
-                try await gameManager.getStepsFromJSON("marseille", 5, 5)
+                gameManager.currentGame.cityName = cityName
+                try await gameManager.getStepsFromJSON(jsonName, 5, 5)
                 gameIsReady = true
-                print(gameManager.currentGame)
             }
-
         }
     }
 }
 
 #Preview {
-    GameFormView()
+    GameFormView(cityName: "Marseille")
         .environment(GameManager())
 }
