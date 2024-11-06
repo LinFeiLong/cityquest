@@ -369,7 +369,7 @@
         "image": "pont_neuf.jpg",
         "latitude": 43.6008,
         "longitude": 1.4371,
-        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Pont_Neuf_(Toulouse)",
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Pont-Neuf_(Toulouse)",
         "questions": [
             {
                 "question": "En quelle année le Pont Neuf de Toulouse a-t-il été achevé?",
@@ -732,7 +732,7 @@
         "image": "place_du_capitole.jpg",
         "latitude": 43.6045,
         "longitude": 1.4442,
-        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_du_Capitole",
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Place_du_Capitole_(Toulouse)",
         "questions": [
             {
                 "question": "Quel est le principal bâtiment situé sur la Place du Capitole?",
