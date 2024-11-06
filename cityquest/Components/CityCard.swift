@@ -1,68 +1,69 @@
 import SwiftUI
 
-// Composant card
 struct CityCard: View {
     var city: City
     var progress: Double?
 
     var body: some View {
-
-        //            ZStack {
-        // Ensure city.wikipedia_page_url is unwrapped safely
-        if let url = city.wikipedia_page_url {
-            WikipediaImage(url: url)
-                .mask(RoundedRectangle(cornerRadius: 15, style: .continuous))
-                // full width
-                //                .frame(maxWidth: .infinity, minHeight: 193)
-                .overlay {
-                    VStack {
-                        Spacer()
-
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 15, style: .continuous).fill(
-                                Color(.color).opacity(0.75)
-                            ).containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
-
+        ZStack {
+            if let url = city.wikipedia_page_url {
+                WikipediaImage(url: url, isCover: true)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 193)
+                    .overlay {
+                        VStack {
+                            Spacer()
+                            ZStack {
+                                RoundedCorner(radius: 15, corners: [.bottomLeft, .bottomRight])
+                                    .fill(Color("MainColor").opacity(0.8))
+                                    .containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
                                 HStack {
                                     Text(city.name).font(.title.bold()).foregroundColor(
                                         Color("AccentColor")
-                                    ).padding(.trailing, 5)
+                                    )
+                                    .padding(.trailing, 5)
                                     if progress != nil {
                                         CircularProgressView(progressAmountTarget: progress!).frame(
                                             height: 45
                                         ).padding(.leading, 15)
                                     }
-
                                 }
                                 .padding(.horizontal, 5)
-
+                            }
                         }
                     }
-                }.padding(.horizontal)
-        } else {
-
-            // Handle the case where the URL is nil, e.g., show a placeholder image
-            // WikipediaImage(url: "placeholder_image_url")
+            } else {
+                Rectangle()
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 193)
+            }
         }
+        .background(Color("MainColor"))
+        .cornerRadius(15)
+        .shadow(radius: 5)
+        .padding(.horizontal)
     }
-
-    //            .frame(width: 360, height: 230)
-    //            .cornerRadius(15)
-    //            .shadow(radius: 5)
-
 }
-//}
+
+struct RoundedCorner: Shape {
+    var radius: CGFloat = .infinity
+    var corners: UIRectCorner = .allCorners
+
+    func path(in rect: CGRect) -> Path {
+        let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        return Path(path.cgPath)
+    }
+}
 
 #Preview {
     NavigationStack {
         CityCard(city: cityTest)
     }
-
 }
 
 #Preview {
     NavigationStack {
         CityCard(city: cityTest, progress: 0.5)
     }
-
 }

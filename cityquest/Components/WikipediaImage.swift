@@ -64,6 +64,12 @@ func extractSrc(from html: String) -> String? {
 struct WikipediaImage: View {
     @State private var formattedUrl: String = "Loading..."
     let url: String?
+    let isCover: Bool
+    
+    init(url: String?, isCover: Bool = false) {
+        self.url = url
+        self.isCover = isCover
+    }
 
     var body: some View {
         VStack {
@@ -71,14 +77,13 @@ struct WikipediaImage: View {
                 AsyncImage(url: imageUrl) { image in
                     image
                         .resizable()
-                        .scaledToFit()
+                        .aspectRatio(contentMode: isCover ? .fill : .fit)
                 } placeholder: {
                     ProgressView()
                 }
             } else {
                 Text(formattedUrl)
                     .padding()
-                    .scaledToFit()
             }
         }
         .onAppear {
@@ -101,5 +106,12 @@ struct WikipediaImage: View {
 }
 
 #Preview {
-    WikipediaImage(url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde")
+    VStack {
+        WikipediaImage(url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde", isCover: true)
+            .frame(height: 200)
+            .clipped()
+        
+        WikipediaImage(url: "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Garde")
+            .frame(height: 200)
+    }
 }
