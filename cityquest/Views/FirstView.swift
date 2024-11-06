@@ -14,14 +14,14 @@ struct FirstView: View {
                 DiscoverView()
             }
             
-            Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
+            Tab("Monudex", systemImage: "medal.star") {
                 DiscoverViewMonudex()
             }
             
             Tab("Profil", systemImage: "person") {
                 UserView()
             }
-        }
+        }.preferredColorScheme(.dark)
     }
 }
 
