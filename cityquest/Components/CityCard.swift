@@ -15,7 +15,7 @@ struct CityCard: View {
                             Spacer()
                             ZStack {
                                 RoundedCorner(radius: 15, corners: [.bottomLeft, .bottomRight])
-                                    .fill(Color("MainColor").opacity(0.8))
+                                    .fill(Color(.color).opacity(0.8))
                                     .containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
                                 HStack {
                                     Text(city.name).font(.title.bold()).foregroundColor(
