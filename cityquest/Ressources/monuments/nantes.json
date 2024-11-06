@@ -1,6 +1,7 @@
 [
     {
         "name": "Château des Ducs de Bretagne",
+        "slug": "chateau-des-ducs-de-bretagne",
         "description": "Un château fort situé dans le centre-ville de Nantes, abritant aujourd'hui le musée d'histoire de Nantes.",
         "image": "chateau_ducs_de_bretagne.jpg",
         "latitude": 47.2153,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Les Machines de l'île",
+        "slug": "les-machines-de-l-ile",
         "description": "Un projet artistique et culturel situé à Nantes, inspiré par l'univers de Jules Verne et l'histoire industrielle de la ville.",
         "image": "machines_de_l_ile.jpg",
         "latitude": 47.2065,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Cathédrale Saint-Pierre-et-Saint-Paul",
+        "slug": "cathedrale-saint-pierre-et-saint-paul",
         "description": "Une cathédrale gothique située à Nantes, connue pour son architecture impressionnante et son histoire riche.",
         "image": "cathedrale_saint_pierre.jpg",
         "latitude": 47.2181,
@@ -361,6 +364,7 @@
     },
     {
         "name": "Passage Pommeraye",
+        "slug": "passage-pommeraye",
         "description": "Un passage couvert du XIXe siècle à Nantes, célèbre pour son architecture élégante et ses boutiques.",
         "image": "passage_pommeraye.jpg",
         "latitude": 47.2135,
@@ -481,6 +485,7 @@
     },
     {
         "name": "Jardin des Plantes",
+        "slug": "jardin-des-plantes",
         "description": "Un jardin botanique situé à Nantes, connu pour sa collection de plantes et ses sculptures.",
         "image": "jardin_des_plantes.jpg",
         "latitude": 47.2202,
@@ -601,6 +606,7 @@
     },
     {
         "name": "Île de Nantes",
+        "slug": "ile-de-nantes",
         "description": "Un quartier moderne de Nantes, connu pour ses projets architecturaux innovants et ses espaces culturels.",
         "image": "ile_de_nantes.jpg",
         "latitude": 47.2065,
@@ -721,6 +727,7 @@
     },
     {
         "name": "Tour Bretagne",
+        "slug": "tour-bretagne",
         "description": "Un gratte-ciel situé à Nantes, offrant une vue panoramique sur la ville depuis son sommet.",
         "image": "tour_bretagne.jpg",
         "latitude": 47.2186,
@@ -841,6 +848,7 @@
     },
     {
         "name": "Musée d'Arts de Nantes",
+        "slug": "musee-d-arts-de-nantes",
         "description": "Un musée situé à Nantes, abritant une vaste collection d'œuvres d'art allant du XIIIe siècle à nos jours.",
         "image": "musee_d_arts_de_nantes.jpg",
         "latitude": 47.2186,
@@ -961,6 +969,7 @@
     },
     {
         "name": "Place Royale",
+        "slug": "place-royale",
         "description": "Une place centrale de Nantes, connue pour sa fontaine monumentale et son architecture élégante.",
         "image": "place_royale.jpg",
         "latitude": 47.2139,

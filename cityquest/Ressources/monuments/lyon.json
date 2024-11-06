@@ -1,6 +1,7 @@
 [
     {
         "name": "Basilique Notre-Dame de Fourvière",
+        "slug": "basilique-notre-dame-de-fourviere",
         "description": "Une basilique mineure à Lyon, construite entre 1872 et 1884, offrant une vue panoramique sur la ville.",
         "image": "notre_dame_de_fourviere.jpg",
         "latitude": 45.7622,
@@ -121,6 +122,7 @@
     },
     {
         "name": "Parc de la Tête d'Or",
+        "slug": "parc-de-la-tete-dor",
         "description": "Un grand parc urbain à Lyon, célèbre pour son lac, son zoo et ses jardins botaniques.",
         "image": "parc_de_la_tete_dor.jpg",
         "latitude": 45.784,
@@ -241,6 +243,7 @@
     },
     {
         "name": "Place Bellecour",
+        "slug": "place-bellecour",
         "description": "La plus grande place de Lyon, située au cœur de la Presqu'île, célèbre pour sa statue de Louis XIV.",
         "image": "place_bellecour.jpg",
         "latitude": 45.757,
@@ -360,127 +363,8 @@
         ]
     },
     {
-        "name": "Musée des Confluences",
-        "description": "Un musée d'histoire naturelle et d'anthropologie situé à la confluence du Rhône et de la Saône.",
-        "image": "musee_des_confluences.jpg",
-        "latitude": 45.733,
-        "longitude": 4.819,
-        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Confluences",
-        "questions": [
-            {
-                "question": "En quelle année le Musée des Confluences a-t-il été inauguré?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "2014", "isCorrect": true },
-                    { "response": "2010", "isCorrect": false },
-                    { "response": "2005", "isCorrect": false },
-                    { "response": "2000", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le style architectural du Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Déconstructiviste", "isCorrect": true },
-                    { "response": "Gothique", "isCorrect": false },
-                    { "response": "Baroque", "isCorrect": false },
-                    { "response": "Renaissance", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quelle est la superficie du Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "22 000 m²", "isCorrect": true },
-                    { "response": "15 000 m²", "isCorrect": false },
-                    { "response": "30 000 m²", "isCorrect": false },
-                    { "response": "40 000 m²", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal matériau utilisé pour la construction du Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Verre et acier", "isCorrect": true },
-                    { "response": "Pierre", "isCorrect": false },
-                    { "response": "Brique", "isCorrect": false },
-                    { "response": "Bois", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal événement culturel associé au Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Expositions temporaires", "isCorrect": true },
-                    { "response": "Concerts", "isCorrect": false },
-                    { "response": "Théâtre", "isCorrect": false },
-                    { "response": "Opéra", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal rôle du Musée des Confluences aujourd'hui?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Musée d'histoire naturelle", "isCorrect": true },
-                    { "response": "Centre culturel", "isCorrect": false },
-                    { "response": "Salle de concert", "isCorrect": false },
-                    { "response": "Bibliothèque", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal point de vue depuis le Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Vue sur la confluence", "isCorrect": true },
-                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
-                    { "response": "Vue sur le Louvre", "isCorrect": false },
-                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal accès au Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Tramway", "isCorrect": true },
-                    { "response": "Bus", "isCorrect": false },
-                    { "response": "Taxi", "isCorrect": false },
-                    { "response": "Vélo", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal matériau de la façade du Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Verre", "isCorrect": true },
-                    { "response": "Métal", "isCorrect": false },
-                    { "response": "Pierre", "isCorrect": false },
-                    { "response": "Bois", "isCorrect": false }
-                ]
-            },
-            {
-                "question": "Quel est le principal événement historique associé au Musée des Confluences?",
-                "isAnsweredCorrectly": false,
-                "isAnswered": false,
-                "response": [
-                    { "response": "Inauguration", "isCorrect": true },
-                    { "response": "Révolution française", "isCorrect": false },
-                    { "response": "Exposition universelle", "isCorrect": false },
-                    { "response": "Guerre mondiale", "isCorrect": false }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Théâtre des Célestins",
+        "slug": "theatre-des-celestins",
         "description": "Un théâtre historique à Lyon, connu pour son architecture néo-classique et ses productions théâtrales.",
         "image": "theatre_des_celestins.jpg",
         "latitude": 45.759,
@@ -601,6 +485,7 @@
     },
     {
         "name": "Cathédrale Saint-Jean-Baptiste",
+        "slug": "cathedrale-saint-jean-baptiste",
         "description": "Une cathédrale catholique romaine située dans le Vieux Lyon, connue pour son horloge astronomique.",
         "image": "cathedrale_saint_jean_baptiste.jpg",
         "latitude": 45.760,
@@ -721,6 +606,7 @@
     },
     {
         "name": "Opéra de Lyon",
+        "slug": "opera-de-lyon",
         "description": "Un opéra situé à Lyon, connu pour son architecture moderne et ses productions d'opéra.",
         "image": "opera_de_lyon.jpg",
         "latitude": 45.767,
@@ -841,6 +727,7 @@
     },
     {
         "name": "Hôtel de Ville de Lyon",
+        "slug": "hotel-de-ville-de-lyon",
         "description": "L'hôtel de ville de Lyon, un bâtiment historique situé sur la place des Terreaux.",
         "image": "hotel_de_ville_de_lyon.jpg",
         "latitude": 45.767,
@@ -948,6 +835,105 @@
             },
             {
                 "question": "Quel est le principal événement historique associé à l'Hôtel de Ville de Lyon?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Inauguration", "isCorrect": true },
+                    { "response": "Révolution française", "isCorrect": false },
+                    { "response": "Exposition universelle", "isCorrect": false },
+                    { "response": "Guerre mondiale", "isCorrect": false }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Musée des Confluences",
+        "slug": "musee-des-confluences",
+        "description": "Le Musée des Confluences est un musée situé à Lyon, célèbre pour ses collections d'art et son architecture innovante.",
+        "image": "musee_des_confluences.jpg",
+        "latitude": 45.767,
+        "longitude": 4.836,
+        "wikipedia_page_url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Confluences",
+        "questions": [
+            {
+                "question": "Quel est le style architectural du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Néo-classique", "isCorrect": true },
+                    { "response": "Gothique", "isCorrect": false },
+                    { "response": "Baroque", "isCorrect": false },
+                    { "response": "Renaissance", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quelle est la superficie du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "10 000 m²", "isCorrect": true },
+                    { "response": "5 000 m²", "isCorrect": false },
+                    { "response": "15 000 m²", "isCorrect": false },
+                    { "response": "20 000 m²", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement culturel associé au Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Exposition temporaire", "isCorrect": true },
+                    { "response": "Concerts", "isCorrect": false },
+                    { "response": "Opéra", "isCorrect": false },
+                    { "response": "Ballet", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal rôle du Musée des Confluences aujourd'hui?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Musée", "isCorrect": true },
+                    { "response": "Théâtre", "isCorrect": false },
+                    { "response": "Salle de concert", "isCorrect": false },
+                    { "response": "Bibliothèque", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal point de vue depuis le Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Vue sur la place de la Comédie", "isCorrect": true },
+                    { "response": "Vue sur la Tour Eiffel", "isCorrect": false },
+                    { "response": "Vue sur le Louvre", "isCorrect": false },
+                    { "response": "Vue sur Notre-Dame", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal accès au Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Métro", "isCorrect": true },
+                    { "response": "Bus", "isCorrect": false },
+                    { "response": "Taxi", "isCorrect": false },
+                    { "response": "Vélo", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal matériau de la façade du Musée des Confluences?",
+                "isAnsweredCorrectly": false,
+                "isAnswered": false,
+                "response": [
+                    { "response": "Pierre", "isCorrect": true },
+                    { "response": "Brique", "isCorrect": false },
+                    { "response": "Bois", "isCorrect": false },
+                    { "response": "Métal", "isCorrect": false }
+                ]
+            },
+            {
+                "question": "Quel est le principal événement historique associé au Musée des Confluences?",
                 "isAnsweredCorrectly": false,
                 "isAnswered": false,
                 "response": [
