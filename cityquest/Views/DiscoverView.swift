@@ -13,7 +13,7 @@ struct DiscoverView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color("MainColor")
+                Color(.color)
                     .edgesIgnoringSafeArea(.all)
 
                 ScrollView {
