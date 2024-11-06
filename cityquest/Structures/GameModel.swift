@@ -40,6 +40,7 @@ extension Step: Equatable {
 @Observable
 class Game: Identifiable {
     var id = UUID()
+    var cityName: String = ""
     var score: Int = 0
     var steps: [Step] = []
     var indexOfStep: Int = 0
