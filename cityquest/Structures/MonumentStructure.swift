@@ -9,10 +9,11 @@ import Foundation
 import SwiftUI
 import SwiftData
 
-struct Response: Codable {
+struct Response: Codable, Equatable {
     var response: String
     var isCorrect: Bool
 }
+
 
 struct Question: Codable {
     var question: String

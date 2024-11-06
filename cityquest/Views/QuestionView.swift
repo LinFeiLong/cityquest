@@ -13,61 +13,116 @@ struct Choice: Identifiable, Equatable {
 }
 
 struct QuestionView: View {
-    var number: Int = 1
-    var total: Int = 5
+    @Environment(GameManager.self) var gameManager: GameManager
+    
+    @Binding var showView: ShowView
+    
+    var currentStep: Step {
+        gameManager.currentGame.currentStep
+    }
+    
     var description: String = ""
     var choices: [Choice] = []
     @State private var selectedChoice: Choice?
 
-
-
     var body: some View {
-        QuestionBG {
             VStack(spacing: 20) {
-                Text("Question \(number) / \(total)")
+                Text("Question \(currentStep.indexOfQuestion + 1) / \(currentStep.questions.count)")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
-
-                Text(description)
-                    .font(.body)
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 32)
+                
                 Spacer()
 
-                ForEach(choices) { choice in
-                    Button(action: {
-                        selectedChoice = choice
-                    }) {
-                        Text(choice.label)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color("MainColor"))
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(selectedChoice == choice ? Color.white : Color.white.opacity(0.30))
-                            .cornerRadius(25)
+                ForEach(Array(currentStep.questions.enumerated()), id: \.0) { (index, question) in
+                    if index == currentStep.indexOfQuestion {
+                        SelfQuestionView(question: question) {
+                            showView = .photo
+                        }
                     }
                 }
 
-                ButtonView(label: "Question suivante", icon: "", fontColor: Color("MainColor"), color: Color("AccentColor"))
-                    .padding(.top)
             }.padding()
         }
+}
+
+struct SelfQuestionView: View {
+    @Environment(GameManager.self) var gameManager: GameManager
+    let question: Question
+    var lastAction: () -> ()
+    
+    @State var selectedResponse: Response?
+    
+    var isLastQuestion: Bool {
+        gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].questions.count == gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].indexOfQuestion + 1
+    }
+    
+    var disableButton: Bool {
+        selectedResponse == nil
+    }
+    
+    func checkAnswer() {
+        guard let selectedResponse else { return }
+        if selectedResponse.isCorrect {
+            gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].questions[gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].indexOfQuestion].isAnsweredCorrectly = true
+        }
+        gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].questions[gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].indexOfQuestion].isAnswered = true
+    }
+    
+    var body: some View {
+        VStack {
+            Spacer()
+            
+            Text(question.question)
+                .font(.title2)
+                .fontWeight(.bold)
+                .foregroundStyle(.white)
+                .multilineTextAlignment(.center)
+                .padding(.bottom, 50)
+            
+            ForEach(question.response, id: \.response) { response in
+                let isSelected = response == selectedResponse
+                
+                Button(action: {
+                    selectedResponse = response
+                }) {
+                    ButtonView(label: response.response, icon: "", fontColor: .mainDark, color: isSelected ? .accent : .mainLight)
+                }
+            }
+            
+            Spacer()
+            
+            if isLastQuestion {
+                Button {
+                    checkAnswer()
+                    lastAction()
+                } label: {
+                    ButtonView(label: "Voir les résultats", icon: "", fontColor: disableButton ? .mainLight : .mainDark, color: disableButton ? .gray : .accent)
+                }
+                .disabled(disableButton)
+                
+            } else {
+                Button {
+                    checkAnswer()
+                    gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].indexOfQuestion += 1
+                } label: {
+                    ButtonView(label: "Question suivante", icon: "", fontColor: disableButton ? .mainLight : .mainDark, color: disableButton ? .gray : .accent)
+                }
+                .disabled(disableButton)
+                
+            }
+        }
+        .padding()
     }
 }
 
 #Preview {
-    QuestionView(
-        number: 1,
-        total: 5,
-        description: "Une question quelconque en rapport avec le monument",
-        choices: [
-            Choice(label: "Jean Pierre"),
-            Choice(label: "Jean Michel"),
-            Choice(label: "Jean Jean"),
-            Choice(label: "La réponse D")
-        ]
-    )
+    @Previewable @State var showView: ShowView = .question
+    ZStack {
+        Color(.mainDark).ignoresSafeArea()
+        GamePreviewWrapper {
+            QuestionView(showView: $showView)
+        }
+    }
 }
 
