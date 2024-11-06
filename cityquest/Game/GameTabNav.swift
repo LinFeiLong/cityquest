@@ -53,6 +53,7 @@ struct GameTabNav: View {
 }
 
 #Preview {
-    GameTabNav()
-        .environment(GameManager())
+    GamePreviewWrapper {
+        GameTabNav()
+    }
 }

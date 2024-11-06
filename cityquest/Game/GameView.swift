@@ -59,6 +59,7 @@ struct GameView: View {
 }
 
 #Preview {
-    GameView()
-        .environment(GameManager())
+    GamePreviewWrapper {
+        GameView()
+    }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct GameMapView: View {
-    @Environment(GameManager.self ) var gameManager: GameManager
+    @Environment(GameManager.self) var gameManager: GameManager
     //Position de la camera
     @State var cameraPosition: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(
         // Position : Marseille
@@ -96,6 +96,7 @@ struct GameMapView: View {
                 ForEach(gameManager.currentGame.steps) { step in
                     Annotation(step.place.name, coordinate: step.place.location) {
                         AnnotationAnimationView(step: step, colors: colors)
+                            .environment(gameManager)
                     }
                 }
                 // Si il y a un itinéraire
@@ -193,6 +194,7 @@ struct AnnotationAnimationView: View {
 }
 
 #Preview {
-    GameMapView(colors: [.mainDark, .accent])
-        .environment(GameManager())
+    GamePreviewWrapper {
+        GameMapView(colors: [.mainDark, .accent])
+    }
 }

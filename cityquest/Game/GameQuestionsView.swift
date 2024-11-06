@@ -12,44 +12,58 @@ struct GameQuestionsView: View {
     
     @Binding var isPresented: Bool
     @State var appearAnim: Bool = false
+    @State var showView: ShowView = .question
     
     var body: some View {
-        ZStack(alignment: .top) {
-            RoundedRectangle(cornerRadius: 30)
-                .fill(Color.mainDark)
-                .shadow(radius: 10)
-                .padding(.top, 55)
-            VStack {
-                // Question View
-                Text("Questions")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding(.top, 75)
-                Text("Test")
-                Spacer()
-                
-                Button("close") {
-                    withAnimation(.easeIn(duration: 0.25)) {
-                        appearAnim.toggle()
-                    } completion: {
-                        isPresented.toggle()
+        VStack {
+            ZStack(alignment: .top) {
+                RoundedRectangle(cornerRadius: 30)
+                    .fill(Color.mainDark)
+                    .shadow(radius: 10)
+                VStack {
+                    // Question View
+                    switch showView {
+                    case .question:
+                        QuestionView(showView: $showView)
+                    case .photo:
+                        PhotoView(showView: $showView, isPresented: $isPresented)
+                    case .ending:
+                        //                    EndingView()
+                        VStack {
+                            Spacer()
+                            Text("Ending View")
+                                .font(.title)
+                                .foregroundColor(.white)
+                            Spacer()
+                            Button {
+                                isPresented .toggle()
+                            } label: {
+                                ButtonView(label: "Question suivante", icon: "", fontColor: .mainDark, color: .accent)
+                            }
+                        }
+
+                        
                     }
+                }
+            }
+            .scaleEffect(appearAnim ? 1 : 0)
+            .onAppear {
+                withAnimation(.spring(duration: 0.5, bounce: 0.4)) {
+                    appearAnim.toggle()
                 }
             }
             .padding()
         }
-        .scaleEffect(appearAnim ? 1 : 0)
-        .onAppear {
-            withAnimation(.spring(duration: 0.5, bounce: 0.4)) {
-                appearAnim.toggle()
-            }
-        }
-        .padding()
+        .padding(.top, 55)
     }
 }
 
+enum ShowView: Equatable {
+    case question, photo, ending
+}
+
 #Preview {
-    GameQuestionsView(isPresented: .constant(true))
-        .environment(GameManager())
+    GamePreviewWrapper {
+        GameQuestionsView(isPresented: .constant(true))
+    }
 }
