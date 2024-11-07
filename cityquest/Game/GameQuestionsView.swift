@@ -12,7 +12,7 @@ struct GameQuestionsView: View {
     
     @Binding var isPresented: Bool
     @State var appearAnim: Bool = false
-    @State var showView: ShowView = .question
+    @State var showView: ShowView = .ending
     
     var body: some View {
         VStack {
@@ -28,21 +28,7 @@ struct GameQuestionsView: View {
                     case .photo:
                         PhotoView(showView: $showView, isPresented: $isPresented)
                     case .ending:
-                        //                    EndingView()
-                        VStack {
-                            Spacer()
-                            Text("Ending View")
-                                .font(.title)
-                                .foregroundColor(.white)
-                            Spacer()
-                            Button {
-                                isPresented .toggle()
-                            } label: {
-                                ButtonView(label: "Question suivante", icon: "", fontColor: .mainDark, color: .accent)
-                            }
-                        }
-
-                        
+                        EndView()  
                     }
                 }
             }

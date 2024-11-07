@@ -24,6 +24,10 @@ struct Step: Identifiable {
     var questionInProgress: Question? {
         questions.first(where: { $0.isAnswered == false })
     }
+    
+    var goodQuestions: Int {
+        questions.filter(\.isAnsweredCorrectly).count
+    }
 }
 
 extension Step: CustomStringConvertible {
