@@ -28,6 +28,7 @@ CityQuest is an app that allows you to explore cities in a fun and engaging way.
 
 ## Keynote
 - [Slides](https://www.canva.com/design/DAGH69IKd_A/19gckDUgJFKXt-qp3xNuTg/view?utm_content=DAGH69IKd_A&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+[city-quest.pdf](https://github.com/user-attachments/files/17664167/city-quest.pdf)
 
 ## Github
 - [Kanban board](https://github.com/users/LinFeiLong/projects/3/views/1)
