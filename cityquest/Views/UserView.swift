@@ -78,6 +78,7 @@ struct UserView: View {
                                     .padding()
                                     .background(.white.opacity(0.3))
                                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                                    .autocorrectionDisabled()
                             } else{
                                 Text(user[0].email).foregroundColor(.white).padding()
                             }

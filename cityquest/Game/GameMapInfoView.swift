@@ -84,9 +84,10 @@ struct GameMapInfoView: View {
 
 #Preview {
     ZStack {
-        Color(.blue).ignoresSafeArea()
-        GameMapInfoView()
-            .environment(GameManager())
+        Color(.mainDark).ignoresSafeArea()
+        GamePreviewWrapper {
+            GameMapInfoView()
+        }
     }
 
 }

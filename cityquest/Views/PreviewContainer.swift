@@ -20,7 +20,7 @@ struct PreviewContainer {
         let container = try ModelContainer(for: schema, configurations: [ModelConfiguration(isStoredInMemoryOnly: true)])
         Task { @MainActor in
             var user = User(firstname: "Marcos", lastname: "Pulcos", username: "MarcosPulcos", email: "marco@gmail.com")
-            user.history = ["UUID-1": ["sfj","sjf"], "UUID-2": ["sjf","sjf","sjf"]]
+            user.history = ["Marseille": ["sfj","sjf"], "UUID-2": ["sjf","sjf","sjf"]]
             container.mainContext.insert(user)
 
         }

@@ -6,75 +6,129 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct PhotoView: View {
+    @Query var  user : [User]
+    @Environment(GameManager.self) var gameManager: GameManager
+    @Binding var showView: ShowView
+    @Binding var isPresented: Bool
+    
+    @State var showPhoto: Bool = false
+    
+    var currentStep: Step {
+        gameManager.currentGame.currentStep
+    }
+    
+    var correctQuestions: Int {
+        currentStep.questions.filter(\.isAnsweredCorrectly).count
+    }
+    
+    var isLastStep: Bool {
+        gameManager.currentGame.currentStep == gameManager.currentGame.steps.last
+    }
+    
     var body: some View {
-        QuestionBG {
-            VStack(spacing: 20) {
-                Text("Bravo !")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                Text("Vous avez réussi le défi")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-
-                Text("Prenez une photo et obtenez des récompenses en complétant votre album souvenir.")
-                    .font(.body)
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.top, 32)
+            VStack {
+                VStack() {
+                    Text("Bravo !")
+                        .font(.title)
+                        
+                    Text("Vous avez réussi le défi")
+                        .font(.title2)
+                    
+                    Text("\(correctQuestions) / \(currentStep.questions.count) questions correctes")
+                        .font(.headline)
+                    
+                    Text("Prenez une photo et obtenez des récompenses en complétant votre album souvenir.")
+                        .font(.body)
+                        .fontWeight(.regular)
+                        .multilineTextAlignment(.center)
+                        .padding(.top, 32)
+                }
+                .fontWeight(.bold)
+                .foregroundColor(.white)
 
                 Spacer()
-
-                VStack {
-                    Spacer()
-                    ZStack {
-                        Image(systemName: "camera")
+                
+                if showPhoto {
+                    ZStack(alignment: .topTrailing) {
+                        Image("Unknown")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .padding()
-                    }
-                    .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
-                    .background(Color("AccentColor"))
-                    .cornerRadius(25)
-                    .padding()
-                    Spacer()
-
-                    VStack {
-                        HStack {
-                            Spacer()
-                            ZStack {
-                                Color("AccentColor")
-                                    .frame(width: 48, height: 48)
-                                    .cornerRadius(24)
-
-                                Image(systemName: "arrow.triangle.2.circlepath.camera")
+                            .foregroundStyle(.white)
+                        
+                        Circle()
+                            .fill(.accent)
+                            .frame(width: 50)
+                            .overlay {
+                                Image(systemName: "arrow.trianglehead.2.clockwise.rotate.90.camera")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
-                                    .frame(width: 24, height: 24)
-                                    .foregroundColor(Color("MainColor"))
+                                    .padding(10)
+                                    .foregroundStyle(.mainDark)
                             }
-                        }
+                            .padding(5)
+                            .onTapGesture {
+                                showPhoto = false
+                            }
                     }
-                    .padding(8)
+                    .padding()
+                    
+                } else {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 0)
+                            .stroke(.mainLight, style: StrokeStyle(lineWidth: 1, dash: [5, 5]))
+                            .aspectRatio(contentMode: .fit)
+                        RoundedRectangle(cornerRadius: 20)
+                            .fill(.accent)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 100)
+                            .overlay {
+                                Image(systemName: "camera")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .padding()
+                                    .foregroundStyle(.mainDark)
+                            }
+                            .onTapGesture {
+                                showPhoto.toggle()
+                            }
+                    }
+                    .padding()
                 }
-                .frame(width: 300.0, height: 300.0)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 0)
-                        .stroke(style: StrokeStyle(lineWidth: 1, dash: [2, 2]))
-                )
-
+                
                 Spacer()
+                
+                Button {
+                    if !user.isEmpty{
+                        user[0].addVisit(cityName: gameManager.currentGame.cityName, monumentName: gameManager.currentGame.currentStep.place.name)
+                    }
 
-                ButtonView(label: "Monument suivant", icon: "", fontColor: Color("MainColor"), color: Color("AccentColor"))
-                    .padding(.top)
-            }.padding()
+
+                    if isLastStep {
+                        showView = .ending
+                    } else {
+                        gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].isFinished = true
+                        gameManager.currentGame.indexOfStep += 1
+                        isPresented = false
+                    }
+                } label: {
+                    ButtonView(label: "Monument suivant", icon: "", fontColor: !showPhoto ? .mainLight : .mainDark, color: !showPhoto ? .gray : .accent)
+                }
+                .disabled(!showPhoto)
+                
+            }
+            .padding()
         }
-    }
 }
 
 #Preview {
-    PhotoView()
+    @Previewable @State var showView: ShowView = .photo
+    ZStack {
+        Color(.mainDark).ignoresSafeArea()
+        GamePreviewWrapper {
+            PhotoView(showView: $showView, isPresented: .constant(true))
+        }
+    }
 }

@@ -9,21 +9,32 @@ import SwiftUI
 
 struct FirstView: View {
     var body: some View {
-        TabView {
-            Tab("Discover", systemImage: "magnifyingglass") {
-                DiscoverView()
+        NavigationStack {
+            TabView {
+                Group {
+                    DiscoverView()
+                        .tabItem {
+                        Label("Discover", systemImage: "magnifyingglass")
+                    }
+                    DiscoverViewMonudex()
+                        .tabItem {
+                            Label("Monudex", systemImage: "medal.star")
+                        }
+                    UserView()
+                        .tabItem {
+                            Label("Profil", systemImage: "person")
+                        }
+                }
+//                .toolbarBackground(.green, for: .tabBar)
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarColorScheme(.dark, for: .tabBar)
             }
-            
-            Tab("Monudex", systemImage: "tray.and.arrow.down.fill") {
-                DiscoverViewMonudex()
-            }
-            
-            Tab("Profil", systemImage: "person") {
-                UserView()
-            }
+            .edgesIgnoringSafeArea(.all)
         }
+        .preferredColorScheme(.dark)
     }
 }
+
 
 #Preview {
     FirstView()

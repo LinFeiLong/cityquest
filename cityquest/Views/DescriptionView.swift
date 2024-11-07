@@ -38,12 +38,15 @@ struct DescriptionView: View {
 
                 }
                 if detailThing is City {
-                    NavigationLink(destination: GameFormView()) {
+                    NavigationLink(destination: GameFormView(cityName: detailThing.name)) {
                         ButtonView(label: "Jouer", icon: "play.fill", fontColor: .color, color: .accent).padding()
                     }
                 }
 
-            }.navigationTitle(detailThing.name).navigationBarTitleDisplayMode(.automatic).navigationBarTitleTextColor(.accentColor)
+            }
+            .navigationTitle(detailThing.name)
+            .navigationBarTitleDisplayMode(.automatic)
+            .navigationBarTitleTextColor(.accentColor)
         }
 
     }
