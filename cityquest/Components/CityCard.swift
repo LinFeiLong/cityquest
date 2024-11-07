@@ -6,40 +6,40 @@ struct CityCard: View {
 
     var body: some View {
         ZStack {
-            if let url = city.wikipedia_page_url {
-                WikipediaImage(url: url, isCover: true)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 193)
-                    .overlay {
-                        VStack {
-                            Spacer()
-                            ZStack {
-                                RoundedCorner(radius: 15, corners: [.bottomLeft, .bottomRight])
-                                    .fill(Color(.color).opacity(0.8))
-                                    .containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
-                                HStack {
-                                    Text(city.name).font(.title.bold()).foregroundColor(
-                                        Color("AccentColor")
-                                    )
-                                    .padding(.trailing, 5)
-                                    if progress != nil {
-                                        CircularProgressView(progressAmountTarget: progress!).frame(
-                                            height: 45
-                                        ).padding(.leading, 15)
-                                    }
-                                }
-                                .padding(.horizontal, 5)
-                            }
-                        }
-                    }
-            } else {
-                Rectangle()
-                    .fill(Color.gray.opacity(0.3))
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 193)
-            }
+           if let url = city.wikipedia_page_url {
+               WikipediaImage(url: url, isCover: true)
+                   .frame(maxWidth: .infinity)
+                   .frame(height: 193)
+                   .overlay {
+                       VStack {
+                           Spacer()
+                           ZStack {
+                               RoundedCorner(radius: 15, corners: [.bottomLeft, .bottomRight])
+                                   .fill(Color(.color).opacity(0.8))
+                                   .containerRelativeFrame(.vertical, count: 25, span: 2, spacing: 0)
+                               HStack {
+                                   Text(city.name).font(.title.bold()).foregroundColor(
+                                       Color("AccentColor")
+                                   )
+                                   .padding(.trailing, 5)
+                                   if progress != nil {
+                                       CircularProgressView(progressAmountTarget: progress!).frame(
+                                           height: 45
+                                       ).padding(.leading, 15)
+                                   }
+                               }
+                               .padding(.horizontal, 5)
+                           }
+                       }
+                   }
+           } else {
+               Rectangle()
+                   .fill(Color.gray.opacity(0.3))
+                   .frame(maxWidth: .infinity)
+                   .frame(height: 193)
+           }
         }
-        .background(Color("MainColor"))
+        .background(.purpleLight)
         .cornerRadius(15)
         .shadow(radius: 5)
         .padding(.horizontal)
