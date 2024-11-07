@@ -1,6 +1,7 @@
 # CityQuest
+![CityQuest](https://github.com/user-attachments/assets/78d499f1-daca-408a-b660-f074093e994b)
 
-<img src="https://github.com/LinFeiLong/sublimfood/assets/6100043/b4d200f3-b24f-461e-b9aa-cc4b2c957515" alt="CityQuest Logo" width="300">
+<img src="https://github.com/LinFeiLong/sublimfood/assets/6100043/b4d200f3-b24f-461e-b9aa-cc4b2c957515" alt="CityQuest Logo" width="300"> 
 
 ## Team Members
 - [Anthony Pandolfi](https://github.com/marsou13k4)
