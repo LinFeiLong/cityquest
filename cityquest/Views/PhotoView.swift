@@ -110,6 +110,7 @@ struct PhotoView: View {
                         showView = .ending
                     } else {
                         gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].isFinished = true
+                        gameManager.currentGame.steps[gameManager.currentGame.indexOfStep].isResolved = true
                         gameManager.currentGame.indexOfStep += 1
                         isPresented = false
                     }

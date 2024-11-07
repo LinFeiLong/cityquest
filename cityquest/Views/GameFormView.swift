@@ -77,7 +77,7 @@ struct GameFormView: View {
                             .foregroundColor(.white)
                         // Duration Picker (Hour)
                         HStack {
-                            Slider(value: $newGame.durationMax, in: 1...10, step: 1)
+                            Slider(value: $newGame.durationMax, in: 1...8, step: 1)
                                 .accentColor(.accent)
                             Text("\(newGame.durationMax, specifier: "%.0f") h")
                                 .foregroundColor(.white)
@@ -133,7 +133,9 @@ struct GameFormView: View {
                 let jsonName = cityName.lowercased()
                 gameManager.currentGame = Game()
                 gameManager.currentGame.cityName = cityName
-                try await gameManager.getStepsFromJSON(jsonName, 5, 5)
+                let numberOfSteps = 5
+                let numberOfQuestions = 5
+                try await gameManager.getStepsFromJSON(jsonName, numberOfSteps, numberOfQuestions)
                 gameIsReady = true
             }
         }
