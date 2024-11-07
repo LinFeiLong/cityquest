@@ -31,22 +31,28 @@ class User {
 
 extension User {
     func isVisited(idCity : String?, idMonument: String) -> Bool {
-        guard let history = history[idCity ?? ""] else {
+
+        if let city = idCity {
+        
+            guard let history = history[city] else {
+                return false
+            }
+            return history.contains(idMonument)
+        }
+        else {
             return false
         }
-        return history.contains(idMonument)
+
     }
     
-    // Helper method to add visited monument
-    func addVisit(cityId: UUID, monumentId: UUID) {
-        let cityKey = cityId.uuidString
-        let monumentString = monumentId.uuidString
-        
-        if var monuments = history[cityKey] {
-            monuments.append(monumentString)
-            history[cityKey] = monuments
-        } else {
-            history[cityKey] = [monumentString]
+
+    func addVisit(cityName: String, monumentName: String) {
+        if history.keys.contains(cityName){
+            history[cityName]?.append(monumentName)
         }
+        else {
+            history[cityName] = [monumentName]
+        }
+
     }
 }

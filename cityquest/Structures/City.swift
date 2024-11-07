@@ -46,7 +46,7 @@ extension City {
     func getProgess(history: [String : [String]]) -> Double {
         let nbMonuments = monuments.count
         if nbMonuments == 0 { return 0 }
-        guard let historyCity = history[id] else { return 1 }
+        guard let historyCity = history[name] else { return 0 }
         // print()
         return Double(historyCity.count)/Double(nbMonuments)
 

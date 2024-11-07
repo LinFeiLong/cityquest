@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct PhotoView: View {
+    @Query var  user : [User]
     @Environment(GameManager.self) var gameManager: GameManager
     @Binding var showView: ShowView
     @Binding var isPresented: Bool
@@ -99,6 +101,11 @@ struct PhotoView: View {
                 Spacer()
                 
                 Button {
+                    if !user.isEmpty{
+                        user[0].addVisit(cityName: gameManager.currentGame.cityName, monumentName: gameManager.currentGame.currentStep.place.name)
+                    }
+
+
                     if isLastStep {
                         showView = .ending
                     } else {
