@@ -16,19 +16,19 @@ struct DescriptionView: View {
             VStack {
                 ScrollView{
                     if let url = detailThing.wikipedia_page_url {
-                        WikipediaImage(url: url)}
+                        WikipediaImage(url: url)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 258, maxHeight: 258)
+                    }
 
                     Text(detailThing.description).padding()
                         .foregroundStyle(Color.white)
 
                     if detailThing is City {
                         VStack {
-
                             VStack(alignment: .leading) {
                                 Text("Les monuments phares :").foregroundStyle(.accent).fontWeight(.bold)
                                 GridCardPlacesComponent(places: (detailThing as! City).monuments )
-                                //                            Text("Les bonnes adresse :").foregroundStyle(.accent).fontWeight(.bold)
-                                //                            GridCardPlacesComponent(places: (detailThing as! City).places)
                             }
                         }.padding()
 
