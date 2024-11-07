@@ -27,16 +27,10 @@ CityQuest is an app that allows you to explore cities in a fun and engaging way.
 - [Design of the app](https://www.figma.com/design/YBu8TIScpKoICQvC1ZXUzb/AFP-GROUPE-PROTO-(Community)?m=auto&t=HsWJYpyCfp7qDY6B-1)
 
 ## Keynote
-- [Slides](https://www.canva.com/design/DAGH69IKd_A/19gckDUgJFKXt-qp3xNuTg/view?utm_content=DAGH69IKd_A&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-[city-quest.pdf](https://github.com/user-attachments/files/17664167/city-quest.pdf)
+- [Slides](https://github.com/user-attachments/files/17664167/city-quest.pdf)
 
 ## Github
 - [Kanban board](https://github.com/users/LinFeiLong/projects/3/views/1)
 
-<!-- ## Démo
-- [Try it on TestFlight](https://testflight.apple.com/join/ToZIV3lB)
-- [Try it on Appetize.io](https://appetize.io/app/b_wyu676qxbrxcjuaijfnz4bwpay) -->
-
-<img src="./demo.gif" alt="SublimFood demo" width="300">
-![Simulator Screen Recording - iPhone 16 - 2024-11-07 at 16 19 48](https://github.com/user-attachments/assets/fbdb2497-d69c-4909-8dff-43d64974cc08)
+<img src="https://github.com/user-attachments/assets/fbdb2497-d69c-4909-8dff-43d64974cc08" alt="Simulator Screen Recording" width="300">
 
