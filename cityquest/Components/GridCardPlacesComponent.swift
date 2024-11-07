@@ -24,6 +24,7 @@ struct GridCardPlacesComponent: View {
                             DescriptionView(detailThing: monument)
                         } label: {
                             CardPlaceComponent(place: monument, isHighlighted: true).shadow(radius: 5)
+                                .frame(height: 138)
                         }
 
 
@@ -44,6 +45,7 @@ struct GridCardPlacesComponent: View {
                             DescriptionView(detailThing: monument)
                         } label: {
                             CardPlaceComponent(place: monument, isHighlighted: user[0].isVisited(idCity: cityId, idMonument: monument.name)).shadow(radius: 5)
+                            .frame(height: 138)
                         }
 
 
