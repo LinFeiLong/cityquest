@@ -43,7 +43,7 @@ struct GridCardPlacesComponent: View {
                         NavigationLink {
                             DescriptionView(detailThing: monument)
                         } label: {
-                            CardPlaceComponent(place: monument, isHighlighted: user[0].isVisited(idCity: cityId, idMonument: "monument.id")).shadow(radius: 5)
+                            CardPlaceComponent(place: monument, isHighlighted: user[0].isVisited(idCity: cityId, idMonument: monument.name)).shadow(radius: 5)
                         }
 
 
@@ -53,6 +53,9 @@ struct GridCardPlacesComponent: View {
 
                 }
 
+            }.onAppear(){
+                print(user[0].history)
+                print(places[5].name)
             }
 
         }

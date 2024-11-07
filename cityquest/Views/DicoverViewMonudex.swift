@@ -50,7 +50,7 @@ struct DiscoverViewMonudex: View {
 
                                     ForEach(citysList) { city in
                                         
-                                        if user[0].history.keys.contains(city.id) {
+                                        if user[0].history.keys.contains(city.name) {
                                             NavigationLink(destination: MonudexView(city: city)) {
                                                 CityCard(city: city,progress: city.getProgess(history: user[0].history))
                                                 
