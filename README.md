@@ -37,3 +37,5 @@ CityQuest is an app that allows you to explore cities in a fun and engaging way.
 - [Try it on Appetize.io](https://appetize.io/app/b_wyu676qxbrxcjuaijfnz4bwpay) -->
 
 <img src="./demo.gif" alt="SublimFood demo" width="300">
+![Simulator Screen Recording - iPhone 16 - 2024-11-07 at 16 19 48](https://github.com/user-attachments/assets/fbdb2497-d69c-4909-8dff-43d64974cc08)
+
