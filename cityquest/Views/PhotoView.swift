@@ -27,7 +27,9 @@ struct PhotoView: View {
     var isLastStep: Bool {
         gameManager.currentGame.currentStep == gameManager.currentGame.steps.last
     }
-    
+
+
+
     var body: some View {
             VStack {
                 VStack() {
@@ -53,10 +55,17 @@ struct PhotoView: View {
                 
                 if showPhoto {
                     ZStack(alignment: .topTrailing) {
-                        Image("Unknown")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .foregroundStyle(.white)
+                        WikipediaImage(url: gameManager.currentGame.currentStep.place.wikipedia_page_url)
+                            .frame(maxWidth: .infinity)
+                            .frame(height: 193)
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fit)
+//                        .foregroundStyle(.white)
+
+//                        Image("Unknown")
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                            .foregroundStyle(.white)
                         
                         Circle()
                             .fill(.accent)
