@@ -14,7 +14,7 @@ struct GamePreviewWrapper<Content: View>: View {
     var body: some View {
         Group {
             if (gameManager.currentGame.steps.isEmpty) {
-                Text("Loading...")
+                Text("Chargement...")
             } else {
                 viewBuilder()
                     .environment(gameManager)

@@ -55,7 +55,7 @@ func extractSrc(from html: String) -> String? {
 }
 
 struct WikipediaImage: View {
-    @State private var formattedUrl: String = "Loading..."
+    @State private var formattedUrl: String = "Chargement..."
     let url: String?
     let isCover: Bool
     
@@ -66,7 +66,7 @@ struct WikipediaImage: View {
 
     var body: some View {
         VStack {
-            if let imageUrl = URL(string: formattedUrl), formattedUrl != "Loading..." {
+            if let imageUrl = URL(string: formattedUrl), formattedUrl != "Chargement..." {
                 AsyncImage(url: imageUrl) { image in
                     image
                         .resizable()
