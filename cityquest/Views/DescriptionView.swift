@@ -19,6 +19,9 @@ struct DescriptionView: View {
                         WikipediaImage(url: url)
                             .aspectRatio(contentMode: .fit)
                             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 258, maxHeight: 258)
+                    } else {
+                        VStack {
+                        }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 258, maxHeight: 258)
                     }
 
                     Text(detailThing.description).padding()
