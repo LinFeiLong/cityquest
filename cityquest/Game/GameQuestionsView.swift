@@ -12,8 +12,8 @@ struct GameQuestionsView: View {
     
     @Binding var isPresented: Bool
     @State var appearAnim: Bool = false
-    @State var showView: ShowView = .ending
-    
+    @State var showView: ShowView = .question
+
     var body: some View {
         VStack {
             ZStack(alignment: .top) {
